@@ -1,0 +1,1044 @@
+#LyX 1.5.6 created this file. For more info see http://www.lyx.org/
+\lyxformat 276
+\begin_document
+\begin_header
+\textclass report
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 12
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% TITLE PAGE 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% By Stephen Carr and Wail Gueaieb
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Updated 2005-04-07
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pagestyle
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+empty
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% No headers or page numbers
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace 1cm*
+\end_inset
+
+ 
+\series bold
+\size largest
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+thesistitlecoverpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace 1cm*
+\end_inset
+
+ 
+\size normal
+by 
+\newline
+ 
+\begin_inset VSpace 1cm*
+\end_inset
+
+ 
+\size larger
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+thesisauthor
+\end_layout
+
+\end_inset
+
+
+\newline
+ 
+\begin_inset VSpace 2cm*
+\end_inset
+
+ 
+\size normal
+Thesis submitted to the
+\newline
+ Faculty of Graduate and Postdoctoral Studies
+\newline
+ In
+ partial fulfillment of the requirements
+\newline
+ For the 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+degree
+\end_layout
+
+\end_inset
+
+\InsetSpace ~
+degree in
+\newline
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+nameofprogram
+\end_layout
+
+\end_inset
+
+
+\newline
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size normal
+\begin_inset VSpace 2cm*
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+academicunit
+\end_layout
+
+\end_inset
+
+
+\newline
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+faculty
+\end_layout
+
+\end_inset
+
+
+\newline
+ University of Ottawa
+\newline
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size normal
+\begin_inset VSpace 2cm*
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+copyright
+\end_layout
+
+\end_inset
+
+\InsetSpace ~
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+thesisauthor
+\end_layout
+
+\end_inset
+
+, Ottawa, Canada, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+graduationyear
+\end_layout
+
+\end_inset
+
+
+\newline
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\newpage
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% PRELIMINARY PAGES
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pagestyle
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+plain
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% No headers, just page numbers
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Roman numerals
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+setcounter{page}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%----------------------------------------------------------------------
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% This page is not needed for the University of Ottawa
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% % Declaration Page
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% 
+\backslash
+noindent
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% I hereby declare that I am the sole author of this thesis.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% 
+\backslash
+noindent
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% I authorize the University of Ottawa to lend this thesis to other
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% institutions or individuals for the purpose of scholarly research.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% 
+\backslash
+vspace{4cm}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% 
+\backslash
+noindent
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% 
+\backslash
+thesisauthor
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% 
+\backslash
+vspace{4cm}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% 
+\backslash
+noindent
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% I further authorize the University of Ottawa to reproduce this thesis
+ by
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% photocopying or other means, in total or in part, at the request of other
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% institutions or individuals for the purpose of scholarly research.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% 
+\backslash
+vspace{4cm}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% 
+\backslash
+noindent
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% 
+\backslash
+thesisauthor
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% 
+\backslash
+newpage
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%----------------------------------------------------------------------
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Long abstract (manually formatted)
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+Abstract
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Include \input{C:/Documents and Settings/tsaad/My Documents/TEX/abstract.tex}
+preview false
+
+\end_inset
+
+ 
+\newpage
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Acknowledgements and/or Dedication Pages
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+Acknowledgements
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Include \input{\acknowledgementfile}
+preview false
+
+\end_inset
+
+ 
+\newpage
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Pages which are generated automatically
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+setcounter{page}{6}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Set this counter to get correct page numbers
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset FloatList table
+
+\end_inset
+
+
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\newpage
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Change page numbering back to Arabic numerals
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

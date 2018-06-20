@@ -1,0 +1,73 @@
+##
+# Source .cshrc
+#
+if ( -r ~/.cshrc ) source ~/.cshrc
+
+##
+# Set prompt
+# if ( -r ~/.tcshrc-setprompt ) source ~/.tcshrc-setprompt
+set autolist
+set complete = enhance
+setenv TERM xterm-256color
+
+# Set the DISPLAY variable
+if ( $?DISPLAY == 0 && $?REMOTEHOST == 1 ) then
+    setenv DISPLAY ${REMOTEHOST}:0.0
+endif
+
+# Things that might be OS-dependent
+setenv MY_OS `uname -s`
+setenv HOST `uname -n`
+
+##
+# Set PATH
+#
+setenv OS_PATH "/usr/X11R6/bin:/usr/atria/bin"
+setenv SW_PATH "/router/bin"
+setenv LOCAL_PATH "/usr/cisco/etc"
+setenv INSTALL_PATH "/nobackup/tsaad/prefix"
+
+setenv PATH "${USER_PATH}:/usr/sbin:/usr/cisco/bin:/usr/bin:/bin"
+setenv PATH "${SW_PATH}:${PATH}:${LOCAL_PATH}:${OS_PATH}:."
+setenv PATH "/users/tsaad/.pyenv/bin:$PATH"
+
+# User-specific
+#
+# CEL7 missing rake
+if ( ! -x /router/bin/rake ) then
+        alias rake ~/bin/rake
+endif
+
+# JAM vars
+#
+setenv JAM_NO_RCP 0
+setenv JAM_USE_CCACHE y
+setenv LESS "-eirMX"
+
+# Set up the man path
+#
+setenv OS_MAN   "/usr/cisco/man"
+setenv SW_MAN   "/sw/current/man"
+
+setenv MANPATH  "${OS_MAN}:${SW_MAN}"
+
+##
+# TFTP settings
+##
+setenv TFTPHOST kan1-tftp
+setenv TFTPDIR /auto/tftpboot-ottawa/tsaad
+
+if ( -r ~/.alias ) source ~/.alias
+
+##########################################################
+setenv ISSU_ANALYSIS_LEGACY 1
+setenv tftp_svr_ip 223.255.254.254
+setenv ACME_USE_SSH 1
+
+# This is causing problems with JAM
+unsetenv OS
+
+# Source my prompt
+if ( -r ~/.tcshrc-setprompt ) source ~/.tcshrc-setprompt
+
+# vim: syntax=csh tabstop=4 shiftwidth=4 nowrap autoindent

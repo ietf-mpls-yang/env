@@ -1,0 +1,2061 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Title: Microsoft Word - Tarek_Saad_thesis_proposal-bib.doc
+%%Creator: PScript5.dll Version 5.2.2
+%%CreationDate: 10/25/2008 14:40:43
+%%For: tsaad
+%%BoundingBox: 18 8 593 784
+%%Pages: 1
+%%Orientation: Portrait
+%%PageOrder: Ascend
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (Generic PostScript Printer) (2010.0) 2
+%%LanguageLevel: 2
+%%EndComments
+
+%%BeginDefaults
+%%PageBoundingBox: 18 8 593 784
+%%ViewingOrientation: 1 0 0 1
+%%EndDefaults
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_ErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if errorname(VMerror)ne{showpage}if initgraphics courier setfont
+lmargin 720 moveto errorname(VMerror)eq{userdict/ehsave known{clear userdict
+/ehsave get restore 2 vmreclaim}if vmstatus exch pop exch pop PrtVMMsg}{
+(ERROR: )prnt errorname prnt nl(OFFENDING COMMAND: )prnt/command load prnt
+$error/ostack known{nl nl(STACK:)prnt nl nl $error/ostack get aload length{==}
+repeat}if}ifelse systemdict/showpage get exec(%%[ Error: )print errorname
+=print(; OffendingCommand: )print/command load =print( ]%%)= flush}if end end
+end}dup 0 systemdict put dup 4 $brkpage put bind readonly put/currentpacking
+where{pop/setpacking where{pop oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+userdict begin/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup
+length dict begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding
+{ISOLatin1Encoding}stopped{StandardEncoding}if def currentdict end
+/ErrFont-Latin1 exch definefont}ifelse exch scalefont setfont counttomark 3 div
+cvi{moveto show}repeat showpage quit}{cleartomark}ifelse}bind def end
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(This job requires more memory than is available in this printer.)100 500
+(Try one or more of the following, and then print again:)100 485
+(For the output format, choose Optimize For Portability.)115 470
+(In the Device Settings page, make sure the Available PostScript Memory is accurate.)
+115 455(Reduce the number of fonts in the document.)115 440
+(Print the document in parts.)115 425 12/Times-Roman showpage
+(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}if}bind def end
+version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg get def}ifelse
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/Pscript_Win_Data where{!}{U/Pscript_Win_Data & put}?/ADO_mxRot ~
+d/TextInitialised? F d reinitialize E}{U/Pscript_Win_Data 230 dict @ ` put
+/ADO_mxRot ~ d/TextInitialised? F d reinitialize}?}b/terminate{!{& self eq
+{exit}{E}?}loop E}b/suspend/terminate , d/resume{` Pscript_Win_Data `}b U `
+/lucas 21690 d/featurebegin{countdictstack lucas[}b/featurecleanup{stopped
+{cleartomark @ lucas eq{! exit}if}loop countdictstack ~ sub @ 0 gt{{E}repeat}
+{!}?}b E/snap{transform 0.25 sub round 0.25 add ~ 0.25 sub round 0.25 add ~
+itransform}b/dsnap{dtransform round ~ round ~ idtransform}b/nonzero_round{@ 0.5
+ge{round}{@ -0.5 lt{round}{0 ge{1}{-1}?}?}?}b/nonzero_dsnap{dtransform
+nonzero_round ~ nonzero_round ~ idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ -
+neg 0 - C}b/irp{4 -2 $ + +S fx 4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0
+- 0 ~ - neg 0 -}b/solid{[]0 sd}b/g{@ not{U/DefIf_save save put}if U/DefIf_bool
+2 ^ put}b/DefIf_El{if U/DefIf_bool get not @{U/DefIf_save get restore}if}b/e
+{DefIf_El !}b/UDF{L2?{undefinefont}{!}?}b/UDR{L2?{undefineresource}{! !}?}b
+/freeVM{/Courier findfont[40 0 0 -40 0 0]makefont Ji 2 vmreclaim}b/hfRedefFont
+{findfont @ length dict `{1 ^/FID ne{d}{! !}?}forall & E @ ` ~{/CharStrings 1
+dict `/.notdef 0 d & E d}if/Encoding 256 array 0 1 255{1 ^ ~/.notdef put}for d
+E definefont !}bind d/hfMkCIDFont{/CIDFont findresource @ length 2 add dict `{1
+^ @/FID eq ~ @/XUID eq ~/UIDBase eq or or{! !}{d}?}forall/CDevProc ~ d/Metrics2
+16 dict d/CIDFontName 1 ^ d & E 1 ^ ~/CIDFont defineresource ![~]composefont !}
+bind d
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b/G2UBegin{findresource/FontInfo get/GlyphNames2Unicode get
+`}bind d/G2CCBegin{findresource/FontInfo get/GlyphNames2HostCode get `}bind d
+/G2UEnd{E}bind d/AddFontInfoBegin{/FontInfo 8 dict @ `}bind d/AddFontInfo{
+/GlyphNames2Unicode 16 dict d/GlyphNames2HostCode 16 dict d}bind d
+/AddFontInfoEnd{E d}bind d/T0AddCFFMtx2{/CIDFont findresource/Metrics2 get ` d
+E}bind d
+%%EndResource
+end
+%%EndProlog
+
+%%BeginSetup
+[ 1 0 0 1 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+1 setlinecap 1 setlinejoin
+/mysetup [ 72 300 V 0 0 -72 300 V 18 784.00067 ] def 
+%%EndSetup
+
+%%Page: 1 1
+%%PageBoundingBox: 18 8 593 784
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+0 0 0 1 scol Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{~ ! ~ ! 4 -1 $ ! findfont 2 ^ ~
+definefont fM @ @ 4 6 -1 $ neg put 5 0 put 90 matrix R matrix concatmatrix
+makefont Pscript_Windows_Font 3 1 $ put}b/mF_TTF_V{3{~ !}repeat 3 -1 $ !
+findfont 1 ^ ~ definefont Pscript_Windows_Font 3 1 $ put}b/UmF{L2?
+{Pscript_Windows_Font ~ undef}{!}?}b/UmF42{@ findfont/FDepVector get{/FontName
+get undefinefont}forall undefinefont}b
+%%EndResource
+end reinitialize
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Encoding256 5.0 0
+/CharCol256Encoding[/.notdef/breve/caron/dotaccent/dotlessi/fi/fl/fraction
+/hungarumlaut/Lslash/lslash/minus/ogonek/ring/Zcaron/zcaron/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle/parenleft/parenright/asterisk/plus/comma
+/hyphen/period/slash/zero/one/two/three/four/five/six/seven/eight/nine/colon
+/semicolon/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S
+/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright/asciicircum/underscore/grave
+/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright
+/asciitilde/.notdef/Euro/.notdef/quotesinglbase/florin/quotedblbase/ellipsis
+/dagger/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE/.notdef
+/.notdef/.notdef/.notdef/quoteleft/quoteright/quotedblleft/quotedblright/bullet
+/endash/emdash/tilde/trademark/scaron/guilsinglright/oe/.notdef/.notdef
+/Ydieresis/.notdef/exclamdown/cent/sterling/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft/logicalnot/.notdef/registered
+/macron/degree/plusminus/twosuperior/threesuperior/acute/mu/paragraph
+/periodcentered/cedilla/onesuperior/ordmasculine/guillemotright/onequarter
+/onehalf/threequarters/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute
+/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla/egrave/eacute
+/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve
+/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis]def EncodeDict/256 CharCol256Encoding put
+%%EndResource
+end reinitialize
+
+%%IncludeResource: font Times-Roman
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_Euro_L2 5.0 0
+/UseT3EuroFont{/currentdistillerparams where{pop currentdistillerparams
+/CoreDistVersion get 4000 le}{false}ifelse}bind def/NewEuroT3Font?{dup/FontType
+get 3 eq{dup/EuroFont known exch/BaseFont known and}{pop false}ifelse}bind def
+/T1FontHasEuro{dup/CharStrings known not{dup NewEuroT3Font?{dup/EuroGlyphName
+get exch/EuroFont get/CharStrings get exch known{true}{false}ifelse}{pop false}
+ifelse}{dup/FontType get 1 eq{/CharStrings get/Euro known}{dup/InfoDict known{
+/InfoDict get/Euro known}{/CharStrings get/Euro known}ifelse}ifelse}ifelse}bind
+def/FontHasEuro{findfont dup/Blend known{pop true}{T1FontHasEuro}ifelse}bind
+def/EuroEncodingIdx 1 def/EuroFontHdr{12 dict begin/FontInfo 10 dict dup begin
+/version(001.000)readonly def/Notice(Copyright (c)1999 Adobe Systems
+Incorporated. All Rights Reserved.)readonly def/FullName(Euro)readonly def
+/FamilyName(Euro)readonly def/Weight(Regular)readonly def/isFixedPitch false
+def/ItalicAngle 0 def/UnderlinePosition -100 def/UnderlineThickness 50 def end
+readonly def/FontName/Euro def/Encoding 256 array 0 1 255{1 index exch/.notdef
+put}for def/PaintType 0 def/FontType 1 def/FontMatrix[0.001 0 0 0.001 0 0]def
+/FontBBox{-25 -23 1500 804}readonly def currentdict end dup/Private 20 dict dup
+begin/ND{def}def/NP{put}def/lenIV -1 def/RD{string currentfile exch
+readhexstring pop}def/-|{string currentfile exch readstring pop}executeonly def
+/|-{def}executeonly def/|{put}executeonly def/BlueValues[-20 0 706 736 547 572]
+|-/OtherBlues[-211 -203]|-/BlueScale 0.0312917 def/MinFeature{16 16}|-/StdHW
+[60]|-/StdVW[71]|-/ForceBold false def/password 5839 def/Erode{8.5 dup 3 -1
+roll 0.1 mul exch 0.5 sub mul cvi sub dup mul 71 0 dtransform dup mul exch dup
+mul add le{pop pop 1.0 1.0}{pop pop 0.0 1.5}ifelse}def/OtherSubrs[{}{}{}
+{systemdict/internaldict known not{pop 3}{1183615869 systemdict/internaldict
+get exec dup/startlock known{/startlock get exec}{dup/strtlck known{/strtlck
+get exec}{pop 3}ifelse}ifelse}ifelse}executeonly]|-/Subrs 5 array dup 0
+<8E8B0C100C110C110C210B>put dup 1<8B8C0C100B>put dup 2<8B8D0C100B>put dup 3<0B>
+put dup 4<8E8C8E0C100C110A0B>put |- 2 index/CharStrings 256 dict dup begin
+/.notdef<8b8b0d0e>def end end put put dup/FontName get exch definefont pop}bind
+def/AddEuroGlyph{2 index exch EuroEncodingIdx 1 eq{EuroFontHdr}if systemdict
+begin/Euro findfont dup dup/Encoding get 5 1 roll/Private get begin/CharStrings
+get dup 3 index known{pop pop pop pop end end}{begin 1 index exch def end end
+end EuroEncodingIdx dup 1 add/EuroEncodingIdx exch def exch put}ifelse}bind def
+/GetNewXUID{currentdict/XUID known{[7 XUID aload pop]true}{currentdict/UniqueID
+known{[7 UniqueID]true}{false}ifelse}ifelse}bind def/BuildT3EuroFont{exch 16
+dict begin dup/FontName exch def findfont dup/Encoding get/Encoding exch def
+dup length 1 add dict copy dup/FID undef begin dup dup/FontName exch def
+/Encoding 256 array 0 1 255{1 index exch/.notdef put}for def GetNewXUID{/XUID
+exch def}if currentdict end definefont pop/BaseFont exch findfont 1000
+scalefont def/EuroFont exch findfont 1000 scalefont def pop/EuroGlyphName exch
+def/FontType 3 def/FontMatrix[.001 0 0 .001 0 0]def/FontBBox BaseFont/FontBBox
+get def/Char 1 string def/BuildChar{exch dup begin/Encoding get 1 index get
+/Euro eq{BaseFont T1FontHasEuro{false}{true}ifelse}{false}ifelse{EuroFont
+setfont pop userdict/Idx 0 put EuroFont/Encoding get{EuroGlyphName eq{exit}
+{userdict/Idx Idx 1 add put}ifelse}forall userdict/Idx get}{dup dup Encoding
+exch get BaseFont/Encoding get 3 1 roll put BaseFont setfont}ifelse Char 0 3 -1
+roll put Char stringwidth newpath 0 0 moveto Char true charpath flattenpath
+pathbbox setcachedevice 0 0 moveto Char show end}bind def currentdict end dup
+/FontName get exch definefont pop}bind def/AddEuroToT1Font{dup findfont dup
+length 10 add dict copy dup/FID undef begin/EuroFont 3 -1 roll findfont 1000
+scalefont def CharStrings dup length 1 add dict copy begin/Euro{EuroFont
+setfont pop EuroGBBox aload pop setcachedevice 0 0 moveto EuroGName glyphshow}
+bind def currentdict end/CharStrings exch def GetNewXUID{/XUID exch def}if 3 1
+roll/EuroGBBox exch def/EuroGName exch def currentdict end definefont pop}bind
+def/BuildNewFont{UseT3EuroFont{BuildT3EuroFont}{pop AddEuroToT1Font}ifelse}bind
+def/UseObliqueEuro{findfont/FontMatrix get dup 2 get 0 eq exch dup 0 get exch 3
+get eq and UseT3EuroFont or}bind def
+%%EndResource
+end reinitialize
+/Times-Roman FontHasEuro not
+{
+/Euro.Times-Roman
+ [500 0 24 -14 493 676 ] 
+<A3F8880DC0EB03F854F743950C0C037DA501F7A0BB01F805BB01F91EA501F869F8911584
+F73A0576068478827E7F8B087F8B70AC438B082A8BFB0D6471FB700863067C5B05BE068A
+7E8B878B7D08750764067D5B05C206A0FB7BF71858E88B088F0AC0EB03F84BF789950C0C
+037DA501F7A0BB01F805BB01F91EA501CA8BACAC998B08988B95809076088F0AC0EB03F8
+54F743950C0C037DA501F7A0BB01F805BB01F91EA501A00692F73705750675FB09417667
+8B083A8B43C182F75E08F7740699BB05FB84069C078B978C978B9708F7950699BB05FBA1
+069AF755D5B3D18B08AB8BDD71A2FB0708090E>
+AddEuroGlyph
+/Euro /Times-Roman /Times-Roman-Copy BuildNewFont
+} if
+F /F0 0 /256 T /Times-Roman mF 
+/F0S32 F0 [50 0 0 -50 0 0 ] mFS
+F0S32 Ji 
+225 1452 M ( )S 
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_WinNT_Compat 5.0 0
+userdict/Pscript_WinNT_Compat 19 dict dup begin/bd{bind def}bind def/ld{load
+def}bd/$x matrix def/ANSIVec[16#0/grave 16#1/acute 16#2/circumflex 16#3/tilde
+16#4/macron 16#5/breve 16#6/dotaccent 16#7/dieresis 16#8/ring 16#9/cedilla 16#A
+/hungarumlaut 16#B/ogonek 16#C/caron 16#D/dotlessi 16#27/quotesingle 16#60
+/grave 16#7C/bar 16#82/quotesinglbase 16#83/florin 16#84/quotedblbase 16#85
+/ellipsis 16#86/dagger 16#87/daggerdbl 16#88/circumflex 16#89/perthousand 16#8A
+/Scaron 16#8B/guilsinglleft 16#8C/OE 16#91/quoteleft 16#92/quoteright 16#93
+/quotedblleft 16#94/quotedblright 16#95/bullet 16#96/endash 16#97/emdash 16#98
+/tilde 16#99/trademark 16#9A/scaron 16#9B/guilsinglright 16#9C/oe 16#9F
+/Ydieresis 16#A0/space 16#A1/exclamdown 16#A4/currency 16#A5/yen 16#A6
+/brokenbar 16#A7/section 16#A8/dieresis 16#A9/copyright 16#AA/ordfeminine 16#AB
+/guillemotleft 16#AC/logicalnot 16#AD/hyphen 16#AE/registered 16#AF/macron
+16#B0/degree 16#B1/plusminus 16#B2/twosuperior 16#B3/threesuperior 16#B4/acute
+16#B5/mu 16#B6/paragraph 16#B7/periodcentered 16#B8/cedilla 16#B9/onesuperior
+16#BA/ordmasculine 16#BB/guillemotright 16#BC/onequarter 16#BD/onehalf 16#BE
+/threequarters 16#BF/questiondown 16#C0/Agrave 16#C1/Aacute 16#C2/Acircumflex
+16#C3/Atilde 16#C4/Adieresis 16#C5/Aring 16#C6/AE 16#C7/Ccedilla 16#C8/Egrave
+16#C9/Eacute 16#CA/Ecircumflex 16#CB/Edieresis 16#CC/Igrave 16#CD/Iacute 16#CE
+/Icircumflex 16#CF/Idieresis 16#D0/Eth 16#D1/Ntilde 16#D2/Ograve 16#D3/Oacute
+16#D4/Ocircumflex 16#D5/Otilde 16#D6/Odieresis 16#D7/multiply 16#D8/Oslash
+16#D9/Ugrave 16#DA/Uacute 16#DB/Ucircumflex 16#DC/Udieresis 16#DD/Yacute 16#DE
+/Thorn 16#DF/germandbls 16#E0/agrave 16#E1/aacute 16#E2/acircumflex 16#E3
+/atilde 16#E4/adieresis 16#E5/aring 16#E6/ae 16#E7/ccedilla 16#E8/egrave 16#E9
+/eacute 16#EA/ecircumflex 16#EB/edieresis 16#EC/igrave 16#ED/iacute 16#EE
+/icircumflex 16#EF/idieresis 16#F0/eth 16#F1/ntilde 16#F2/ograve 16#F3/oacute
+16#F4/ocircumflex 16#F5/otilde 16#F6/odieresis 16#F7/divide 16#F8/oslash 16#F9
+/ugrave 16#FA/uacute 16#FB/ucircumflex 16#FC/udieresis 16#FD/yacute 16#FE/thorn
+16#FF/ydieresis]def currentdict{dup type/operatortype eq{[exch]cvx def}{pop
+pop}ifelse}forall/initialize{currentdict exch begin begin}bind def/terminate{
+/@FL where not{pop end end}{pop}ifelse}bind def/suspend/terminate load def
+/resume/initialize load def/RS{/pagesave where{pop pagesave restore}{$x matrix
+invertmatrix concat}ifelse}def/SS{/pagesave save def}def/CB{pop pop pop pop}def
+/B{pop pop pop pop}def/:/gsave load def/;/grestore load def/N/newpath load def
+end put
+%%EndResource
+end reinitialize
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+/languagelevel where {pop languagelevel} {1} ifelse
+2 ge dup {currentglobal exch true setglobal globaldict} {userdict} ifelse
+/GpPBeg1 {
+    gsave initclip
+    16 dict begin
+    /c {curveto} def /l {lineto} def /m {moveto} def
+    /rc {rcurveto} def /rl {rlineto} def
+    /NP {newpath} def /CP {closepath} def /SC {setrgbcolor} def
+    /GSE {end grestore} def
+} put
+{setglobal} if
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 413 419 m 402 419 393 428 393 439 c 393 519 l 393 530 402 539 413 539 c 1941 539 l 1952 539 1961 530 1961 519 c 1961 439 l 1961 428 1952 419 1941 419 c CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 
+%%IncludeResource: font Helvetica
+/Helvetica FontHasEuro not
+{
+/Euro.Helvetica
+ [556 0 24 -19 541 703 ] 
+<A3F8C00DD4E90378DA01F779D301F808D301F904DA01F899F908156CB447AD338B08FB2D
+8B372B7BFB37085806724305D30644075B06724305DA06A0FB36E035F7218B08E08BCDB7
+939208EE077A71405E418B083F8B4CCE84F108F76506A3D305FB8306D207F79C06A3D305
+FBB10692E2B7E8F28B08E08BBE62A45A08090E>
+AddEuroGlyph
+/Euro /Helvetica /Helvetica-Copy BuildNewFont
+} if
+F /F1 0 /256 T /Helvetica mF 
+/F1S1EYFFFFFFE1 F1 [30.219 0 0 -30.211 0 0 ] mFS
+F1S1EYFFFFFFE1 Ji 
+898 472 M (Internet control and management )[8 17 8 17 10 17 16 9 8 15 17 17 8 10 17 7 8 17 16 17 9 25 16 17 17 17 16 26 16 17 8  0]xS 
+1350 472 M (protcols)[17 10 16 9 15 17 6  0]xS 
+937 508 M (RIP, OSPF, BGP, DVMRP, MOSPF)[21 9 20 8 9 23 21 20 18 8 9 20 23 20 9 8 22 20 25 22 20 8 9 25 23 20 21  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0.8000 1 0.2000 SC
+NP 1073 560 m 1064 560 1056 567 1056 576 c 1056 644 l 1056 653 1064 660 1073 660 c 1944 660 l 1953 660 1961 653 1961 644 c 1961 576 l 1961 567 1953 560 1944 560 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1073 560 m 1064 560 1056 567 1056 576 c 1056 644 l 1056 653 1064 660 1073 660 c 1944 660 l 1953 660 1961 653 1961 644 c 1961 576 l 1961 567 1953 560 1944 560 c CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1109 603 M (Traffic engineering with fault management and performance )[19 10 17 8 9 6 15 9 16 17 17 6 17 17 17 10 7 16 17 9 21 7 8 17 8 9 17 16 7 8 9 25
+17 16 17 17 17 25 17 16 9 8 17 17 16 9 17 16 10 9 16 10 26 16 17 15 17  0]xS 
+1234 639 M (management for Internet Transit Network)[25 17 16 17 17 16 26 16 17 8 9 8 17 10 9 8 17 8 17 10 17 16 9 8 19 10 16 17 15 7 8 9
+21 17 9 21 17 10  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 1 0.6000 SC
+NP 1080 660 m 1067 660 1056 671 1056 684 c 1056 778 l 1056 791 1067 801 1080 801 c 1937 801 l 1950 801 1961 791 1961 778 c 1961 684 l 1961 671 1950 660 1937 660 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1080 660 m 1067 660 1056 671 1056 684 c 1056 778 l 1056 791 1067 801 1080 801 c 1937 801 l 1950 801 1961 791 1961 778 c 1961 684 l 1961 671 1950 660 1937 660 c CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1311 706 M (GMPLS )[23 26 20 16 20  0]xS 
+1425 706 M (Signaling+OAM)[20 7 16 17 17 7 6 17 17 17 24 20  0]xS 
+1635 706 M (/LMP)[9 16 25  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0 1 1 SC
+NP 1287 721 m 1282 721 1277 725 1277 731 c 1277 771 l 1277 777 1282 781 1287 781 c 1891 781 l 1896 781 1901 777 1901 771 c 1901 731 l 1901 725 1896 721 1891 721 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1287 721 m 1282 721 1277 725 1277 731 c 1277 771 l 1277 777 1282 781 1287 781 c 1891 781 l 1896 781 1901 777 1901 771 c 1901 731 l 1901 725 1896 721 1891 721 c CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol /F1S21YFFFFFFDE F1 [33.641 0 0 -33.633 0 0 ] mFS
+F1S21YFFFFFFDE Ji 
+1309 763 M (GMPLS Signaling for optical networks)[26 28 22 18 23 9 22 8 18 18 19 7 8 18 19 9 9 19 11 9 19 18 9 8 16 19 8 9 18 19 9 24
+19 11 17  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 393 640 m 393 1083 l 654 1083 l 654 640 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 409 667 m 409 748 l 630 748 l 630 667 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 438 719 M (Application)[22 18 19 8 7 17 18 10 7 18  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 409 768 m 409 848 l 630 848 l 630 768 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 446 820 M (TCP/UDP)[20 25 22 9 25 24  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 409 868 m 409 949 l 630 949 l 630 868 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 504 921 M (IP)[9  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 409 969 m 409 1050 l 630 1050 l 630 969 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 491 1021 M (NIC)[24 9  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 734 833 m 754 833 l 754 539 l 795 539 l 795 833 l 815 833 l 775 862 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 493 614 m 517 614 l 517 539 l 550 539 l 550 614 l 574 614 l 533 640 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 694 862 m 694 1083 l 956 1083 l 956 862 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 711 889 m 711 969 l 932 969 l 932 889 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 805 941 M (IP)[9  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 711 989 m 711 1070 l 795 1070 l 795 989 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 724 1042 M (NIC)[24 9  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 815 989 m 815 1070 l 935 1070 l 935 989 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 828 1021 M (O)S 
+854 1021 M (-)S 
+865 1021 M (NIC)[24 10  0]xS 
+833 1062 M (WDM)[32 24  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 996 862 m 996 1083 l 1257 1083 l 1257 862 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1013 889 m 1013 969 l 1234 969 l 1234 889 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1107 922 M (IP)[9  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1137 989 m 1137 1070 l 1237 1070 l 1237 989 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1139 1021 M (O)S 
+1165 1021 M (-)S 
+1177 1021 M (NIC)[24 9  0]xS 
+1145 1062 M (WDM)[31 25  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 1 1 SC
+NP 1093 925 m 1234 925 l 1234 966 l 1093 966 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1093 925 m 1093 966 l 1234 966 l 1234 925 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1118 958 M (MPLS)[28 22 18  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1016 989 m 1016 1070 l 1116 1070 l 1116 989 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1019 1021 M (O)S 
+1045 1021 M (-)S 
+1056 1021 M (NIC)[24 10  0]xS 
+1024 1062 M (WDM)[32 24  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1328 882 m 1328 1083 l 1485 1083 l 1485 882 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1344 902 m 1344 969 l 1465 969 l 1465 902 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1368 948 M (OXC)[26 22  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1344 983 m 1344 1070 l 1465 1070 l 1465 983 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1357 1018 M (O)S 
+1383 1018 M (-)S 
+1394 1018 M (NIC)[25 9  0]xS 
+1362 1059 M (WDM)[32 25  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1592 882 m 1592 1083 l 1750 1083 l 1750 882 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1609 902 m 1609 969 l 1730 969 l 1730 902 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1633 948 M (OXC)[26 22  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1609 983 m 1609 1070 l 1730 1070 l 1730 983 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1622 1018 M (O)S 
+1648 1018 M (-)S 
+1659 1018 M (NIC)[24 10  0]xS 
+1627 1059 M (WDM)[32 24  0]xS 
+476 1136 M (Host A)[24 19 17 9 9  0]xS 
+771 1136 M (IP router)[9 22 9 12 18 19 9 18  0]xS 
+1043 1136 M (MPLS LSR )[28 23 18 23 9 18 22 25  0]xS 
+1076 1176 M (\(Edge\))[11 22 19 18 19  0]xS 
+1341 1136 M (OXC LSR)[26 22 24 10 18 22  0]xS 
+1367 1176 M (\(Core\))[11 24 19 11 19  0]xS 
+1596 1136 M (OXC LSR)[26 22 24 9 19 22  0]xS 
+1621 1176 M (\(Core\))[12 24 19 11 18  0]xS 
+1509 1075 M (fiber )[9 8 18 19 11  0]xS 
+1492 1116 M (bundle)[18 19 18 19 7  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 1 1 setrgbcolor
+NP 1592 1026 m 1592 1015 1587 1006 1580 1006 c 1504 1006 l 1497 1006 1492 1015 1492 1026 c 1492 1037 1497 1046 1504 1046 c 1580 1046 l 1587 1046 1592 1037 1592 1026 c CP 
+eoclip
+/ds
+<aaaa0000aaaa0000aaaa
+00002a2a0000aaaa0000
+a2aa0000aaaa00002a2a
+0000>
+ def
+1491 1005 translate
+0 64 42 { 0 64 102 { 1 index
+gsave translate 64 64 scale 16 16 true [16 0 0 -16 0 16] ds imagemask grestore
+} for pop} for
+GSE
+GpPBeg1
+1 1 1 setrgbcolor
+NP 1580 1006 m 1573 1006 1567 1015 1567 1026 c 1567 1037 1573 1046 1580 1046 c 1587 1046 1592 1037 1592 1026 c 1592 1015 1587 1006 1580 1006 c CP 
+eoclip
+/ds
+<55550000555500005555
+00005454000055550000
+45550000555500005454
+0000>
+ def
+1566 1005 translate
+0 64 42 { 0 64 27 { 1 index
+gsave translate 64 64 scale 16 16 true [16 0 0 -16 0 16] ds imagemask grestore
+} for pop} for
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1592 1026 m 1592 1015 1587 1006 1580 1006 c 1504 1006 l 1497 1006 1492 1015 1492 1026 c 1492 1037 1497 1046 1504 1046 c 1580 1046 l 1587 1046 1592 1037 1592 1026 c CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1580 1006 m 1573 1006 1567 1015 1567 1026 c 1567 1037 1573 1046 1580 1046 c stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1800 882 m 1800 1083 l 1958 1083 l 1958 882 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1817 902 m 1817 969 l 1937 969 l 1937 902 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1831 948 M (MPLS)[28 23 18  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1817 983 m 1817 1070 l 1937 1070 l 1937 983 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1829 1018 M (O)S 
+1856 1018 M (-)S 
+1867 1018 M (NIC)[24 9  0]xS 
+1835 1059 M (WDM)[32 24  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0 0 0.8000 SC
+NP 920 890 m 930 890 l 930 900 l 920 900 l CP 
+940 890 m 951 890 l 951 900 l 940 900 l CP 
+961 890 m 971 890 l 971 900 l 961 900 l CP 
+981 890 m 991 890 l 991 900 l 981 900 l CP 
+1001 890 m 1011 890 l 1011 900 l 1001 900 l CP 
+925 910 m 895 895 l 925 880 l CP 
+1009 880 m 1039 895 l 1009 910 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0.8000 SC
+NP 599 894 m 609 894 l 609 904 l 599 904 l CP 
+619 894 m 629 894 l 629 904 l 619 904 l CP 
+639 894 m 649 894 l 649 904 l 639 904 l CP 
+659 894 m 669 894 l 669 904 l 659 904 l CP 
+679 894 m 689 894 l 689 904 l 679 904 l CP 
+604 914 m 574 899 l 604 884 l CP 
+687 884 m 718 899 l 687 914 l CP 
+fill
+GSE
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+0 0 0.8000 SC
+NP 1259 890 m 1269 890 l 1269 900 l 1259 900 l CP 
+1279 890 m 1289 890 l 1289 900 l 1279 900 l CP 
+1299 890 m 1309 890 l 1309 900 l 1299 900 l CP 
+1319 889 m 1329 889 l 1329 899 l 1319 900 l CP 
+1339 889 m 1349 889 l 1349 899 l 1339 899 l CP 
+1359 889 m 1369 889 l 1369 899 l 1359 899 l CP 
+1379 889 m 1389 889 l 1390 899 l 1380 899 l CP 
+1400 889 m 1410 889 l 1410 899 l 1400 899 l CP 
+1420 889 m 1430 889 l 1430 899 l 1420 899 l CP 
+1440 888 m 1450 888 l 1450 898 l 1440 898 l CP 
+1460 888 m 1470 888 l 1470 898 l 1460 898 l CP 
+1480 888 m 1490 888 l 1490 898 l 1480 898 l CP 
+1500 888 m 1510 888 l 1510 898 l 1500 898 l CP 
+1520 888 m 1530 888 l 1530 898 l 1520 898 l CP 
+1540 888 m 1550 887 l 1550 898 l 1540 898 l CP 
+1560 887 m 1570 887 l 1571 897 l 1560 897 l CP 
+1580 887 m 1591 887 l 1591 897 l 1581 897 l CP 
+1601 887 m 1611 887 l 1611 897 l 1601 897 l CP 
+1621 887 m 1631 887 l 1631 897 l 1621 897 l CP 
+1641 887 m 1651 887 l 1651 897 l 1641 897 l CP 
+1661 886 m 1671 886 l 1671 896 l 1661 897 l CP 
+1681 886 m 1691 886 l 1691 896 l 1681 896 l CP 
+1701 886 m 1711 886 l 1711 896 l 1701 896 l CP 
+1721 886 m 1731 886 l 1731 896 l 1721 896 l CP 
+1741 886 m 1751 886 l 1751 896 l 1741 896 l CP 
+1761 886 m 1772 886 l 1772 896 l 1762 896 l CP 
+1782 885 m 1792 885 l 1792 895 l 1782 896 l CP 
+1802 885 m 1812 885 l 1812 895 l 1802 895 l CP 
+1822 885 m 1832 885 l 1832 895 l 1822 895 l CP 
+1842 885 m 1852 885 l 1852 895 l 1842 895 l CP 
+1862 885 m 1872 885 l 1872 895 l 1862 895 l CP 
+1882 885 m 1892 884 l 1892 895 l 1882 895 l CP 
+1902 884 m 1912 884 l 1912 894 l 1902 894 l CP 
+1922 884 m 1932 884 l 1932 894 l 1922 894 l CP 
+1942 884 m 1952 884 l 1953 894 l 1942 894 l CP 
+1963 884 m 1973 884 l 1973 894 l 1963 894 l CP 
+1264 910 m 1234 895 l 1264 880 l CP 
+1971 874 m 2001 889 l 1971 904 l CP 
+fill
+GSE
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+1 0 0 SC
+NP 1503 1025 m 1574 1025 l 1574 1035 l 1503 1035 l CP 
+1508 1045 m 1478 1030 l 1508 1014 l CP 
+1569 1014 m 1599 1030 l 1569 1045 l CP 
+fill
+GSE
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+1 0 0 SC
+NP 1745 1025 m 1815 1025 l 1815 1035 l 1745 1035 l CP 
+1750 1045 m 1720 1030 l 1750 1014 l CP 
+1810 1014 m 1840 1030 l 1810 1045 l CP 
+fill
+GSE
+GpPBeg1
+1 0.3137 0.3137 SC
+NP 1743 946 m 1795 936 l 1797 945 l 1745 956 l CP 
+1752 965 m 1720 956 l 1746 935 l CP 
+1788 927 m 1820 936 l 1794 956 l CP 
+fill
+GSE
+GpPBeg1
+1 0.3137 0.3137 SC
+NP 1263 942 m 1314 953 l 1312 962 l 1261 952 l CP 
+1264 963 m 1237 942 l 1270 933 l CP 
+1311 942 m 1338 962 l 1305 971 l CP 
+fill
+GSE
+GpPBeg1
+1 0.3137 0.3137 SC
+NP 1483 957 m 1574 957 l 1574 967 l 1483 967 l CP 
+1488 978 m 1458 962 l 1488 947 l CP 
+1569 947 m 1599 962 l 1569 978 l CP 
+fill
+GSE
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+1 0 0 SC
+NP 1262 1025 m 1333 1025 l 1333 1035 l 1262 1035 l CP 
+1267 1045 m 1237 1030 l 1267 1014 l CP 
+1328 1014 m 1358 1030 l 1328 1045 l CP 
+fill
+GSE
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+1 0 0 SC
+NP 934 1028 m 1004 1028 l 1004 1038 l 934 1038 l CP 
+939 1048 m 909 1033 l 939 1018 l CP 
+999 1018 m 1029 1033 l 999 1048 l CP 
+fill
+GSE
+GpPBeg1
+1 0 0 SC
+NP 651 1001 m 677 1001 l 679 1003 l 677 1004 l 651 1004 l 649 1003 l 651 1001 l CP 
+654 1013 m 634 1003 l 654 993 l CP 
+674 993 m 694 1003 l 674 1013 l CP 
+fill
+GSE
+GpPBeg1
+0 0.8000 0.4000 SC
+NP 1256 928 m 1801 928 l 1801 936 l 1256 936 l CP 
+1260 944 m 1237 932 l 1260 921 l CP 
+1798 921 m 1820 932 l 1798 944 l CP 
+fill
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1507 924 M (LSP)[18 23  0]xS 
+1819 1136 M (PSC LSR)[22 22 25 9 18 22  0]xS 
+1810 1176 M (\(opt. Core\))[11 19 18 10 9 9 24 19 11 19  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1137 897 m 1159 897 l 1159 801 l 1187 801 l 1187 897 l 1209 897 l 1173 922 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 986 833 m 1006 833 l 1006 539 l 1046 539 l 1046 833 l 1066 833 l 1026 862 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1378 845 m 1394 845 l 1394 801 l 1422 801 l 1422 845 l 1438 845 l 1408 874 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1632 845 m 1648 845 l 1648 801 l 1677 801 l 1677 845 l 1693 845 l 1663 874 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1840 845 m 1856 845 l 1856 801 l 1885 801 l 1885 845 l 1901 845 l 1870 874 l CP 
+stroke
+GSE
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 413 419 m 402 419 393 428 393 439 c 393 519 l 393 530 402 539 413 539 c 1941 539 l 1952 539 1961 530 1961 519 c 1961 439 l 1961 428 1952 419 1941 419 c CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol F1S1EYFFFFFFE1 Ji 
+898 472 M (Internet control and management )[8 17 8 17 10 17 16 9 8 15 17 17 8 10 17 7 8 17 16 17 9 25 16 17 17 17 16 26 16 17 8  0]xS 
+1350 472 M (protcols)[17 10 16 9 15 17 6  0]xS 
+937 508 M (RIP, OSPF, BGP, DVMRP, MOSPF)[21 9 20 8 9 23 21 20 18 8 9 20 23 20 9 8 22 20 25 22 20 8 9 25 23 20 21  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0.8000 1 0.2000 SC
+NP 1073 560 m 1064 560 1056 567 1056 576 c 1056 644 l 1056 653 1064 660 1073 660 c 1944 660 l 1953 660 1961 653 1961 644 c 1961 576 l 1961 567 1953 560 1944 560 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1073 560 m 1064 560 1056 567 1056 576 c 1056 644 l 1056 653 1064 660 1073 660 c 1944 660 l 1953 660 1961 653 1961 644 c 1961 576 l 1961 567 1953 560 1944 560 c CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1109 603 M (Traffic engineering with fault management and performance )[19 10 17 8 9 6 15 9 16 17 17 6 17 17 17 10 7 16 17 9 21 7 8 17 8 9 17 16 7 8 9 25
+17 16 17 17 17 25 17 16 9 8 17 17 16 9 17 16 10 9 16 10 26 16 17 15 17  0]xS 
+1234 639 M (management for Internet Transit Network)[25 17 16 17 17 16 26 16 17 8 9 8 17 10 9 8 17 8 17 10 17 16 9 8 19 10 16 17 15 7 8 9
+21 17 9 21 17 10  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 1 0.6000 SC
+NP 1080 660 m 1067 660 1056 671 1056 684 c 1056 778 l 1056 791 1067 801 1080 801 c 1937 801 l 1950 801 1961 791 1961 778 c 1961 684 l 1961 671 1950 660 1937 660 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1080 660 m 1067 660 1056 671 1056 684 c 1056 778 l 1056 791 1067 801 1080 801 c 1937 801 l 1950 801 1961 791 1961 778 c 1961 684 l 1961 671 1950 660 1937 660 c CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1311 706 M (GMPLS )[23 26 20 16 20  0]xS 
+1425 706 M (Signaling+OAM)[20 7 16 17 17 7 6 17 17 17 24 20  0]xS 
+1635 706 M (/LMP)[9 16 25  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0 1 1 SC
+NP 1287 721 m 1282 721 1277 725 1277 731 c 1277 771 l 1277 777 1282 781 1287 781 c 1891 781 l 1896 781 1901 777 1901 771 c 1901 731 l 1901 725 1896 721 1891 721 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1287 721 m 1282 721 1277 725 1277 731 c 1277 771 l 1277 777 1282 781 1287 781 c 1891 781 l 1896 781 1901 777 1901 771 c 1901 731 l 1901 725 1896 721 1891 721 c CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol F1S21YFFFFFFDE Ji 
+1309 763 M (GMPLS Signaling for optical networks)[26 28 22 18 23 9 22 8 18 18 19 7 8 18 19 9 9 19 11 9 19 18 9 8 16 19 8 9 18 19 9 24
+19 11 17  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 393 640 m 393 1083 l 654 1083 l 654 640 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 409 667 m 409 748 l 630 748 l 630 667 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 438 719 M (Application)[22 18 19 8 7 17 18 10 7 18  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 409 768 m 409 848 l 630 848 l 630 768 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 446 820 M (TCP/UDP)[20 25 22 9 25 24  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 409 868 m 409 949 l 630 949 l 630 868 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 504 921 M (IP)[9  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 409 969 m 409 1050 l 630 1050 l 630 969 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 491 1021 M (NIC)[24 9  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 734 833 m 754 833 l 754 539 l 795 539 l 795 833 l 815 833 l 775 862 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 493 614 m 517 614 l 517 539 l 550 539 l 550 614 l 574 614 l 533 640 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 694 862 m 694 1083 l 956 1083 l 956 862 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 711 889 m 711 969 l 932 969 l 932 889 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 805 941 M (IP)[9  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 711 989 m 711 1070 l 795 1070 l 795 989 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 724 1042 M (NIC)[24 9  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 815 989 m 815 1070 l 935 1070 l 935 989 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 828 1021 M (O)S 
+854 1021 M (-)S 
+865 1021 M (NIC)[24 10  0]xS 
+833 1062 M (WDM)[32 24  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 996 862 m 996 1083 l 1257 1083 l 1257 862 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1013 889 m 1013 969 l 1234 969 l 1234 889 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1107 922 M (IP)[9  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1137 989 m 1137 1070 l 1237 1070 l 1237 989 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1139 1021 M (O)S 
+1165 1021 M (-)S 
+1177 1021 M (NIC)[24 9  0]xS 
+1145 1062 M (WDM)[31 25  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 1 1 SC
+NP 1093 925 m 1234 925 l 1234 966 l 1093 966 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1093 925 m 1093 966 l 1234 966 l 1234 925 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1118 958 M (MPLS)[28 22 18  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1016 989 m 1016 1070 l 1116 1070 l 1116 989 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1019 1021 M (O)S 
+1045 1021 M (-)S 
+1056 1021 M (NIC)[24 10  0]xS 
+1024 1062 M (WDM)[32 24  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1328 882 m 1328 1083 l 1485 1083 l 1485 882 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1344 902 m 1344 969 l 1465 969 l 1465 902 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1368 948 M (OXC)[26 22  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1344 983 m 1344 1070 l 1465 1070 l 1465 983 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1357 1018 M (O)S 
+1383 1018 M (-)S 
+1394 1018 M (NIC)[25 9  0]xS 
+1362 1059 M (WDM)[32 25  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1592 882 m 1592 1083 l 1750 1083 l 1750 882 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1609 902 m 1609 969 l 1730 969 l 1730 902 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1633 948 M (OXC)[26 22  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1609 983 m 1609 1070 l 1730 1070 l 1730 983 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1622 1018 M (O)S 
+1648 1018 M (-)S 
+1659 1018 M (NIC)[24 10  0]xS 
+1627 1059 M (WDM)[32 24  0]xS 
+476 1136 M (Host A)[24 19 17 9 9  0]xS 
+771 1136 M (IP router)[9 22 9 12 18 19 9 18  0]xS 
+1043 1136 M (MPLS LSR )[28 23 18 23 9 18 22 25  0]xS 
+1076 1176 M (\(Edge\))[11 22 19 18 19  0]xS 
+1341 1136 M (OXC LSR)[26 22 24 10 18 22  0]xS 
+1367 1176 M (\(Core\))[11 24 19 11 19  0]xS 
+1596 1136 M (OXC LSR)[26 22 24 9 19 22  0]xS 
+1621 1176 M (\(Core\))[12 24 19 11 18  0]xS 
+1509 1075 M (fiber )[9 8 18 19 11  0]xS 
+1492 1116 M (bundle)[18 19 18 19 7  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 1 1 setrgbcolor
+NP 1592 1026 m 1592 1015 1587 1006 1580 1006 c 1504 1006 l 1497 1006 1492 1015 1492 1026 c 1492 1037 1497 1046 1504 1046 c 1580 1046 l 1587 1046 1592 1037 1592 1026 c CP 
+eoclip
+/ds
+<aaaa0000aaaa0000aaaa
+0000a8a80000aaaa0000
+8aaa0000aaaa0000a8a8
+0000>
+ def
+1491 1005 translate
+0 64 42 { 0 64 102 { 1 index
+gsave translate 64 64 scale 16 16 true [16 0 0 -16 0 16] ds imagemask grestore
+} for pop} for
+GSE
+GpPBeg1
+1 1 1 setrgbcolor
+NP 1580 1006 m 1573 1006 1567 1015 1567 1026 c 1567 1037 1573 1046 1580 1046 c 1587 1046 1592 1037 1592 1026 c 1592 1015 1587 1006 1580 1006 c CP 
+eoclip
+/ds
+<55550000555500005555
+00005151000055550000
+15550000555500005151
+0000>
+ def
+1566 1005 translate
+0 64 42 { 0 64 27 { 1 index
+gsave translate 64 64 scale 16 16 true [16 0 0 -16 0 16] ds imagemask grestore
+} for pop} for
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1592 1026 m 1592 1015 1587 1006 1580 1006 c 1504 1006 l 1497 1006 1492 1015 1492 1026 c 1492 1037 1497 1046 1504 1046 c 1580 1046 l 1587 1046 1592 1037 1592 1026 c CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1580 1006 m 1573 1006 1567 1015 1567 1026 c 1567 1037 1573 1046 1580 1046 c stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1800 882 m 1800 1083 l 1958 1083 l 1958 882 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1817 902 m 1817 969 l 1937 969 l 1937 902 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1831 948 M (MPLS)[28 23 18  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1817 983 m 1817 1070 l 1937 1070 l 1937 983 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1829 1018 M (O)S 
+1856 1018 M (-)S 
+1867 1018 M (NIC)[24 9  0]xS 
+1835 1059 M (WDM)[32 24  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0 0 0.8000 SC
+NP 920 890 m 930 890 l 930 900 l 920 900 l CP 
+940 890 m 951 890 l 951 900 l 940 900 l CP 
+961 890 m 971 890 l 971 900 l 961 900 l CP 
+981 890 m 991 890 l 991 900 l 981 900 l CP 
+1001 890 m 1011 890 l 1011 900 l 1001 900 l CP 
+925 910 m 895 895 l 925 880 l CP 
+1009 880 m 1039 895 l 1009 910 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0.8000 SC
+NP 599 894 m 609 894 l 609 904 l 599 904 l CP 
+619 894 m 629 894 l 629 904 l 619 904 l CP 
+639 894 m 649 894 l 649 904 l 639 904 l CP 
+659 894 m 669 894 l 669 904 l 659 904 l CP 
+679 894 m 689 894 l 689 904 l 679 904 l CP 
+604 914 m 574 899 l 604 884 l CP 
+687 884 m 718 899 l 687 914 l CP 
+fill
+GSE
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+0 0 0.8000 SC
+NP 1259 890 m 1269 890 l 1269 900 l 1259 900 l CP 
+1279 890 m 1289 890 l 1289 900 l 1279 900 l CP 
+1299 890 m 1309 890 l 1309 900 l 1299 900 l CP 
+1319 889 m 1329 889 l 1329 899 l 1319 900 l CP 
+1339 889 m 1349 889 l 1349 899 l 1339 899 l CP 
+1359 889 m 1369 889 l 1369 899 l 1359 899 l CP 
+1379 889 m 1389 889 l 1390 899 l 1380 899 l CP 
+1400 889 m 1410 889 l 1410 899 l 1400 899 l CP 
+1420 889 m 1430 889 l 1430 899 l 1420 899 l CP 
+1440 888 m 1450 888 l 1450 898 l 1440 898 l CP 
+1460 888 m 1470 888 l 1470 898 l 1460 898 l CP 
+1480 888 m 1490 888 l 1490 898 l 1480 898 l CP 
+1500 888 m 1510 888 l 1510 898 l 1500 898 l CP 
+1520 888 m 1530 888 l 1530 898 l 1520 898 l CP 
+1540 888 m 1550 887 l 1550 898 l 1540 898 l CP 
+1560 887 m 1570 887 l 1571 897 l 1560 897 l CP 
+1580 887 m 1591 887 l 1591 897 l 1581 897 l CP 
+1601 887 m 1611 887 l 1611 897 l 1601 897 l CP 
+1621 887 m 1631 887 l 1631 897 l 1621 897 l CP 
+1641 887 m 1651 887 l 1651 897 l 1641 897 l CP 
+1661 886 m 1671 886 l 1671 896 l 1661 897 l CP 
+1681 886 m 1691 886 l 1691 896 l 1681 896 l CP 
+1701 886 m 1711 886 l 1711 896 l 1701 896 l CP 
+1721 886 m 1731 886 l 1731 896 l 1721 896 l CP 
+1741 886 m 1751 886 l 1751 896 l 1741 896 l CP 
+1761 886 m 1772 886 l 1772 896 l 1762 896 l CP 
+1782 885 m 1792 885 l 1792 895 l 1782 896 l CP 
+1802 885 m 1812 885 l 1812 895 l 1802 895 l CP 
+1822 885 m 1832 885 l 1832 895 l 1822 895 l CP 
+1842 885 m 1852 885 l 1852 895 l 1842 895 l CP 
+1862 885 m 1872 885 l 1872 895 l 1862 895 l CP 
+1882 885 m 1892 884 l 1892 895 l 1882 895 l CP 
+1902 884 m 1912 884 l 1912 894 l 1902 894 l CP 
+1922 884 m 1932 884 l 1932 894 l 1922 894 l CP 
+1942 884 m 1952 884 l 1953 894 l 1942 894 l CP 
+1963 884 m 1973 884 l 1973 894 l 1963 894 l CP 
+1264 910 m 1234 895 l 1264 880 l CP 
+1971 874 m 2001 889 l 1971 904 l CP 
+fill
+GSE
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+1 0 0 SC
+NP 1503 1025 m 1574 1025 l 1574 1035 l 1503 1035 l CP 
+1508 1045 m 1478 1030 l 1508 1014 l CP 
+1569 1014 m 1599 1030 l 1569 1045 l CP 
+fill
+GSE
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+1 0 0 SC
+NP 1745 1025 m 1815 1025 l 1815 1035 l 1745 1035 l CP 
+1750 1045 m 1720 1030 l 1750 1014 l CP 
+1810 1014 m 1840 1030 l 1810 1045 l CP 
+fill
+GSE
+GpPBeg1
+1 0.3137 0.3137 SC
+NP 1743 946 m 1795 936 l 1797 945 l 1745 956 l CP 
+1752 965 m 1720 956 l 1746 935 l CP 
+1788 927 m 1820 936 l 1794 956 l CP 
+fill
+GSE
+GpPBeg1
+1 0.3137 0.3137 SC
+NP 1263 942 m 1314 953 l 1312 962 l 1261 952 l CP 
+1264 963 m 1237 942 l 1270 933 l CP 
+1311 942 m 1338 962 l 1305 971 l CP 
+fill
+GSE
+GpPBeg1
+1 0.3137 0.3137 SC
+NP 1483 957 m 1574 957 l 1574 967 l 1483 967 l CP 
+1488 978 m 1458 962 l 1488 947 l CP 
+1569 947 m 1599 962 l 1569 978 l CP 
+fill
+GSE
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+1 0 0 SC
+NP 1262 1025 m 1333 1025 l 1333 1035 l 1262 1035 l CP 
+1267 1045 m 1237 1030 l 1267 1014 l CP 
+1328 1014 m 1358 1030 l 1328 1045 l CP 
+fill
+GSE
+GpPBeg1
+NP 391 417 m 2011 417 l 2011 1188 l 391 1188 l CP 
+eoclip
+1 0 0 SC
+NP 934 1028 m 1004 1028 l 1004 1038 l 934 1038 l CP 
+939 1048 m 909 1033 l 939 1018 l CP 
+999 1018 m 1029 1033 l 999 1048 l CP 
+fill
+GSE
+GpPBeg1
+1 0 0 SC
+NP 651 1001 m 677 1001 l 679 1003 l 677 1004 l 651 1004 l 649 1003 l 651 1001 l CP 
+654 1013 m 634 1003 l 654 993 l CP 
+674 993 m 694 1003 l 674 1013 l CP 
+fill
+GSE
+GpPBeg1
+0 0.8000 0.4000 SC
+NP 1256 928 m 1801 928 l 1801 936 l 1256 936 l CP 
+1260 944 m 1237 932 l 1260 921 l CP 
+1798 921 m 1820 932 l 1798 944 l CP 
+fill
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1507 924 M (LSP)[18 23  0]xS 
+1819 1136 M (PSC LSR)[22 22 25 9 18 22  0]xS 
+1810 1176 M (\(opt. Core\))[11 19 18 10 9 9 24 19 11 19  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1137 897 m 1159 897 l 1159 801 l 1187 801 l 1187 897 l 1209 897 l 1173 922 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 986 833 m 1006 833 l 1006 539 l 1046 539 l 1046 833 l 1066 833 l 1026 862 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1378 845 m 1394 845 l 1394 801 l 1422 801 l 1422 845 l 1438 845 l 1408 874 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1632 845 m 1648 845 l 1648 801 l 1677 801 l 1677 845 l 1693 845 l 1663 874 l CP 
+stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5134 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1840 845 m 1856 845 l 1856 801 l 1885 801 l 1885 845 l 1901 845 l 1870 874 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol F0S32 Ji 
+2011 1188 M ( )S 
+LH
+%%PageTrailer
+
+%%Trailer
+%%DocumentNeededResources: 
+%%+ font Times-Roman
+%%+ font Helvetica
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_ErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_Text 5.0 0
+%%+ procset Pscript_Encoding256 5.0 0
+%%+ procset Pscript_Win_Euro_L2 5.0 0
+%%+ procset Pscript_WinNT_Compat 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+%%EOF

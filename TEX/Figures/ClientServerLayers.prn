@@ -1,0 +1,2609 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Title: Microsoft Word - Tarek_Saad_thesis_proposal-bib.doc
+%%Creator: PScript5.dll Version 5.2.2
+%%CreationDate: 10/25/2008 14:54:13
+%%For: tsaad
+%%BoundingBox: 18 8 593 784
+%%Pages: 1
+%%Orientation: Portrait
+%%PageOrder: Ascend
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (Generic PostScript Printer) (2010.0) 2
+%%LanguageLevel: 2
+%%EndComments
+
+%%BeginDefaults
+%%PageBoundingBox: 18 8 593 784
+%%ViewingOrientation: 1 0 0 1
+%%EndDefaults
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_ErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if errorname(VMerror)ne{showpage}if initgraphics courier setfont
+lmargin 720 moveto errorname(VMerror)eq{userdict/ehsave known{clear userdict
+/ehsave get restore 2 vmreclaim}if vmstatus exch pop exch pop PrtVMMsg}{
+(ERROR: )prnt errorname prnt nl(OFFENDING COMMAND: )prnt/command load prnt
+$error/ostack known{nl nl(STACK:)prnt nl nl $error/ostack get aload length{==}
+repeat}if}ifelse systemdict/showpage get exec(%%[ Error: )print errorname
+=print(; OffendingCommand: )print/command load =print( ]%%)= flush}if end end
+end}dup 0 systemdict put dup 4 $brkpage put bind readonly put/currentpacking
+where{pop/setpacking where{pop oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+userdict begin/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup
+length dict begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding
+{ISOLatin1Encoding}stopped{StandardEncoding}if def currentdict end
+/ErrFont-Latin1 exch definefont}ifelse exch scalefont setfont counttomark 3 div
+cvi{moveto show}repeat showpage quit}{cleartomark}ifelse}bind def end
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(This job requires more memory than is available in this printer.)100 500
+(Try one or more of the following, and then print again:)100 485
+(For the output format, choose Optimize For Portability.)115 470
+(In the Device Settings page, make sure the Available PostScript Memory is accurate.)
+115 455(Reduce the number of fonts in the document.)115 440
+(Print the document in parts.)115 425 12/Times-Roman showpage
+(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}if}bind def end
+version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg get def}ifelse
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/Pscript_Win_Data where{!}{U/Pscript_Win_Data & put}?/ADO_mxRot ~
+d/TextInitialised? F d reinitialize E}{U/Pscript_Win_Data 230 dict @ ` put
+/ADO_mxRot ~ d/TextInitialised? F d reinitialize}?}b/terminate{!{& self eq
+{exit}{E}?}loop E}b/suspend/terminate , d/resume{` Pscript_Win_Data `}b U `
+/lucas 21690 d/featurebegin{countdictstack lucas[}b/featurecleanup{stopped
+{cleartomark @ lucas eq{! exit}if}loop countdictstack ~ sub @ 0 gt{{E}repeat}
+{!}?}b E/snap{transform 0.25 sub round 0.25 add ~ 0.25 sub round 0.25 add ~
+itransform}b/dsnap{dtransform round ~ round ~ idtransform}b/nonzero_round{@ 0.5
+ge{round}{@ -0.5 lt{round}{0 ge{1}{-1}?}?}?}b/nonzero_dsnap{dtransform
+nonzero_round ~ nonzero_round ~ idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ -
+neg 0 - C}b/irp{4 -2 $ + +S fx 4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0
+- 0 ~ - neg 0 -}b/solid{[]0 sd}b/g{@ not{U/DefIf_save save put}if U/DefIf_bool
+2 ^ put}b/DefIf_El{if U/DefIf_bool get not @{U/DefIf_save get restore}if}b/e
+{DefIf_El !}b/UDF{L2?{undefinefont}{!}?}b/UDR{L2?{undefineresource}{! !}?}b
+/freeVM{/Courier findfont[40 0 0 -40 0 0]makefont Ji 2 vmreclaim}b/hfRedefFont
+{findfont @ length dict `{1 ^/FID ne{d}{! !}?}forall & E @ ` ~{/CharStrings 1
+dict `/.notdef 0 d & E d}if/Encoding 256 array 0 1 255{1 ^ ~/.notdef put}for d
+E definefont !}bind d/hfMkCIDFont{/CIDFont findresource @ length 2 add dict `{1
+^ @/FID eq ~ @/XUID eq ~/UIDBase eq or or{! !}{d}?}forall/CDevProc ~ d/Metrics2
+16 dict d/CIDFontName 1 ^ d & E 1 ^ ~/CIDFont defineresource ![~]composefont !}
+bind d
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b/G2UBegin{findresource/FontInfo get/GlyphNames2Unicode get
+`}bind d/G2CCBegin{findresource/FontInfo get/GlyphNames2HostCode get `}bind d
+/G2UEnd{E}bind d/AddFontInfoBegin{/FontInfo 8 dict @ `}bind d/AddFontInfo{
+/GlyphNames2Unicode 16 dict d/GlyphNames2HostCode 16 dict d}bind d
+/AddFontInfoEnd{E d}bind d/T0AddCFFMtx2{/CIDFont findresource/Metrics2 get ` d
+E}bind d
+%%EndResource
+end
+%%EndProlog
+
+%%BeginSetup
+[ 1 0 0 1 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+1 setlinecap 1 setlinejoin
+/mysetup [ 72 300 V 0 0 -72 300 V 18 784.00067 ] def 
+%%EndSetup
+
+%%Page: 1 1
+%%PageBoundingBox: 18 8 593 784
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+0 0 0 1 scol Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_T3Hdr 5.0 0
+{version cvi 2016 ge{32/FontType resourcestatus{pop pop true}{false}ifelse}
+{false}ifelse}exec/Is2016andT32? exch def/T32DefSBCMap{/CIDInit/ProcSet
+findresource begin 10 dict begin begincmap/CIDSystemInfo 3 dict dup begin
+/Registry(Adobe)def/Ordering(Identity1)def/Supplement 0 def end def/CMapType 0
+def/WMode 0 def 1 begincodespacerange<00><ff>endcodespacerange 1 begincidrange
+<00><ff>0 endcidrange endcmap/DrvSBCMap currentdict/CMap defineresource pop end
+end}bind def Is2016andT32?{T32DefSBCMap}def/T32RsrcBegin{Is2016andT32?{
+/BitmapFontInit/ProcSet findresource begin}if}bind def/T32RsrcEnd{Is2016andT32?
+{end}if}bind def/AddT32Char{6 1 roll 0 get 7 1 roll pop pop 5 1 roll pop
+findfont/TT32R get addglyph}bind def/AddT3Char{findfont dup 5 2 roll 1 index
+length 0 gt{cvx 1 index exch 4 exch put dup(imagemask)cvx cvn 5 exch put cvx}
+{pop cvx}ifelse 3 -1 roll/CharProcs get 3 1 roll put dup/Encoding get 5 -1 roll
+4 index put/Metrics get 3 1 roll put}bind def/AddT3T32Char Is2016andT32?{
+/AddT32Char}{/AddT3Char}ifelse load def/GreNewFontT32{5 dict begin exch
+/FontMatrix exch def exch/FontBBox exch def exch pop exch pop/CIDFontType 4 def
+dup currentdict end/CIDFont defineresource 3 -1 roll dup/DrvSBCMap dup/CMap
+resourcestatus{pop pop}{T32DefSBCMap}ifelse 5 -1 roll[exch]composefont dup
+length dict copy dup/FID undef begin exch/TT32R exch def currentdict end
+definefont/BitmapFontInit/ProcSet findresource begin/TT32R get[14 0 0 0 0 0]<>0
+4 -1 roll addglyph end}bind def/GreNewFontT3{11 dict begin pop/FontType 3 def
+/FontMatrix exch def/FontBBox exch def/Encoding exch def/CharProcs 257 dict def
+CharProcs/.notdef{}put/Metrics 257 dict def Metrics/.notdef 3 -1 roll put
+AddFontInfoBegin AddFontInfo AddFontInfoEnd/BuildChar{userdict begin/char exch
+def dup/charname exch/Encoding get char get def dup/Metrics get charname 2 copy
+known{get aload pop}{pop/.notdef get aload pop}ifelse setcachedevice begin
+Encoding char get CharProcs exch 2 copy known{get}{pop/.notdef get}ifelse end
+exec end}def currentdict end definefont pop}bind def/GreNewFont{Is2016andT32?
+{GreNewFontT32}{GreNewFontT3}ifelse}bind def/UDF3{Is2016andT32?{/BitmapFontInit
+/ProcSet findresource begin dup/CIDFont findresource removeall/CIDFont
+undefineresource undefinefont end}{pop UDF}ifelse}bind def
+%%EndResource
+end reinitialize
+/TT988b00
+[33 0 0 0 0 0 ] 
+ 256 array 0 1 255 {1 index exch /.notdef put} for 
+[0 0 0 0 ] 
+[1 33 div 0 0 -1 33 div 0 0 ]
+/__TT988b00
+GreNewFont
+T32RsrcBegin
+
+1
+/L [20 0 2 -19 18 0 ] 
+/L [16 19 true [1 0 0 1 -2 19 ]  0 0]
+[<~s*t@T#QP,1#QP,1#QP,1#QP,1#QP,1#QY23#QY23#QY23s8N~>
+ ]
+/TT988b00 AddT3T32Char
+
+2
+/a [20 0 3 -14 17 0 ] 
+/a [14 14 true [1 0 0 1 -3 14 ]  0 0]
+[<~++Ra,!"],A!"],A+7LBa5S/GWJ.R5b5gV_8~>
+ ]
+/TT988b00 AddT3T32Char
+
+3
+/y [20 0 2 -14 20 6 ] 
+/y [18 20 true [1 0 0 1 -2 14 ]  0 0]
+[<~p^b._!<<Z4!"]23#Qt,5"98Q1!!EQ-!Y>>5&-)_R!!+2B!5JR7^]4@b!!%NL
+!.Y%M!!!$"!.Vca~>
+ ]
+/TT988b00 AddT3T32Char
+
+4
+/e [20 0 3 -14 17 0 ] 
+/e [14 14 true [1 0 0 1 -3 14 ]  0 0]
+[<~&&9kQ?jK"'J-:B*s87BIJ,hh75QDo0(`3M9~>
+ ]
+/TT988b00 AddT3T32Char
+
+5
+/r [20 0 3 -14 18 0 ] 
+/r [15 14 true [1 0 0 1 -3 14 ]  0 0]
+[<~3.)!d$NLS8#QP,1#QP,1#QP,1#QP,1#QXno~>
+ ]
+/TT988b00 AddT3T32Char
+
+6
+/space [20 0 0 0 1 1 ] 
+/space [1 1 true [1 0 0 1 0 0 ]  0 0]
+[<~!!~>
+ ]
+/TT988b00 AddT3T32Char
+
+7
+/T [20 0 2 -19 17 0 ] 
+/T [15 19 true [1 0 0 1 -2 19 ]  0 0]
+[<~s8IQNJHCB(JHCB(JH>iP!<<-#!<<-#!<<-#!<<-#!<<-#+7K~>
+ ]
+/TT988b00 AddT3T32Char
+T32RsrcEnd
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{~ ! ~ ! 4 -1 $ ! findfont 2 ^ ~
+definefont fM @ @ 4 6 -1 $ neg put 5 0 put 90 matrix R matrix concatmatrix
+makefont Pscript_Windows_Font 3 1 $ put}b/mF_TTF_V{3{~ !}repeat 3 -1 $ !
+findfont 1 ^ ~ definefont Pscript_Windows_Font 3 1 $ put}b/UmF{L2?
+{Pscript_Windows_Font ~ undef}{!}?}b/UmF42{@ findfont/FDepVector get{/FontName
+get undefinefont}forall undefinefont}b
+%%EndResource
+end reinitialize
+F /F0 0 /0 F /TT988b00 mF 
+/F0S21 F0 [33.332 0 0 -33.332 0 0 ] mFS
+F0S21 Ji 
+1175 989 M <01020304050607>[20 20 20 20 21 20  0]xS 
+T32RsrcBegin
+
+8
+/hyphen [20 0 3 -10 17 -8 ] 
+/hyphen [14 2 true [1 0 0 1 -3 10 ]  0 0]
+[<~s8;op~>
+ ]
+/TT988b00 AddT3T32Char
+T32RsrcEnd
+1316 989 M <08>S 
+T32RsrcBegin
+
+9
+/one [20 0 3 -20 16 0 ] 
+/one [13 20 true [1 0 0 1 -3 20 ]  0 0]
+[<~"opge@K6H0!WW9%!WW9%!WW9%!WW9%!WW9%!WW9%!WW9%!W`8q~>
+ ]
+/TT988b00 AddT3T32Char
+
+10
+/l [20 0 3 -20 16 0 ] 
+/l [13 20 true [1 0 0 1 -3 20 ]  0 0]
+[<~IK0EL!WW9%!WW9%!WW9%!WW9%!WW9%!WW9%!WW9%!WW9%!W`8q~>
+ ]
+/TT988b00 AddT3T32Char
+
+11
+/i [20 0 3 -20 16 0 ] 
+/i [13 20 true [1 0 0 1 -3 20 ]  0 0]
+[<~"oni-"onW'zIK0EL!WW9%!WW9%!WW9%!WW9%!WW9%!W`8q~>
+ ]
+/TT988b00 AddT3T32Char
+
+12
+/n [20 0 2 -14 18 0 ] 
+/n [16 14 true [1 0 0 1 -2 14 ]  0 0]
+[<~j5;I"0F/d(+9Wei+9Wei+9Wei+9Wei+9_H]~>
+ ]
+/TT988b00 AddT3T32Char
+
+13
+/k [20 0 3 -20 18 0 ] 
+/k [15 20 true [1 0 0 1 -3 20 ]  0 0]
+[<~huFl"+93Ma+93Ma+T*?I+FkU8+oikg/-%F*+TNX8+@%%l+;!I[~>
+ ]
+/TT988b00 AddT3T32Char
+
+14
+/s [20 0 3 -14 16 0 ] 
+/s [13 14 true [1 0 0 1 -3 14 ]  0 0]
+[<~&'-Fa5R9U\5QDo,+2@k1!!n)\J-`prn1]p=~>
+ ]
+/TT988b00 AddT3T32Char
+T32RsrcEnd
+1336 989 M <09060A0B0C0D0E06>[20 20 20 20 20 20 20  0]xS 
+T32RsrcBegin
+
+15
+/parenleft [20 0 9 -20 13 4 ] 
+/parenleft [4 24 true [1 0 0 1 -9 20 ]  0 0]
+[<~&254L5X7TMJ:N0#J:N0#^d(.M+<W?L~>
+ ]
+/TT988b00 AddT3T32Char
+
+16
+/period [20 0 7 -4 12 0 ] 
+/period [5 4 true [1 0 0 1 -7 4 ]  0 0]
+[<~E;93I~>
+ ]
+/TT988b00 AddT3T32Char
+
+17
+/g [20 0 2 -14 18 6 ] 
+/g [16 20 true [1 0 0 1 -2 14 ]  0 0]
+[<~&'#5<+:LLDJ-:B*J-:B*J-:B*5R\bD&2Xp9!!E9)!!E9-!#Q7)~>
+ ]
+/TT988b00 AddT3T32Char
+
+18
+/p [20 0 1 -14 18 6 ] 
+/p [17 20 true [1 0 0 1 -1 14 ]  0 0]
+[<~iU?go$ih[W!&+ER0E?VG!.Z0lJ04iB+96pG!.Za(!%7mK-3O;np])E:!$D7A
++92Ba!!",A!<)ru~>
+ ]
+/TT988b00 AddT3T32Char
+
+19
+/h [20 0 2 -20 18 0 ] 
+/h [16 20 true [1 0 0 1 -2 20 ]  0 0]
+[<~huFl"+93Ma+93Ma,N(*a0F/d(+9Wei+9Wei+9Wei+9Wei+9_H]~>
+ ]
+/TT988b00 AddT3T32Char
+
+20
+/c [20 0 3 -14 18 0 ] 
+/c [15 14 true [1 0 0 1 -3 14 ]  0 0]
+[<~#NQ^A+:LL<J-:B&J,k*"J,k*"5QW&2&/Yr9~>
+ ]
+/TT988b00 AddT3T32Char
+T32RsrcEnd
+1175 1029 M <0F04101110061213030E0B14020A06>[20 20 20 20 21 20 20 20 20 20 20 20 20 20  0]xS 
+T32RsrcBegin
+
+21
+/f [20 0 4 -20 18 0 ] 
+/f [14 20 true [1 0 0 1 -4 20 ]  0 0]
+[<~"8i?'#QP,1#QP,1s6p9o#QP,1#QP,1#QP,1#QP,1#QP,1#QXno~>
+ ]
+/TT988b00 AddT3T32Char
+
+22
+/b [20 0 1 -20 18 0 ] 
+/b [17 20 true [1 0 0 1 -1 20 ]  0 0]
+[<~huEa"!!",A!$D7A+92Ba!!"85!%&*S3!'(6!<=eRJ04iB+96p7!.Z0lJ1ptR
+0ED/5!WXPU!9<PK~>
+ ]
+/TT988b00 AddT3T32Char
+T32RsrcEnd
+1175 1069 M <150B160504>[20 20 20 20  0]xS 
+T32RsrcBegin
+
+23
+/parenright [20 0 7 -20 11 4 ] 
+/parenright [4 24 true [1 0 0 1 -7 20 ]  0 0]
+[<~JA=E8+<Vd\&.fBa&.fBa0H_J\5X<,8~>
+ ]
+/TT988b00 AddT3T32Char
+T32RsrcEnd
+1276 1069 M <17>S 
+874 1009 M <01020304050607>[20 21 20 20 20 20  0]xS 
+1015 1009 M <08>S 
+1035 1009 M <0906>[20  0]xS 
+T32RsrcBegin
+
+24
+/w [20 0 0 -14 20 0 ] 
+/w [20 14 true [1 0 0 1 0 14 ]  0 0]
+[<~p]L".!.Z0lJ04iB&4$:-T`>Xt!"feC#nd4E&c`7G!"'&5"9\]-"98~>
+ ]
+/TT988b00 AddT3T32Char
+
+25
+/t [20 0 2 -19 17 0 ] 
+/t [15 19 true [1 0 0 1 -2 19 ]  0 0]
+[<~#QP,1#QP,1#QXo"#QP,1#QP,1#QP,1#QP,1#QP,1#QOu3"8D~>
+ ]
+/TT988b00 AddT3T32Char
+T32RsrcEnd
+874 1049 M <0E180B19141306150216050B1406>[20 21 20 20 20 20 20 20 20 20 20 20 20  0]xS 
+T32RsrcBegin
+
+26
+/O [20 0 2 -19 19 0 ] 
+/O [17 19 true [1 0 0 1 -2 19 ]  0 0]
+[<~"5j.f(]Y*M!$D=C?ipBo!<Bn9J:IWMJ,k+M!.]S"J:IWM^]AsN!<?L0!$D=C
+&-MtA(]XZr!!~>
+ ]
+/TT988b00 AddT3T32Char
+
+27
+/X [20 0 1 -19 19 0 ] 
+/X [18 19 true [1 0 0 1 -1 19 ]  0 0]
+[<~r#^G3!WWc7!!i]-#RCD5&-)bS!!+2B!5JR7J,fU8!!48C!Y>>7#QP,5!"]85
+&-;hS!<E$.^]~>
+ ]
+/TT988b00 AddT3T32Char
+
+28
+/C [20 0 2 -19 18 0 ] 
+/C [16 19 true [1 0 0 1 -2 19 ]  0 0]
+[<~"7Zd/0F&^&5QO+NJ,k*"J,k*"J,k*"J,hh75QMu0&-<7K"7Q~>
+ ]
+/TT988b00 AddT3T32Char
+T32RsrcEnd
+874 1089 M <0F04101110061A1B1C17>[20 21 20 20 20 20 20 20 20  0]xS 
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_WinNT_Compat 5.0 0
+userdict/Pscript_WinNT_Compat 19 dict dup begin/bd{bind def}bind def/ld{load
+def}bd/$x matrix def/ANSIVec[16#0/grave 16#1/acute 16#2/circumflex 16#3/tilde
+16#4/macron 16#5/breve 16#6/dotaccent 16#7/dieresis 16#8/ring 16#9/cedilla 16#A
+/hungarumlaut 16#B/ogonek 16#C/caron 16#D/dotlessi 16#27/quotesingle 16#60
+/grave 16#7C/bar 16#82/quotesinglbase 16#83/florin 16#84/quotedblbase 16#85
+/ellipsis 16#86/dagger 16#87/daggerdbl 16#88/circumflex 16#89/perthousand 16#8A
+/Scaron 16#8B/guilsinglleft 16#8C/OE 16#91/quoteleft 16#92/quoteright 16#93
+/quotedblleft 16#94/quotedblright 16#95/bullet 16#96/endash 16#97/emdash 16#98
+/tilde 16#99/trademark 16#9A/scaron 16#9B/guilsinglright 16#9C/oe 16#9F
+/Ydieresis 16#A0/space 16#A1/exclamdown 16#A4/currency 16#A5/yen 16#A6
+/brokenbar 16#A7/section 16#A8/dieresis 16#A9/copyright 16#AA/ordfeminine 16#AB
+/guillemotleft 16#AC/logicalnot 16#AD/hyphen 16#AE/registered 16#AF/macron
+16#B0/degree 16#B1/plusminus 16#B2/twosuperior 16#B3/threesuperior 16#B4/acute
+16#B5/mu 16#B6/paragraph 16#B7/periodcentered 16#B8/cedilla 16#B9/onesuperior
+16#BA/ordmasculine 16#BB/guillemotright 16#BC/onequarter 16#BD/onehalf 16#BE
+/threequarters 16#BF/questiondown 16#C0/Agrave 16#C1/Aacute 16#C2/Acircumflex
+16#C3/Atilde 16#C4/Adieresis 16#C5/Aring 16#C6/AE 16#C7/Ccedilla 16#C8/Egrave
+16#C9/Eacute 16#CA/Ecircumflex 16#CB/Edieresis 16#CC/Igrave 16#CD/Iacute 16#CE
+/Icircumflex 16#CF/Idieresis 16#D0/Eth 16#D1/Ntilde 16#D2/Ograve 16#D3/Oacute
+16#D4/Ocircumflex 16#D5/Otilde 16#D6/Odieresis 16#D7/multiply 16#D8/Oslash
+16#D9/Ugrave 16#DA/Uacute 16#DB/Ucircumflex 16#DC/Udieresis 16#DD/Yacute 16#DE
+/Thorn 16#DF/germandbls 16#E0/agrave 16#E1/aacute 16#E2/acircumflex 16#E3
+/atilde 16#E4/adieresis 16#E5/aring 16#E6/ae 16#E7/ccedilla 16#E8/egrave 16#E9
+/eacute 16#EA/ecircumflex 16#EB/edieresis 16#EC/igrave 16#ED/iacute 16#EE
+/icircumflex 16#EF/idieresis 16#F0/eth 16#F1/ntilde 16#F2/ograve 16#F3/oacute
+16#F4/ocircumflex 16#F5/otilde 16#F6/odieresis 16#F7/divide 16#F8/oslash 16#F9
+/ugrave 16#FA/uacute 16#FB/ucircumflex 16#FC/udieresis 16#FD/yacute 16#FE/thorn
+16#FF/ydieresis]def currentdict{dup type/operatortype eq{[exch]cvx def}{pop
+pop}ifelse}forall/initialize{currentdict exch begin begin}bind def/terminate{
+/@FL where not{pop end end}{pop}ifelse}bind def/suspend/terminate load def
+/resume/initialize load def/RS{/pagesave where{pop pagesave restore}{$x matrix
+invertmatrix concat}ifelse}def/SS{/pagesave save def}def/CB{pop pop pop pop}def
+/B{pop pop pop pop}def/:/gsave load def/;/grestore load def/N/newpath load def
+end put
+%%EndResource
+end reinitialize
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+/languagelevel where {pop languagelevel} {1} ifelse
+2 ge dup {currentglobal exch true setglobal globaldict} {userdict} ifelse
+/GpPBeg1 {
+    gsave initclip
+    16 dict begin
+    /c {curveto} def /l {lineto} def /m {moveto} def
+    /rc {rcurveto} def /rl {rlineto} def
+    /NP {newpath} def /CP {closepath} def /SC {setrgbcolor} def
+    /GSE {end grestore} def
+} put
+{setglobal} if
+GpPBeg1
+0.8000 1 0.6000 SC
+NP 727 286 m 695 286 670 312 670 343 c 670 811 l 670 842 695 867 727 867 c 954 867 l 985 867 1011 842 1011 811 c 1011 343 l 1011 312 985 286 954 286 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 727 286 m 695 286 670 312 670 343 c 670 811 l 670 842 695 867 727 867 c 954 867 l 985 867 1011 842 1011 811 c 1011 343 l 1011 312 985 286 954 286 c CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 736 698 m 945 698 l 945 827 l 736 827 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 736 698 m 736 827 l 945 827 l 945 698 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 754 715 m 790 715 l 886 811 l 927 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 754 715 m 790 715 l 886 811 l 927 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 927 715 m 891 715 l 795 811 l 754 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 927 715 m 891 715 l 795 811 l 754 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 736 346 m 945 346 l 945 475 l 736 475 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 736 346 m 736 475 l 945 475 l 945 346 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 754 363 m 790 363 l 886 459 l 927 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 754 363 m 790 363 l 886 459 l 927 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 927 363 m 891 363 l 795 459 l 754 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 927 363 m 891 363 l 795 459 l 754 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 750 547 m 795 627 l 886 627 l 931 547 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 750 547 m 795 627 l 886 627 l 931 547 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol T32RsrcBegin
+
+29
+/M [20 0 0 -19 19 0 ] 
+/M [19 19 true [1 0 0 1 0 19 ]  0 0]
+[<~n,_H$!IuR"J1(JL,QrWC"Fq[%J0G8L+V9/I&:bmrJ0:M8+@(H"!.Z0lJ04iB
++96p7!.ahHhu~>
+ ]
+/TT988b00 AddT3T32Char
+
+30
+/U [20 0 1 -19 18 0 ] 
+/U [17 19 true [1 0 0 1 -1 19 ]  0 0]
+[<~p^_lt!WX>E!$D=C+9DNc!WX>E!$D=C+9DNc!WX>E!$D=C+9DNc!WX>E!$DCE
+&-MtA(]XZr!!~>
+ ]
+/TT988b00 AddT3T32Char
+T32RsrcEnd
+810 597 M <1D1E1B>[20 20  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0 0 0 SC
+NP 892 475 m 892 530 l 891 532 l 889 530 l 889 475 l 891 473 l 892 475 l CP 
+901 527 m 891 547 l 881 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 842 475 m 842 530 l 840 532 l 839 530 l 839 475 l 840 473 l 842 475 l CP 
+850 527 m 840 547 l 830 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 792 475 m 792 530 l 790 532 l 789 530 l 789 475 l 790 473 l 792 475 l CP 
+800 527 m 790 547 l 780 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 872 627 m 872 682 l 871 684 l 869 682 l 869 627 l 871 625 l 872 627 l CP 
+881 679 m 871 699 l 861 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 842 627 m 842 682 l 840 684 l 839 682 l 839 627 l 840 625 l 842 627 l CP 
+850 679 m 840 699 l 830 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 812 627 m 812 682 l 810 684 l 809 682 l 809 627 l 810 625 l 812 627 l CP 
+820 679 m 810 699 l 800 679 l CP 
+fill
+GSE
+GpPBeg1
+0.8000 1 0.6000 SC
+NP 1151 627 m 1129 627 1111 645 1111 667 c 1111 827 l 1111 849 1129 867 1151 867 c 1412 867 l 1434 867 1452 849 1452 827 c 1452 667 l 1452 645 1434 627 1412 627 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1151 627 m 1129 627 1111 645 1111 667 c 1111 827 l 1111 849 1129 867 1151 867 c 1412 867 l 1434 867 1452 849 1452 827 c 1452 667 l 1452 645 1434 627 1412 627 c CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1177 698 m 1387 698 l 1387 827 l 1177 827 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1177 698 m 1177 827 l 1387 827 l 1387 698 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1195 715 m 1231 715 l 1327 811 l 1369 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1195 715 m 1231 715 l 1327 811 l 1369 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1369 715 m 1333 715 l 1237 811 l 1195 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1369 715 m 1333 715 l 1237 811 l 1195 811 l stroke
+GSE
+GpPBeg1
+0 0 0 SC
+NP 945 759 m 1177 759 l 1177 767 l 945 767 l CP 
+945 771 m 938 763 l 945 755 l 953 763 l CP 
+1177 755 m 1185 763 l 1177 771 l 1170 763 l CP 
+fill
+GSE
+GpPBeg1
+0.8000 1 0.6000 SC
+NP 1609 286 m 1577 286 1552 312 1552 343 c 1552 810 l 1552 842 1577 867 1609 867 c 1836 867 l 1868 867 1893 842 1893 810 c 1893 343 l 1893 312 1868 286 1836 286 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1609 286 m 1577 286 1552 312 1552 343 c 1552 810 l 1552 842 1577 867 1609 867 c 1836 867 l 1868 867 1893 842 1893 810 c 1893 343 l 1893 312 1868 286 1836 286 c CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1618 698 m 1828 698 l 1828 827 l 1618 827 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1618 698 m 1618 827 l 1828 827 l 1828 698 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1636 715 m 1672 715 l 1768 811 l 1810 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1636 715 m 1672 715 l 1768 811 l 1810 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1810 715 m 1774 715 l 1678 811 l 1636 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1810 715 m 1774 715 l 1678 811 l 1636 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1618 346 m 1828 346 l 1828 475 l 1618 475 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1618 346 m 1618 475 l 1828 475 l 1828 346 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1636 363 m 1672 363 l 1768 459 l 1810 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1636 363 m 1672 363 l 1768 459 l 1810 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1810 363 m 1774 363 l 1678 459 l 1636 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1810 363 m 1774 363 l 1678 459 l 1636 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1633 547 m 1678 627 l 1768 627 l 1813 547 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1633 547 m 1678 627 l 1768 627 l 1813 547 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1693 597 M <1D1E1B>[20 20  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0 0 0 SC
+NP 1775 475 m 1775 530 l 1773 532 l 1771 530 l 1771 475 l 1773 473 l 1775 475 l CP 
+1783 527 m 1773 547 l 1763 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1725 475 m 1725 530 l 1723 532 l 1721 530 l 1721 475 l 1723 473 l 1725 475 l CP 
+1733 527 m 1723 547 l 1713 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1675 475 m 1675 530 l 1673 532 l 1671 530 l 1671 475 l 1673 473 l 1675 475 l CP 
+1683 527 m 1673 547 l 1663 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1755 627 m 1755 682 l 1753 684 l 1751 682 l 1751 627 l 1753 625 l 1755 627 l CP 
+1763 679 m 1753 699 l 1743 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1725 627 m 1725 682 l 1723 684 l 1721 682 l 1721 627 l 1723 625 l 1725 627 l CP 
+1733 679 m 1723 699 l 1713 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1695 627 m 1695 682 l 1693 684 l 1691 682 l 1691 627 l 1693 625 l 1695 627 l CP 
+1703 679 m 1693 699 l 1683 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1387 759 m 1618 759 l 1618 767 l 1387 767 l CP 
+1387 771 m 1379 763 l 1387 755 l 1394 763 l CP 
+1618 755 m 1626 763 l 1618 771 l 1611 763 l CP 
+fill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286 0.0025 10.0286] 0 setdash
+0 0 0 SC
+NP 550 587 m 770 587 l stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 911 587 m 1653 587 l stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 1793 587 m 2014 587 l stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol T32RsrcBegin
+
+31
+/N [20 0 1 -19 18 0 ] 
+/N [17 19 true [1 0 0 1 -1 19 ]  0 0]
+[<~i"(>l!WXnU!%7mK,Q[rk!WXDG!$MCD+T_WdJcHo[!$FT.+<ge.&ca$e!$DUK
++9hfg"p"E"!!~>
+ ]
+/TT988b00 AddT3T32Char
+
+32
+/o [20 0 2 -14 17 0 ] 
+/o [15 14 true [1 0 0 1 -2 14 ]  0 0]
+[<~#J_01+:(48J-(6&J-(6&J-(6&5Qi28&.fB1~>
+ ]
+/TT988b00 AddT3T32Char
+
+33
+/E [20 0 2 -19 17 0 ] 
+/E [15 19 true [1 0 0 1 -2 19 ]  0 0]
+[<~s83uB+9Wei+9Wee+93O7+Fl\,+FkSb+93Mc+9EYe+9EYes8D~>
+ ]
+/TT988b00 AddT3T32Char
+
+34
+/m [20 0 1 -14 20 0 ] 
+/m [19 14 true [1 0 0 1 -1 14 ]  0 0]
+[<~k7.J?OT7(CJ07+-+@(H"5_'tBJ07+-+@(H"5_'tBJ07+-+@(JPE8U~>
+ ]
+/TT988b00 AddT3T32Char
+T32RsrcEnd
+1135 668 M <1F04191820050D06210A0422040C19>[20 20 20 20 20 20 20 21 20 20 20 20 20 20  0]xS 
+694 335 M <1F04191820050D06210A0422040C19>[20 20 20 20 20 20 20 20 20 20 20 21 20 20  0]xS 
+1576 335 M <1F04191820050D06210A0422040C19>[20 21 20 20 20 20 20 20 20 20 20 20 20 20  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0 0 0 SC
+NP 1063 779 m 1193 946 l 1192 949 l 1190 949 l 1060 781 l 1060 779 l 1063 779 l CP 
+1055 789 m 1051 767 l 1071 777 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1411 947 m 1503 781 l 1505 780 l 1506 783 l 1414 948 l 1411 949 l 1411 947 l CP 
+1494 780 m 1512 767 l 1511 790 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 843 838 m 972 966 l 972 969 l 970 969 l 841 840 l 841 838 l 843 838 l CP 
+838 849 m 830 827 l 852 834 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1030 966 m 1158 838 l 1161 838 l 1161 840 l 1032 969 l 1030 969 l 1030 966 l CP 
+1150 834 m 1171 827 l 1164 849 l CP 
+fill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 947 427 m 1620 427 l stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 947 407 m 1620 407 l stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 947 387 m 1620 387 l stroke
+GSE
+GpPBeg1
+NP 449 267 m 2019 267 l 2019 1116 l 449 1116 l CP 
+eoclip
+0 0 0 SC
+NP 966 359 m 1111 305 l 1113 306 l 1112 308 l 967 362 l 965 361 l 966 359 l CP 
+973 369 m 951 367 l 966 350 l CP 
+fill
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1135 308 M <01020304050607060E180B19141306>[20 20 20 20 20 20 20 21 20 20 20 20 20 20  0]xS 
+1135 348 M <150216050B14>[20 20 20 20 20  0]xS 
+1135 476 M <01020304050607060A20110B14020A06>[20 20 20 20 20 20 20 21 20 20 20 20 20 20 20  0]xS 
+T32RsrcBegin
+
+35
+/P [20 0 4 -19 18 0 ] 
+/P [14 19 true [1 0 0 1 -4 19 ]  0 0]
+[<~s1fa2+:'(m+9Wei+9Wei+:')D5JSBA+93Ma+93Ma+93Mas*t~>
+ ]
+/TT988b00 AddT3T32Char
+
+36
+/S [20 0 3 -19 17 0 ] 
+/S [14 19 true [1 0 0 1 -3 19 ]  0 0]
+[<~#NQ^a+:LL<5Qj=T5QDo,(]Xg!!&sra!!IfTJ-<Xj^^..uT>1~>
+ ]
+/TT988b00 AddT3T32Char
+T32RsrcEnd
+1135 516 M <0A0B0C0D0E060F04101110061D23012406>[20 20 20 20 20 20 20 21 20 20 20 20 20 20 20 20  0]xS 
+1135 557 M <0124230E>[20 20 20  0]xS 
+1215 557 M <17>S 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+NP 449 267 m 2019 267 l 2019 1116 l 449 1116 l CP 
+eoclip
+0 0 0 SC
+NP 1413 305 m 1597 360 l 1598 362 l 1596 363 l 1412 308 l 1410 306 l 1413 305 l CP 
+1596 351 m 1613 367 l 1591 370 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1130 488 m 1082 440 l 1082 437 l 1084 437 l 1132 486 l 1132 488 l 1130 488 l CP 
+1078 448 m 1071 427 l 1092 434 l CP 
+fill
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 473 488 M <0102030405060706>[20 20 20 20 21 20 20  0]xS 
+473 528 M <140A0B040C1906>[20 20 20 20 21 20  0]xS 
+473 568 M <0A02030405>[20 20 20 20  0]xS 
+473 637 M <01020304050607>[20 20 20 20 21 20  0]xS 
+614 637 M <08>S 
+634 637 M <0906>[20  0]xS 
+T32RsrcBegin
+
+37
+/v [20 0 1 -14 19 0 ] 
+/v [18 14 true [1 0 0 1 -1 14 ]  0 0]
+[<~r"$RS!WWc5!!i]-#Qt,1#QOu5!!3]3!Y>>5&-)_R!!+2B!5JR7^]4~>
+ ]
+/TT988b00 AddT3T32Char
+T32RsrcEnd
+473 677 M <0E040525040506>[20 20 20 20 21 20  0]xS 
+473 717 M <0A02030405>[20 20 20 20  0]xS 
+1175 989 M <01020304050607>[20 20 20 20 21 20  0]xS 
+1316 989 M <08>S 
+1336 989 M <09060A0B0C0D0E06>[20 20 20 20 20 20 20  0]xS 
+1175 1029 M <0F04101110061213030E0B14020A06>[20 20 20 20 21 20 20 20 20 20 20 20 20 20  0]xS 
+1175 1069 M <150B160504>[20 20 20 20  0]xS 
+1276 1069 M <17>S 
+874 1009 M <01020304050607>[20 21 20 20 20 20  0]xS 
+1015 1009 M <08>S 
+1035 1009 M <0906>[20  0]xS 
+874 1049 M <0E180B19141306150216050B1406>[20 21 20 20 20 20 20 20 20 20 20 20 20  0]xS 
+874 1089 M <0F04101110061A1B1C17>[20 21 20 20 20 20 20 20 20  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0.8000 1 0.6000 SC
+NP 727 286 m 695 286 670 312 670 343 c 670 811 l 670 842 695 867 727 867 c 954 867 l 985 867 1011 842 1011 811 c 1011 343 l 1011 312 985 286 954 286 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 727 286 m 695 286 670 312 670 343 c 670 811 l 670 842 695 867 727 867 c 954 867 l 985 867 1011 842 1011 811 c 1011 343 l 1011 312 985 286 954 286 c CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 736 698 m 945 698 l 945 827 l 736 827 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 736 698 m 736 827 l 945 827 l 945 698 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 754 715 m 790 715 l 886 811 l 927 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 754 715 m 790 715 l 886 811 l 927 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 927 715 m 891 715 l 795 811 l 754 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 927 715 m 891 715 l 795 811 l 754 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 736 346 m 945 346 l 945 475 l 736 475 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 736 346 m 736 475 l 945 475 l 945 346 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 754 363 m 790 363 l 886 459 l 927 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 754 363 m 790 363 l 886 459 l 927 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 927 363 m 891 363 l 795 459 l 754 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 927 363 m 891 363 l 795 459 l 754 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 750 547 m 795 627 l 886 627 l 931 547 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 750 547 m 795 627 l 886 627 l 931 547 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 810 597 M <1D1E1B>[20 20  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0 0 0 SC
+NP 892 475 m 892 530 l 891 532 l 889 530 l 889 475 l 891 473 l 892 475 l CP 
+901 527 m 891 547 l 881 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 842 475 m 842 530 l 840 532 l 839 530 l 839 475 l 840 473 l 842 475 l CP 
+850 527 m 840 547 l 830 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 792 475 m 792 530 l 790 532 l 789 530 l 789 475 l 790 473 l 792 475 l CP 
+800 527 m 790 547 l 780 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 872 627 m 872 682 l 871 684 l 869 682 l 869 627 l 871 625 l 872 627 l CP 
+881 679 m 871 699 l 861 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 842 627 m 842 682 l 840 684 l 839 682 l 839 627 l 840 625 l 842 627 l CP 
+850 679 m 840 699 l 830 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 812 627 m 812 682 l 810 684 l 809 682 l 809 627 l 810 625 l 812 627 l CP 
+820 679 m 810 699 l 800 679 l CP 
+fill
+GSE
+GpPBeg1
+0.8000 1 0.6000 SC
+NP 1151 627 m 1129 627 1111 645 1111 667 c 1111 827 l 1111 849 1129 867 1151 867 c 1412 867 l 1434 867 1452 849 1452 827 c 1452 667 l 1452 645 1434 627 1412 627 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1151 627 m 1129 627 1111 645 1111 667 c 1111 827 l 1111 849 1129 867 1151 867 c 1412 867 l 1434 867 1452 849 1452 827 c 1452 667 l 1452 645 1434 627 1412 627 c CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1177 698 m 1387 698 l 1387 827 l 1177 827 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1177 698 m 1177 827 l 1387 827 l 1387 698 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1195 715 m 1231 715 l 1327 811 l 1369 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1195 715 m 1231 715 l 1327 811 l 1369 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1369 715 m 1333 715 l 1237 811 l 1195 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1369 715 m 1333 715 l 1237 811 l 1195 811 l stroke
+GSE
+GpPBeg1
+0 0 0 SC
+NP 945 759 m 1177 759 l 1177 767 l 945 767 l CP 
+945 771 m 938 763 l 945 755 l 953 763 l CP 
+1177 755 m 1185 763 l 1177 771 l 1170 763 l CP 
+fill
+GSE
+GpPBeg1
+0.8000 1 0.6000 SC
+NP 1609 286 m 1577 286 1552 312 1552 343 c 1552 810 l 1552 842 1577 867 1609 867 c 1836 867 l 1868 867 1893 842 1893 810 c 1893 343 l 1893 312 1868 286 1836 286 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1609 286 m 1577 286 1552 312 1552 343 c 1552 810 l 1552 842 1577 867 1609 867 c 1836 867 l 1868 867 1893 842 1893 810 c 1893 343 l 1893 312 1868 286 1836 286 c CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1618 698 m 1828 698 l 1828 827 l 1618 827 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1618 698 m 1618 827 l 1828 827 l 1828 698 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1636 715 m 1672 715 l 1768 811 l 1810 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1636 715 m 1672 715 l 1768 811 l 1810 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1810 715 m 1774 715 l 1678 811 l 1636 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1810 715 m 1774 715 l 1678 811 l 1636 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1618 346 m 1828 346 l 1828 475 l 1618 475 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1618 346 m 1618 475 l 1828 475 l 1828 346 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1636 363 m 1672 363 l 1768 459 l 1810 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1636 363 m 1672 363 l 1768 459 l 1810 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1810 363 m 1774 363 l 1678 459 l 1636 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1810 363 m 1774 363 l 1678 459 l 1636 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1633 547 m 1678 627 l 1768 627 l 1813 547 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1633 547 m 1678 627 l 1768 627 l 1813 547 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1693 597 M <1D1E1B>[20 20  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0 0 0 SC
+NP 1775 475 m 1775 530 l 1773 532 l 1771 530 l 1771 475 l 1773 473 l 1775 475 l CP 
+1783 527 m 1773 547 l 1763 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1725 475 m 1725 530 l 1723 532 l 1721 530 l 1721 475 l 1723 473 l 1725 475 l CP 
+1733 527 m 1723 547 l 1713 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1675 475 m 1675 530 l 1673 532 l 1671 530 l 1671 475 l 1673 473 l 1675 475 l CP 
+1683 527 m 1673 547 l 1663 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1755 627 m 1755 682 l 1753 684 l 1751 682 l 1751 627 l 1753 625 l 1755 627 l CP 
+1763 679 m 1753 699 l 1743 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1725 627 m 1725 682 l 1723 684 l 1721 682 l 1721 627 l 1723 625 l 1725 627 l CP 
+1733 679 m 1723 699 l 1713 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1695 627 m 1695 682 l 1693 684 l 1691 682 l 1691 627 l 1693 625 l 1695 627 l CP 
+1703 679 m 1693 699 l 1683 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1387 759 m 1618 759 l 1618 767 l 1387 767 l CP 
+1387 771 m 1379 763 l 1387 755 l 1394 763 l CP 
+1618 755 m 1626 763 l 1618 771 l 1611 763 l CP 
+fill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286 0.0025 10.0286] 0 setdash
+0 0 0 SC
+NP 550 587 m 770 587 l stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 911 587 m 1653 587 l stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 1793 587 m 2014 587 l stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1135 668 M <1F04191820050D06210A0422040C19>[20 20 20 20 20 20 20 21 20 20 20 20 20 20  0]xS 
+694 335 M <1F04191820050D06210A0422040C19>[20 20 20 20 20 20 20 20 20 20 20 21 20 20  0]xS 
+1576 335 M <1F04191820050D06210A0422040C19>[20 21 20 20 20 20 20 20 20 20 20 20 20 20  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0 0 0 SC
+NP 1063 779 m 1193 946 l 1192 949 l 1190 949 l 1060 781 l 1060 779 l 1063 779 l CP 
+1055 789 m 1051 767 l 1071 777 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1411 947 m 1503 781 l 1505 780 l 1506 783 l 1414 948 l 1411 949 l 1411 947 l CP 
+1494 780 m 1512 767 l 1511 790 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 843 838 m 972 966 l 972 969 l 970 969 l 841 840 l 841 838 l 843 838 l CP 
+838 849 m 830 827 l 852 834 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1030 966 m 1158 838 l 1161 838 l 1161 840 l 1032 969 l 1030 969 l 1030 966 l CP 
+1150 834 m 1171 827 l 1164 849 l CP 
+fill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 947 427 m 1620 427 l stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 947 407 m 1620 407 l stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 947 387 m 1620 387 l stroke
+GSE
+GpPBeg1
+NP 449 267 m 2019 267 l 2019 1116 l 449 1116 l CP 
+eoclip
+0 0 0 SC
+NP 966 359 m 1111 305 l 1113 306 l 1112 308 l 967 362 l 965 361 l 966 359 l CP 
+973 369 m 951 367 l 966 350 l CP 
+fill
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1135 308 M <01020304050607060E180B19141306>[20 20 20 20 20 20 20 21 20 20 20 20 20 20  0]xS 
+1135 348 M <150216050B14>[20 20 20 20 20  0]xS 
+1135 476 M <01020304050607060A20110B14020A06>[20 20 20 20 20 20 20 21 20 20 20 20 20 20 20  0]xS 
+1135 516 M <0A0B0C0D0E060F04101110061D23012406>[20 20 20 20 20 20 20 21 20 20 20 20 20 20 20 20  0]xS 
+1135 557 M <0124230E>[20 20 20  0]xS 
+1215 557 M <17>S 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+NP 449 267 m 2019 267 l 2019 1116 l 449 1116 l CP 
+eoclip
+0 0 0 SC
+NP 1413 305 m 1597 360 l 1598 362 l 1596 363 l 1412 308 l 1410 306 l 1413 305 l CP 
+1596 351 m 1613 367 l 1591 370 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1130 488 m 1082 440 l 1082 437 l 1084 437 l 1132 486 l 1132 488 l 1130 488 l CP 
+1078 448 m 1071 427 l 1092 434 l CP 
+fill
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 473 488 M <0102030405060706>[20 20 20 20 21 20 20  0]xS 
+473 528 M <140A0B040C1906>[20 20 20 20 21 20  0]xS 
+473 568 M <0A02030405>[20 20 20 20  0]xS 
+473 637 M <01020304050607>[20 20 20 20 21 20  0]xS 
+614 637 M <08>S 
+634 637 M <0906>[20  0]xS 
+473 677 M <0E040525040506>[20 20 20 20 21 20  0]xS 
+473 717 M <0A02030405>[20 20 20 20  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0.8000 1 0.6000 SC
+NP 727 286 m 695 286 670 312 670 343 c 670 811 l 670 842 695 867 727 867 c 954 867 l 985 867 1011 842 1011 811 c 1011 343 l 1011 312 985 286 954 286 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 727 286 m 695 286 670 312 670 343 c 670 811 l 670 842 695 867 727 867 c 954 867 l 985 867 1011 842 1011 811 c 1011 343 l 1011 312 985 286 954 286 c CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 736 698 m 945 698 l 945 827 l 736 827 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 736 698 m 736 827 l 945 827 l 945 698 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 754 715 m 790 715 l 886 811 l 927 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 754 715 m 790 715 l 886 811 l 927 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 927 715 m 891 715 l 795 811 l 754 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 927 715 m 891 715 l 795 811 l 754 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 736 698 m 945 698 l 945 827 l 736 827 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 736 698 m 736 827 l 945 827 l 945 698 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 754 715 m 790 715 l 886 811 l 927 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 754 715 m 790 715 l 886 811 l 927 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 927 715 m 891 715 l 795 811 l 754 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 927 715 m 891 715 l 795 811 l 754 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 754 715 m 790 715 l 886 811 l 927 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 754 715 m 790 715 l 886 811 l 927 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 927 715 m 891 715 l 795 811 l 754 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 927 715 m 891 715 l 795 811 l 754 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 736 346 m 945 346 l 945 475 l 736 475 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 736 346 m 736 475 l 945 475 l 945 346 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 754 363 m 790 363 l 886 459 l 927 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 754 363 m 790 363 l 886 459 l 927 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 927 363 m 891 363 l 795 459 l 754 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 927 363 m 891 363 l 795 459 l 754 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 736 346 m 945 346 l 945 475 l 736 475 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 736 346 m 736 475 l 945 475 l 945 346 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 754 363 m 790 363 l 886 459 l 927 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 754 363 m 790 363 l 886 459 l 927 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 927 363 m 891 363 l 795 459 l 754 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 927 363 m 891 363 l 795 459 l 754 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 754 363 m 790 363 l 886 459 l 927 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 754 363 m 790 363 l 886 459 l 927 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 927 363 m 891 363 l 795 459 l 754 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 927 363 m 891 363 l 795 459 l 754 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 750 547 m 795 627 l 886 627 l 931 547 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 750 547 m 795 627 l 886 627 l 931 547 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 810 597 M <1D1E1B>[20 20  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0 0 0 SC
+NP 892 475 m 892 530 l 891 532 l 889 530 l 889 475 l 891 473 l 892 475 l CP 
+901 527 m 891 547 l 881 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 842 475 m 842 530 l 840 532 l 839 530 l 839 475 l 840 473 l 842 475 l CP 
+850 527 m 840 547 l 830 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 792 475 m 792 530 l 790 532 l 789 530 l 789 475 l 790 473 l 792 475 l CP 
+800 527 m 790 547 l 780 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 892 475 m 892 530 l 891 532 l 889 530 l 889 475 l 891 473 l 892 475 l CP 
+901 527 m 891 547 l 881 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 842 475 m 842 530 l 840 532 l 839 530 l 839 475 l 840 473 l 842 475 l CP 
+850 527 m 840 547 l 830 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 792 475 m 792 530 l 790 532 l 789 530 l 789 475 l 790 473 l 792 475 l CP 
+800 527 m 790 547 l 780 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 872 627 m 872 682 l 871 684 l 869 682 l 869 627 l 871 625 l 872 627 l CP 
+881 679 m 871 699 l 861 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 842 627 m 842 682 l 840 684 l 839 682 l 839 627 l 840 625 l 842 627 l CP 
+850 679 m 840 699 l 830 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 812 627 m 812 682 l 810 684 l 809 682 l 809 627 l 810 625 l 812 627 l CP 
+820 679 m 810 699 l 800 679 l CP 
+fill
+GSE
+GpPBeg1
+0.8000 1 0.6000 SC
+NP 1151 627 m 1129 627 1111 645 1111 667 c 1111 827 l 1111 849 1129 867 1151 867 c 1412 867 l 1434 867 1452 849 1452 827 c 1452 667 l 1452 645 1434 627 1412 627 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1151 627 m 1129 627 1111 645 1111 667 c 1111 827 l 1111 849 1129 867 1151 867 c 1412 867 l 1434 867 1452 849 1452 827 c 1452 667 l 1452 645 1434 627 1412 627 c CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1177 698 m 1387 698 l 1387 827 l 1177 827 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1177 698 m 1177 827 l 1387 827 l 1387 698 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1195 715 m 1231 715 l 1327 811 l 1369 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1195 715 m 1231 715 l 1327 811 l 1369 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1369 715 m 1333 715 l 1237 811 l 1195 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1369 715 m 1333 715 l 1237 811 l 1195 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1177 698 m 1387 698 l 1387 827 l 1177 827 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1177 698 m 1177 827 l 1387 827 l 1387 698 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1195 715 m 1231 715 l 1327 811 l 1369 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1195 715 m 1231 715 l 1327 811 l 1369 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1369 715 m 1333 715 l 1237 811 l 1195 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1369 715 m 1333 715 l 1237 811 l 1195 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1195 715 m 1231 715 l 1327 811 l 1369 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1195 715 m 1231 715 l 1327 811 l 1369 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1369 715 m 1333 715 l 1237 811 l 1195 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1369 715 m 1333 715 l 1237 811 l 1195 811 l stroke
+GSE
+GpPBeg1
+0 0 0 SC
+NP 945 759 m 1177 759 l 1177 767 l 945 767 l CP 
+945 771 m 938 763 l 945 755 l 953 763 l CP 
+1177 755 m 1185 763 l 1177 771 l 1170 763 l CP 
+fill
+GSE
+GpPBeg1
+0.8000 1 0.6000 SC
+NP 1609 286 m 1577 286 1552 312 1552 343 c 1552 810 l 1552 842 1577 867 1609 867 c 1836 867 l 1868 867 1893 842 1893 810 c 1893 343 l 1893 312 1868 286 1836 286 c CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1609 286 m 1577 286 1552 312 1552 343 c 1552 810 l 1552 842 1577 867 1609 867 c 1836 867 l 1868 867 1893 842 1893 810 c 1893 343 l 1893 312 1868 286 1836 286 c CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1618 698 m 1828 698 l 1828 827 l 1618 827 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1618 698 m 1618 827 l 1828 827 l 1828 698 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1636 715 m 1672 715 l 1768 811 l 1810 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1636 715 m 1672 715 l 1768 811 l 1810 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1810 715 m 1774 715 l 1678 811 l 1636 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1810 715 m 1774 715 l 1678 811 l 1636 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1618 698 m 1828 698 l 1828 827 l 1618 827 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1618 698 m 1618 827 l 1828 827 l 1828 698 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1636 715 m 1672 715 l 1768 811 l 1810 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1636 715 m 1672 715 l 1768 811 l 1810 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1810 715 m 1774 715 l 1678 811 l 1636 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1810 715 m 1774 715 l 1678 811 l 1636 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1636 715 m 1672 715 l 1768 811 l 1810 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1636 715 m 1672 715 l 1768 811 l 1810 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1810 715 m 1774 715 l 1678 811 l 1636 811 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1810 715 m 1774 715 l 1678 811 l 1636 811 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1618 346 m 1828 346 l 1828 475 l 1618 475 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1618 346 m 1618 475 l 1828 475 l 1828 346 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1636 363 m 1672 363 l 1768 459 l 1810 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1636 363 m 1672 363 l 1768 459 l 1810 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1810 363 m 1774 363 l 1678 459 l 1636 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1810 363 m 1774 363 l 1678 459 l 1636 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1618 346 m 1828 346 l 1828 475 l 1618 475 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+0 setlinejoin
+8 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1618 346 m 1618 475 l 1828 475 l 1828 346 l CP 
+stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1636 363 m 1672 363 l 1768 459 l 1810 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1636 363 m 1672 363 l 1768 459 l 1810 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1810 363 m 1774 363 l 1678 459 l 1636 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1810 363 m 1774 363 l 1678 459 l 1636 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1636 363 m 1672 363 l 1768 459 l 1810 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1636 363 m 1672 363 l 1768 459 l 1810 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1810 363 m 1774 363 l 1678 459 l 1636 460 l eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1810 363 m 1774 363 l 1678 459 l 1636 460 l stroke
+GSE
+GpPBeg1
+1 1 1 SC
+NP 1633 547 m 1678 627 l 1768 627 l 1813 547 l CP 
+eofill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[] 0 setdash
+0 0 0 SC
+NP 1633 547 m 1678 627 l 1768 627 l 1813 547 l CP 
+stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1693 597 M <1D1E1B>[20 20  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0 0 0 SC
+NP 1775 475 m 1775 530 l 1773 532 l 1771 530 l 1771 475 l 1773 473 l 1775 475 l CP 
+1783 527 m 1773 547 l 1763 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1725 475 m 1725 530 l 1723 532 l 1721 530 l 1721 475 l 1723 473 l 1725 475 l CP 
+1733 527 m 1723 547 l 1713 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1675 475 m 1675 530 l 1673 532 l 1671 530 l 1671 475 l 1673 473 l 1675 475 l CP 
+1683 527 m 1673 547 l 1663 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1775 475 m 1775 530 l 1773 532 l 1771 530 l 1771 475 l 1773 473 l 1775 475 l CP 
+1783 527 m 1773 547 l 1763 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1725 475 m 1725 530 l 1723 532 l 1721 530 l 1721 475 l 1723 473 l 1725 475 l CP 
+1733 527 m 1723 547 l 1713 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1675 475 m 1675 530 l 1673 532 l 1671 530 l 1671 475 l 1673 473 l 1675 475 l CP 
+1683 527 m 1673 547 l 1663 527 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1755 627 m 1755 682 l 1753 684 l 1751 682 l 1751 627 l 1753 625 l 1755 627 l CP 
+1763 679 m 1753 699 l 1743 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1725 627 m 1725 682 l 1723 684 l 1721 682 l 1721 627 l 1723 625 l 1725 627 l CP 
+1733 679 m 1723 699 l 1713 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1695 627 m 1695 682 l 1693 684 l 1691 682 l 1691 627 l 1693 625 l 1695 627 l CP 
+1703 679 m 1693 699 l 1683 679 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1387 759 m 1618 759 l 1618 767 l 1387 767 l CP 
+1387 771 m 1379 763 l 1387 755 l 1394 763 l CP 
+1618 755 m 1626 763 l 1618 771 l 1611 763 l CP 
+fill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286 0.0025 10.0286] 0 setdash
+0 0 0 SC
+NP 550 587 m 770 587 l stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 911 587 m 1653 587 l stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 1793 587 m 2014 587 l stroke
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1135 668 M <1F04191820050D06210A0422040C19>[20 20 20 20 20 20 20 21 20 20 20 20 20 20  0]xS 
+694 335 M <1F04191820050D06210A0422040C19>[20 20 20 20 20 20 20 20 20 20 20 21 20 20  0]xS 
+1576 335 M <1F04191820050D06210A0422040C19>[20 21 20 20 20 20 20 20 20 20 20 20 20 20  0]xS 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+0 0 0 SC
+NP 1063 779 m 1193 946 l 1192 949 l 1190 949 l 1060 781 l 1060 779 l 1063 779 l CP 
+1055 789 m 1051 767 l 1071 777 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1411 947 m 1503 781 l 1505 780 l 1506 783 l 1414 948 l 1411 949 l 1411 947 l CP 
+1494 780 m 1512 767 l 1511 790 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 843 838 m 972 966 l 972 969 l 970 969 l 841 840 l 841 838 l 843 838 l CP 
+838 849 m 830 827 l 852 834 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1030 966 m 1158 838 l 1161 838 l 1161 840 l 1032 969 l 1030 969 l 1030 966 l CP 
+1150 834 m 1171 827 l 1164 849 l CP 
+fill
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 947 427 m 1620 427 l stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 947 407 m 1620 407 l stroke
+GSE
+GpPBeg1
+1 setlinecap
+1 setlinejoin
+10 setmiterlimit
+2.5071 setlinewidth
+[7.5214 10.0286] 0 setdash
+0 0 0 SC
+NP 947 387 m 1620 387 l stroke
+GSE
+GpPBeg1
+NP 449 267 m 2019 267 l 2019 1116 l 449 1116 l CP 
+eoclip
+0 0 0 SC
+NP 966 359 m 1111 305 l 1113 306 l 1112 308 l 967 362 l 965 361 l 966 359 l CP 
+973 369 m 951 367 l 966 350 l CP 
+fill
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 1135 308 M <01020304050607060E180B19141306>[20 20 20 20 20 20 20 21 20 20 20 20 20 20  0]xS 
+1135 348 M <150216050B14>[20 20 20 20 20  0]xS 
+1135 476 M <01020304050607060A20110B14020A06>[20 20 20 20 20 20 20 21 20 20 20 20 20 20 20  0]xS 
+1135 516 M <0A0B0C0D0E060F04101110061D23012406>[20 20 20 20 20 20 20 21 20 20 20 20 20 20 20 20  0]xS 
+1135 557 M <0124230E>[20 20 20  0]xS 
+1215 557 M <17>S 
+Pscript_WinNT_Compat begin /$x mysetup def end
+Pscript_WinNT_Incr dup /suspend get exec
+Pscript_WinNT_Compat dup /initialize get exec
+%%BeginDocument: Pscript_Win_PassThrough
+GpPBeg1
+NP 449 267 m 2019 267 l 2019 1116 l 449 1116 l CP 
+eoclip
+0 0 0 SC
+NP 1413 305 m 1597 360 l 1598 362 l 1596 363 l 1412 308 l 1410 306 l 1413 305 l CP 
+1596 351 m 1613 367 l 1591 370 l CP 
+fill
+GSE
+GpPBeg1
+0 0 0 SC
+NP 1130 488 m 1082 440 l 1082 437 l 1084 437 l 1132 486 l 1132 488 l 1130 488 l CP 
+1078 448 m 1071 427 l 1092 434 l CP 
+fill
+GSE
+
+%%EndDocument
+
+Pscript_WinNT_Compat dup /suspend get exec
+Pscript_WinNT_Incr dup /resume get exec
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 0 1 scol 473 488 M <0102030405060706>[20 20 20 20 21 20 20  0]xS 
+473 528 M <140A0B040C1906>[20 20 20 20 21 20  0]xS 
+473 568 M <0A02030405>[20 20 20 20  0]xS 
+473 637 M <01020304050607>[20 20 20 20 21 20  0]xS 
+614 637 M <08>S 
+634 637 M <0906>[20  0]xS 
+473 677 M <0E040525040506>[20 20 20 20 21 20  0]xS 
+473 717 M <0A02030405>[20 20 20 20  0]xS 
+/TT987b00
+[50 0 0 0 0 0 ] 
+ 256 array 0 1 255 {1 index exch /.notdef put} for 
+[0 0 0 0 ] 
+[1 50 div 0 0 -1 50 div 0 0 ]
+/__TT987b00
+GreNewFont
+T32RsrcBegin
+
+1
+/space [13 0 0 0 1 1 ] 
+/space [1 1 true [1 0 0 1 0 0 ]  0 0]
+[<~!!~>
+ ]
+/TT987b00 AddT3T32Char
+T32RsrcEnd
+F /F1 0 /0 F /TT987b00 mF 
+/F1S32 F1 [50 0 0 -50 0 0 ] mFS
+F1S32 Ji 
+2019 1116 M <01>S 
+LH
+%%PageTrailer
+
+%%Trailer
+%%DocumentNeededResources: 
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_ErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_T3Hdr 5.0 0
+%%+ procset Pscript_Text 5.0 0
+%%+ procset Pscript_WinNT_Compat 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+%%EOF

@@ -1,0 +1,133 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {1.1}Background}{2}
+\contentsline {section}{\numberline {1.2}Motivation}{4}
+\contentsline {section}{\numberline {1.3}Objectives}{6}
+\contentsline {section}{\numberline {1.4}Thesis Outline}{8}
+\contentsline {chapter}{\numberline {2}Survey on Existing Techniques}{9}
+\contentsline {section}{\numberline {2.1}Introduction}{9}
+\contentsline {section}{\numberline {2.2}Review of Path Computation Techniques for Interdomain LSPs}{9}
+\contentsline {section}{\numberline {2.3}Review of Protection and Restoration Techniques}{10}
+\contentsline {subsection}{\numberline {2.3.1}Multi-layer Survivability}{10}
+\contentsline {subsection}{\numberline {2.3.2}Multi-Domain Survivability}{10}
+\contentsline {section}{\numberline {2.4}Review of PCE Selection Techniques}{10}
+\contentsline {section}{\numberline {2.5}Conclusions}{11}
+\contentsline {chapter}{\numberline {3}Hierarchy of Networks}{12}
+\contentsline {section}{\numberline {3.1}Introduction to Network Hierarchy}{12}
+\contentsline {subsection}{\numberline {3.1.1}Multilayer Horizontal Network Hierarchy}{12}
+\contentsline {subsection}{\numberline {3.1.2}Multilayer Vertical Network Hierarchy}{13}
+\contentsline {section}{\numberline {3.2}GMPLS and Hierarchical Networks}{14}
+\contentsline {subsection}{\numberline {3.2.1}Overlay Model}{14}
+\contentsline {subsection}{\numberline {3.2.2}Peer Model}{15}
+\contentsline {subsection}{\numberline {3.2.3}Border Model}{16}
+\contentsline {section}{\numberline {3.3}Quality of Service}{16}
+\contentsline {subsection}{\numberline {3.3.1}QoS in Multilayered Networks}{17}
+\contentsline {subsection}{\numberline {3.3.2}QoS and Traffic Engineering in Multilayered Networks}{17}
+\contentsline {section}{\numberline {3.4}VPNs in Multilayered Networks}{20}
+\contentsline {subsection}{\numberline {3.4.1}VPN Security}{20}
+\contentsline {subsection}{\numberline {3.4.2}VPN Reliability}{22}
+\contentsline {subsection}{\numberline {3.4.3}Classification of VPNs}{22}
+\contentsline {subsubsection}{\numberline {3.4.3.1}CE-based VPNs}{22}
+\contentsline {subsubsection}{\numberline {3.4.3.2}PE-based VPNs}{23}
+\contentsline {subsubsection}{\numberline {3.4.3.3}Tunnel-based IP VPNs}{24}
+\contentsline {subsection}{\numberline {3.4.4}MPLS-based VPNs}{25}
+\contentsline {subsubsection}{\numberline {3.4.4.1}Layer-3 MPLS-based VPNs}{25}
+\contentsline {subsubsection}{\numberline {3.4.4.2}Layer-2 MPLS-based VPNs}{26}
+\contentsline {subsubsection}{\numberline {3.4.4.3}Layer-2 VLAN-based VPNs}{27}
+\contentsline {subsubsection}{\numberline {3.4.4.4}Layer-1 GMPLS VPNs}{27}
+\contentsline {section}{\numberline {3.5}Experimental Implementation of Multi-layered VPNs}{29}
+\contentsline {subsection}{\numberline {3.5.1}Description of Testbed Hardware}{30}
+\contentsline {subsection}{\numberline {3.5.2}Experiments Setup}{31}
+\contentsline {subsection}{\numberline {3.5.3}Numerical Results}{31}
+\contentsline {section}{\numberline {3.6}Evaluation of Protocol Overhead for Tunnel Techniques}{32}
+\contentsline {subsection}{\numberline {3.6.1}Description of Testbed Hardware}{32}
+\contentsline {subsection}{\numberline {3.6.2}Experiments Setup}{33}
+\contentsline {subsection}{\numberline {3.6.3}Numerical Results}{35}
+\contentsline {section}{\numberline {3.7}Conculsions}{35}
+\contentsline {chapter}{\numberline {4}Survivability of Hierarchical Networks}{37}
+\contentsline {section}{\numberline {4.1}Background}{37}
+\contentsline {section}{\numberline {4.2}Protection and Restoration Schemes}{38}
+\contentsline {subsection}{\numberline {4.2.1}Local versus End-to-End Recovery}{39}
+\contentsline {subsection}{\numberline {4.2.2}1+1 Protection}{40}
+\contentsline {subsection}{\numberline {4.2.3}1:1 and 1:N Protection}{40}
+\contentsline {subsection}{\numberline {4.2.4}Shared Mesh Restoration and N:M Path Protection}{41}
+\contentsline {section}{\numberline {4.3}Survivability in Hierarchical Networks}{42}
+\contentsline {subsection}{\numberline {4.3.1}Survivability across Vertical Layers}{43}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Recovery at highest layer}{43}
+\contentsline {subsubsection}{\numberline {4.3.1.2}Recovery at lowest layer}{43}
+\contentsline {paragraph}{Uncoordinated Recovery.}{44}
+\contentsline {paragraph}{Hold-off Time.}{44}
+\contentsline {paragraph}{Recovery Token.}{44}
+\contentsline {subsection}{\numberline {4.3.2}Survivability across horizontal layers}{44}
+\contentsline {section}{\numberline {4.4}Survivability of QoS-sensitive Traffic}{45}
+\contentsline {section}{\numberline {4.5}Path Diversity and SRLGs}{46}
+\contentsline {section}{\numberline {4.6}Service Availability}{46}
+\contentsline {subsection}{\numberline {4.6.1}Hierachical Link Availability}{48}
+\contentsline {subsection}{\numberline {4.6.2}Hierarchical LSP Availability}{48}
+\contentsline {section}{\numberline {4.7}Analysis of LSP Blocking Probability}{49}
+\contentsline {subsection}{\numberline {4.7.1}Unprotected LSP Blocking}{50}
+\contentsline {subsection}{\numberline {4.7.2}Path-protected LSP Blocking}{51}
+\contentsline {subsection}{\numberline {4.7.3}Inter-domain LSP Blocking}{51}
+\contentsline {section}{\numberline {4.8}Numerical Results and Analysis}{51}
+\contentsline {section}{\numberline {4.9}Conclusions}{52}
+\contentsline {chapter}{\numberline {5}Path Computation Techniques for Inter-domain LSPs}{53}
+\contentsline {section}{\numberline {5.1}Introduction}{53}
+\contentsline {section}{\numberline {5.2}Overview of TE LSP Spans}{54}
+\contentsline {subsection}{\numberline {5.2.1}Intra-area TE LSPs}{54}
+\contentsline {subsection}{\numberline {5.2.2}Inter-area TE LSPs}{56}
+\contentsline {subparagraph}{Push mechanisms}{56}
+\contentsline {subparagraph}{Pull mechanisms}{56}
+\contentsline {subsection}{\numberline {5.2.3}Inter-carrier(AS) TE LSPs}{57}
+\contentsline {subparagraph}{Issues of Trust}{57}
+\contentsline {subparagraph}{Protection issues, standardization and SRLGs}{57}
+\contentsline {section}{\numberline {5.3}Inter-domain Path Computation Schemes}{58}
+\contentsline {subsection}{\numberline {5.3.1}Inter-domain IP Shortest Paths}{58}
+\contentsline {subsection}{\numberline {5.3.2}Per-domain ERO expansion}{59}
+\contentsline {subsection}{\numberline {5.3.3}The Path Computation Element}{61}
+\contentsline {subsubsection}{\numberline {5.3.3.1}Centralized PCE Path Computation}{63}
+\contentsline {subsubsection}{\numberline {5.3.3.2}Cooperative PCE Path Computation}{63}
+\contentsline {section}{\numberline {5.4}Problem Definition and Formulation}{67}
+\contentsline {subsection}{\numberline {5.4.1}TE Problem Definition}{67}
+\contentsline {subsection}{\numberline {5.4.2}Intra-domain TE Problem Formulation}{68}
+\contentsline {subsection}{\numberline {5.4.3}Inter-domain TE Problem Formulation}{71}
+\contentsline {section}{\numberline {5.5}Conclusions}{71}
+\contentsline {chapter}{\numberline {6}Link Resource Tree Aggregation for Hierarchical Networks}{73}
+\contentsline {section}{\numberline {6.1}Introduction}{73}
+\contentsline {section}{\numberline {6.2}Hierarchical Path Computation}{74}
+\contentsline {subsection}{\numberline {6.2.1}Topology and Link State Aggregation Procedure}{75}
+\contentsline {subsection}{\numberline {6.2.2}Simple and Complex Node Domain Abstraction}{78}
+\contentsline {subsection}{\numberline {6.2.3}Limitations of Hierarchical Schemes}{79}
+\contentsline {section}{\numberline {6.3}Proposed Link Resource Tree Aggregation}{80}
+\contentsline {subsection}{\numberline {6.3.1}Inherent Properties of Link Resource Trees}{80}
+\contentsline {subsection}{\numberline {6.3.2}ALRT for Horizontal Partitions}{82}
+\contentsline {section}{\numberline {6.4}Application to Multi-domain WDM Networks}{83}
+\contentsline {subsection}{\numberline {6.4.1}Network Model}{85}
+\contentsline {subsection}{\numberline {6.4.2}Experimental Results}{87}
+\contentsline {section}{\numberline {6.5}Conclusions}{89}
+\contentsline {chapter}{\numberline {7}Service Guaranteed Inter-AS Traffic Engineering}{90}
+\contentsline {section}{\numberline {7.1}Background}{90}
+\contentsline {section}{\numberline {7.2}Problem definition}{91}
+\contentsline {section}{\numberline {7.3}Service Level Agreements}{93}
+\contentsline {section}{\numberline {7.4}Service Availability as a Path Constraint}{93}
+\contentsline {chapter}{\numberline {8}Evaluation of PCE Selection Schemes}{95}
+\contentsline {section}{\numberline {8.1}Background}{95}
+\contentsline {section}{\numberline {8.2}PCE Architecture}{95}
+\contentsline {subsection}{\numberline {8.2.1}PCE Path Computation Procedure}{97}
+\contentsline {subsection}{\numberline {8.2.2}PCE Selection for Path Computation}{97}
+\contentsline {section}{\numberline {8.3}Proposed PCE selection schemes}{98}
+\contentsline {subsection}{\numberline {8.3.1}Analysis and Mathmatical Model}{99}
+\contentsline {subsubsection}{\numberline {8.3.1.1}Source Specified PCE Selection}{100}
+\contentsline {section}{\numberline {8.4}Per-hop PCE Selection}{101}
+\contentsline {subsection}{\numberline {8.4.1}Round-robin PCE selection}{101}
+\contentsline {subsection}{\numberline {8.4.2}Least response PCE selection}{102}
+\contentsline {subsection}{\numberline {8.4.3}Token-based PCE selection}{102}
+\contentsline {chapter}{\numberline {9}Multi-layer Simulator}{104}
+\contentsline {section}{\numberline {9.1}Introduction}{104}
+\contentsline {section}{\numberline {9.2}The Model}{104}
+\contentsline {section}{\numberline {9.3}Link attributes}{104}
+\contentsline {section}{\numberline {9.4}Horizontal Inter-domain Simulation}{105}
+\contentsline {section}{\numberline {9.5}Vertical Inter-layer Simulation}{105}
+\contentsline {section}{\numberline {9.6}Conclusions}{105}
+\contentsline {chapter}{\numberline {10}Conclusions and Future Research}{106}
+\contentsline {section}{\numberline {10.1}Concluding Remarks}{106}
+\contentsline {section}{\numberline {10.2}Future Research}{107}
+\contentsline {chapter}{\numberline {A}Sources of Information and Help}{108}

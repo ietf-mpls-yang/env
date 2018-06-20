@@ -1,0 +1,120 @@
+%\documentclass[12pt, oneside]{report}
+\documentclass[12pt,english]{report}
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+\usepackage{epstopdf}
+% \usepackage[latin9]{inputenc}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\newcommand{\thesisauthor}{Tarek W. Saad}
+\newcommand{\thesistitlecoverpage}{
+  A Framework for Provisioning Services in Multi-Domain Networks
+}
+
+\newcommand{\thesistitleheadings}{
+  A Framework for Provisioning Services in Multi-Domain Networks
+}
+
+\newcommand{\degree}{Ph.D.} % possible values are: % M.A. / M.A.Sc. / M.Sc. / MCS / Ph.D.
+\newcommand{\nameofprogram}{Electrical and Computer Engineering}
+\newcommand{\academicunit}{School of Information Technology and Engineering}
+\newcommand{\faculty}{Faculty of Engineering}
+\newcommand{\graduationyear}{2008}
+
+\newcommand{\abstractfile}{abstract.tex}
+\newcommand{\acknowledgementfile}{acknowledgement.tex}
+%----------------------------------------------------------------------
+% Reprocess only those files which have changed recently:
+% \includeonly{intro,creating,commands} 
+%----------------------------------------------------------------------
+% Create a listing in the log of all files needed to process this document
+\listfiles
+%----------------------------------------------------------------------
+\makeindex % activate index-making
+%----------------------------------------------------------------------
+\input{private/thesis-preamble} % thesis-specific settings
+%----------------------------------------------------------------------
+% My own command and environment definitions:
+\newcommand{\program}[1]{\textbf{#1}} % program names in bold text
+\newcommand{\exten}[1]{\texttt{#1}} % file extensions in bold text (use caps)
+\newcommand{\cmmd}[1]{\textbackslash\texttt{#1}} % command name in tt font 
+\newcommand{\enviro}[1]{\texttt{#1}} % environment name in tt font
+
+\newcommand{\eg}{\textit{e.g.},~} % some Latin abreviations in italic
+\newcommand{\ie}{\textit{i.e.},~}
+\newcommand{\etc}{\textit{etc}.\@}
+
+\newcommand{\mat}[1]{\ensuremath{\mathcal{#1}}} 
+	% matrix names in uppercase caligraphic
+\newcommand{\vect}[1]{\ensuremath{\mathit{#1}}} 
+% vector names in math italic
+\newcommand{\rv}[1]{\ensuremath{\mathbf{#1}}} 
+% math bold for random variables
+\newcommand{\degg}[1]{\mbox{\raisebox{3pt}{$\circ$}\hspace{-.5pt}#1}}
+% command to produce a degree sign. Example: \degg[C] gives degrees Celcius
+
+\newenvironment{definition}[1]{\begin{quote}\textbf{\emph{#1}}:}{\end{quote}}
+  % Provides indented formal definition and emphasizes the word.
+  % e.g. \begin{definition}{Reliability} ... \end{definition}
+
+\newenvironment{where}[1]% Equation symbol lists
+ {\begin{list}{}%
+  {\renewcommand{\makelabel}[1]{\hfill\textnormal{##1 =}}%
+   \settowidth{\labelwidth}{\textnormal{#1 =}}%
+   \setlength{\leftmargin}{\labelwidth}%
+   \addtolength{\leftmargin}{\labelsep}%
+   \setlength{\itemsep}{-\parsep}}}%
+ {\end{list}}
+
+\usepackage{psfrag}  
+\usepackage[dvips]{graphicx}
+
+%% \usepackage{algorithm2e}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+% \numberwithin{algorithm}{chapter}  % <--- chapter, section etc. depending on what is required
+
+\usepackage{makeidx} % ... if you want an index
+\usepackage{amsmath} % ... if you need lots of math symbols
+% \usepackage[dvips=true,bookmarks=true]{hyperref} 
+\usepackage[acronym]{glossaries}
+\makeglossaries
+\usepackage{subfig}
+
+% ... only needed for PDF generation
+\begin{document}
+\include{private/thesis-frontpages} 
+\input{private/thesis-headings}
+% Chapters
+\include{glossary}
+\include{chapter1-intro}
+\include{chapter-literature_review}
+\include{chapter-hierarchy}
+\include{chapter-survivability_of_hier_nets}
+\include{chapter-path_comp_tech}
+\include{chapter-hierarchical_link_state}
+\include{chapter-sevice_guar_inter_domain}
+\include{chapter-pce_selection}
+\include{chapter-simulator}
+\include{chapter-conclusion}
+
+% Appendices
+\appendix
+% Designate with \appendix declaration which just changes numbering style 
+% from here on
+% \include{useful_pkgs} %"Some Useful \LaTeX2e Packages"
+\include{appendix1-help} %"Sources of Information and Help"
+
+% Bibliography 
+% If done using the BibTeX program, use
+% \bibliographystyle{plain} % sorted alphabetically, labeled with numbers
+
+\bibliographystyle{alpha}  % sorted alphabetically, labeled with NAME(YEAR)% 
+%%% \bibliographystyle{wmaainf}
+\bibliography{bibliography/keylatex} % names file keylatex.bib as my bibliography file
+\printindex
+
+%----------------------------------------------------------------------
+\end{document}
+%======================================================================

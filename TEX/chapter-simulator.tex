@@ -1,0 +1,21 @@
+\chapter{Multi-layer Simulator}
+\label{cha:Simulator}
+\markright{Multi-layer Simulator}
+
+\section{Introduction}
+We designed and implemented a simulation toolkit to investigate path computation and performance issues in hierarchical networks. The simulator is a high level implementation of the RSVP-TE signalling protocol for GMPLS-TE networks, The C++ software has a modular architecture, allowing users to readily ``plug-in'' new code and quantitatively assess the impact of different proposed strategies on network performance. 
+
+\section{The Model}
+Connection requests are modeled by a Poission process, and connection holding time is exponentially distributed. The inter-arrival time for connection requests are exponentially distributed with a mean $\lambda$.
+In order to be able to use crankback frequency as a measure of network performance, we assume that connection requests are not persistent. In other words, if a connection fails to reach its destination in-spite of all crankbacks, it does not re-initiate another attempt. 
+
+\section {Link attributes}
+
+To this end, we define the load being placed on the network as the product of the average request rate and average connection holding time, 
+\section{Horizontal Inter-domain Simulation}
+Each domain has nodes/links.
+
+\section{Vertical Inter-layer Simulation}
+Each upper layer node layer is modelled by a single domain ABR node which is connected to an ABR node at the lower-layer. It is also possible for an other non-ABR nodes to exist at a certain layer (example of those nodes are those that are directly connecting by point-to-point fibers that do not use the virtual lower layer meshed network). In lower layer, nodes (e.g. connected by fibers) can exist.
+ 
+\section{Conclusions}

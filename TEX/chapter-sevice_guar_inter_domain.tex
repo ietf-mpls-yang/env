@@ -1,0 +1,55 @@
+\chapter{Service Guaranteed Inter-AS Traffic Engineering}
+\label{chap:ServiceGuarTE}
+\markright{Service Guaranteed Inter-AS Traffic Engineering}
+
+\section{Background}
+Today's Internet is composed of approximately 20,000 competing autonomous systems (ASes) which have to cooperate with each other to provide the end-to-end services across them. Each AS is typically controlled by a different administrative entity, and therefore encodes various economic, business, and performance decisions in its routing and TE policies. Due to security concerns, when different carriers administer networks, they will not disclose any sensitive internal information about their network topology to neighboring carriers (who may be competitors). For example, carriers may be reluctant to disclose details of the bandwidth available within their network or whether their topology allows them to protect a particular LSP. This makes it much harder to design an efficient path computation algorithm that can calculate routes spanning multiple carriers.
+
+The advent of distributed control plane technologies such as MPLS and GMPLS has opened the door to an array of end-to-end QoS-based services that were previously hard to provide over the shared Internet. The global adoption of service delivery using these technologies assumes that users can be provided connections with well-defined attributes that will not change over the service delivery period with changes in network or user population. Fundamental to this assumption is the ability to dynamically compute routes through the network that satisfy certain connection attributes (\eg\ administrative or other types of constraints). In this context, constrained-based routing or path-computation is an essential functionality in MPLS, GMPLS, or any control plane architecture with end-to-end performance objective.
+
+In Chapter~\ref{cha:PathCompTechniques}, we presented a number of techniques for computing inter-domain paths. Among these, the PCE scheme is well suited for computing paths that span multiple ASes. However, this scheme assumes either a priori knowledge of the AS path the inter-AS LSP will take, or the dynamic selection of next-hop PCE (\eg based on preferred BGP next-hop). As a result, the existing proposals still fall short from finding an optimal inter-AS feasible constrained path. 
+
+In this Chapter, we present a novel PCE-based scheme that we propose as a solution for the inadequacies of existing mechanisms. We investigate the problem of handling end-to-end constraints across multiple service provider networks without requiring any internal network information which is usually the case in inter-carrier multi-domain connection setup scenarios. We assume the users specify, on a per-connection basis, absolute parameter bounds such as the maximum bandwidth, maximum delay, and minimum connection availability. Typically network providers offer a a variety of different services at different prices.
+
+\section{Problem definition}
+There are two requirements that carriers are continuously striving to find novel solutions for :
+\begin{itemize}
+\item \textbf{reliability}-- for example, in order to meet end-user requirements for service availability, traffic may need to be protected by a diverse backup connections
+\item \textbf{quality}-- in accordance with SLA that is contracted with  customers, and the type of data transported (for example, minimal and consistent delay for voice traffic).
+\end{itemize}
+
+Furthermore, carriers require that, wherever possible, data be transmitted following a path which minimizes the impact on the performance of the carrier's overall network. Today most carriers are deploying MPLS and GMPLS in their networks to ensure that the above requirements can be met. However, in order to set up TE LSPs that satisfy certain that meet these requirements in terms of quality and reliability, carriers must be able to compute and reserve resources over a suitable path (or sequence of sub-paths) across their network(s).
+
+For the intra-domain case, there are well understood methodologies for selecting such a TE path. In this case, the TE topology and related TE link attributes (\eg\ QoS, and/or resource availability) are flooded using extensions to existing routing IGP protocols such as OSPF and ISIS. Every LSR within an IGP domain or area has visibility over the full TE topology and is able to run a CSPF algorithm to compute an end-to-end constrained path for an LSP.
+However, extending this service across different areas or ASes becomes not trivial. In this case, the desire of SPs to hide their internal topology and the need to compute constrained LSP paths are not easily simultaneously satisfiable. In a hierarchical network, different routing protocols can be used at different levels of the network.
+
+The most prominent Internet inter-domain routing protocol today is the Border Gateway Protocol (BGP). BGP is a path vector based protocol, where a path refers to a sequence of intermediate domains between source and destination routers. BGP only provides reachability information for the destinations. More precisely, it only provides the addresses of Next Hops (NHs), the nodes at the border of the domain, that are able to forward the packets to a given destination. The QoS properties of the paths, such as the delay and bandwidth, behind these NHs are not provided. This results in several limitations for the computation and establishment of constrained interdomain LSPs.
+
+While the existing path computation techniques that we have mentioned in Chapter~\ref{cha:PathCompTechniques}  may be sufficient for some inter-provider deployment scenarios, it may be desirable to select among multiple available inter-domain paths based on the QoS and cost requirements for different classes of traffic. That is, there may be cases in which the current path selection capabilities of BGP, which yield only a single best path for a given prefix, may not yield a feasible path that satisfies the end-to-end service requirements for a connection.
+
+Also, since every domain is allowed to use its own policy to determine routes, the final outcome may be a path that is locally optimal at within some domains but globally sub-optimal due to the lack of a uniform policy or metric used to find an end-to-end route.
+
+\section{Service Level Agreements}
+A Service Level Agreement (SLA) is a contract in which a certain level of service is agreed between a service provider and a service consumer. It may specify the levels of availability, serviceability, performance and operation conditions.
+In a multi-domain environment where applications or users require resources from different service providers the issue of acquiring a specified level of QoS is of great importance.
+
+Different network providers offer a variety of differing services at different prices. A Service Level Agreement (SLA) between the Service Provider (SP) and its customer usually defines the level of the service that is agreed upon between them. It typically specifies levels of availability, serviceability, performance and operation conditions. SLAs are attractive to service providers since they permit differential treatment and provide incentives for users to choose the service that is most appropriate to their needs, thereby discouraging over-allocation of resources and maximizing statistical multiplexing capabilities. To customers, on the other hand, SLAs can play be decdefine measurable levels of the service performance they expect and pay for, and in turn, a way to demand for compensation for the lack thereof.
+
+Given the large number of inter-connected networks in the Internet, it is likely that a LSP connection originating in one SP will traverse multiple ISP networks before reaching its destination. Moreover, it is possible that multiple ISPs can collaborate to provide the requested end-to-end service. To guarantee certain QoS assurances to the end-to-end path, the complete path should be configured and reserved to offer the particular requested service and the global network setup should be compliant and aware of the service being offered. By offering end-to-end SLAs, ISPs could collectively profit from higher revenue traffic. At the same time, a customer whose sites belong to different ISP networks could benefit from the same kind of performance assurance a single-ISP customer receives.
+
+\section{Service Availability as a Path Constraint}
+Assuming that an inter-domain LSP path $p$ traverses domains $D_1, D_2, \ldots, D_n$. Then, path $p$ is a reliable path for connection $t$ only if it satisfies the inequality:
+
+\begin{equation}
+\label{eqn.availabilityProduct}
+ Ap = \prod_{i=0}^{n}\left({A_1\times A_2 \times \ldots \times A_n}\right) \geq A_t
+\end{equation}
+where Ai is the availability of the selected service j in domain i, and A't is availability requirement of connection t. Computing the logarithm and multiplying both sides by -1, while noting that service availabilities are between 0 and 1, we get:
+\begin{equation}
+-log(A_p) = -log(A_1) - log(A_2) - \ldots - log(A_n) \leq -logA_t
+\end{equation}
+
+Now, if the cost of link $L_i$ $(C_i)$ is defined as a function of its availability (i.e., $Ci = -log(A_i)$, the cost is additive and the path with minimum cost will be the path with maximum availability (such a path is called the most reliable path (MRP)). This Multiplication-to-Summation (MS) technique can be used to compute the MRP. If the availability of a MRP is lower than $A_t$, then the path is not reliable enough for connection $t$. Note, in this case the availability of a sub-path or link can be increased as mentioned in Chapter~\ref{eqn.availabilityProduct}. 
+
+Cooperative PCEs
+

@@ -1,0 +1,35 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Internet multi-layered traffic engineering model}}{4}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The Internet Architecture}}{11}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Horizontal hierarchy separation in transport networks}}{13}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Client-server relationship between vertical layers of network hierarchy.}}{14}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces LSP hierarchy in multilayered GMPLS networks}}{18}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces IP VPN protocol implementation schemes.}}{21}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Example of CE-based and PE-based VPNs.}}{23}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Layer-3 VPN testbed setup}}{28}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Layer-2 VPN Testbed setup}}{29}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Throughput of traffic for switched VPN service}}{31}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Experimental results}}{33}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Local versus end-to-end LSP protection}}{39}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Blocking probability for different path hops \emph {H}}}{42}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Intra-area, Inter-area and Inter-carrier paths}}{55}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Centralize computation with a global PCE}}{62}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Crankbacks with inter-domain signaling}}{74}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Path computation in two level hierarchy networks}}{76}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces TE path computation with abstract links}}{77}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Hierarchical link resource tree organization}}{79}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Example of a hierarchical ALRT organization}}{82}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces ALRT formation}}{82}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Hierarchical multi-domain network}}{85}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Multi-cost abstract link translation}}{86}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces LSP blocking probability}}{88}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

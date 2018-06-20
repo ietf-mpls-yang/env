@@ -1,0 +1,453 @@
+/auto/sw/packages/snmpr/15.1.0.3/solaris2bin/snmpwalk
+/pkg/bin/snmpwalk -c public -v 2c 10.10.10.2 .1.3.6.1.2.1.10.166.3.2.2.1.7
+snmp-server host 192.168.0.1 traps version 2c public udp-port 3006
+snmp-server community public RO
+snmp-server location rtrA
+/pkg/bin/snmpwalk -Of  -c public  -v2c 192.168.0.1 1.3.6.1.2.1.10.166.3.2.2.1.5
+/pkg/bin/snmpget -Of  -c public -v2c 192.168.0.1 .iso.org.dod.internet.mgmt.mib-2.transmission.166.3.2.9.1.1.10.0.3232235521.3232235525
+
+/auto/xrut/xrut-gold/sanity/smoke-test.py --log-dir=/workspace1/tsaad/temp/ -S /workspace1/tsaad/temp/ --workspace=iox-bld29:/scratch1/ahoang/MERGE-00000007090 --xrvr-image=chopps-sjc:/auto/iMerge/ACME/ios_ena/IMG/rebase.ci-520.to.ci-511.at.EFR-00000245542/xrvr-full-x.vm --max-run-time=5400
+
+/auto/iox/bin/xr_bld -plat asr9k-px
+/auto/xrut/xrut-gold/enxr-xrut-combo.py
+   225  9:25    /auto/mssbu-swtools/iox/bin/cp_img -des_dir $TFTPDIR/sanity-520 -panini
+
+
+server.0/0/CPU0/ $ mon gdb iedged
+RP/0/0/CPU0:ios#process restart iedged location 0/0/CPU0
+server.0/0/CPU0/ $ mon off iedged
+
+acme fix_copyright -comp mpls/te ip/rsvp ucp/olm igp/igpte-lib
+acme diff -comp infra/xtc -from_ver r63x.lu%PROD_BUILD_6_3_2_31I_SIT_IMAGE -to_ver r63x.lu%latest
+/auto/iox/bin/xr_merge_resolve -g filename
+llaunch -n -f ~/enxr2.pm -m
+curl -v -T transfer.log sftp://REMOTE_SERVER/~ --key ~/.ssh/id_rsa --pubkey ~/.ssh/id_rsa.pub 
+
+VIM
+set columns=80
+call clearmatches()
+
+####################################
+## Valgrind
+valgrind --leak-check=full --log-file=hai_test%p hasi_test 0
+ ~mmallin/bin/mon script
+with "--valgrind memcheck"
+
+
+####################################
+## DDTS
+ps -e ovsz=,rss=,args= | grep te_control
+~dficara/bin/get_ddts DDTS   
+~dficara/bin/file2ddts.py filename.c
+ RP/0/0/CPU0:gmpls1#
+ RP/0/0/CPU0:gmpls1#describe show mpls traffic-eng trace sig     
+ The command is defined in mpls_te.parser
+ 
+ mpls_te.parser
+ User needs ALL of the following taskids:
+ 
+ default
+ 
+ It will take the following actions:
+ Wed Sep 21 11:50:29.550 EDT
+   Spawn the process:
+         mpls_te_show_ltrace -T 0x2 
+ 
+ RP/0/0/CPU0:gmpls1#run which mpls_te_show_ltrace
+ Wed Sep 21 11:51:01.201 EDT
+ /pkg/bin/mpls_te_show_ltrace
+ 
+ RP/0/0/CPU0:gmpls1# ddd &
+ 
+ -- Go the file menu and "Open Program" then select "/pkg/bin/mpls_te_show_ltrace"
+ 
+ <GDB console> set args -T 0x2
+ <GDB console> b te_ltrace_decode
+ <GDB console> run
+
+
+/sw/packages/gdb/7.2-x86_64/bin/gdb-7.2-64 -se=/workspace1/tsaad/collapse_ws/tgt-linux/pkg/bin/isis -directory=/workspace1/tsaad/collapse_ws/tgt-linux/pkg/bin -cd=/workspace1/tsaad/collapse_ws/tgt-linux -core=/workspace1/tsaad/collapse_ws/tgt-linux/hosts/one/0_0_CPU0/tmp/isis-3738-1358383004.core
+
+
+####################################
+## tracebuffer
+    
+    33  1:59    mv /auto/tftpboot-ottawa/tsaad/dll_info .
+    34  1:59    mv /auto/tftpboot-ottawa/tsaad/tracebuffer.kev .
+    35  2:00    rm tracebuffer.txt tracebuffer.cpel tracebuffer.cpelstate tracebuffer.cpeldump tracebuffer_detail.out
+    36  2:00    cookkevs
+    37  2:00    setenv PATH /users/dbarach/bin.linux/:$PATH
+    38  2:00    cookkevs
+    39  2:02    ll -tr
+    40  2:02    vi tracebuffer.cpeldump
+    41  2:02    vi tracebuffer.txt
+    42  2:04    bp --input-file tracebuffer.cpel --wsroot /nobackup/tsaad/te-40/ -dll-info ./dll_info --output-file tracebuffer_detail.out
+    43  2:16    xbp --input-file tracebuffer.cpel --wsroot /nobackup/tsaad/te-40/ -dll-info ./dll_info --output-file tracebuffer_detail.out
+    44  2:16    xbp --input-file tracebuffer.cpel --wsroot /nobackup/tsaad/te-40/ -dll-info ./dll_info --output-file tracebuffer_detail.out
+    45  2:17    xbp --input-file tracebuffer.cpel --wsroot /nobackup/tsaad/te-40 -dll-info dll_info --output-file tracebuffer_detail.out
+    46  2:17    xbp --input-file tracebuffer.cpel --wsroot /nobackup/tsaad/te-40 -dll-info dll_info --output-file tracebuffer_detail.out
+    47  2:18    xbp --input-file tracebuffer.cpel --wsroot /nobackup/tsaad/te-40 --dll-info dll_info
+sort -n -t: -k4
+ jam -platform c12k -j10 -l c12k-mpls.pie && cp img-c12k/c12k-mpls.pie /auto/tftpboot-ottawa/tsaad/imgs/40
+ jam -platform crs -j8 -l comp-hfr-mini.vm && jam -platform crs -j8 -l hfr-mpls-p.pie
+tools/misc/endian_analyze.pl
+ psch | grep te_control
+  valgrind --tool=callgrind te_control
+/mounts/nobackup/tsaad/te-40.1/mpls/te/obj-x86/te_control
+
+
+####################################
+## Scale
+MAX_TUNS=10000
+TUN_PFX=1
+count=0
+while [[ $count -lt $MAX_TUNS ]];do
+print -n "interface tunnel-te$((count+$TUN_PFX))\n\
+ description tunnel p2mp2_p2mp3\n\
+ ipv4 unnumbered Loopback0\n\
+ logging events lsp-status reoptimize\n\
+ logging events lsp-status state\n\
+ logging events lsp-status reroute\n\
+ signalled-bandwidth 1\n\
+ destination 3.3.3.3 \n\
+ fast-reroute\n\
+ record-route\n\
+ path-option 1 dynamic\n\
+!\n\
+"
+(( count += 1 ))
+done >> tunnel_cfgs
+
+
+####################################
+##  5 days old remove
+find -mtime +5 | xargs rm
+
+find /nfs/scmena1/ios_ena/mpls/te -path "*/CommitPatches/2009*" | xargs grep "TE_ERO_MATCH_IGNORE"
+
+####################################
+## 
+~mbassin/bin/get_prev_smus.pl -r 3.8.4 -p hfr -comp mpls/te
+ acme pull -proj te-soft-preemption -sync_to ci-42-pb3.lu%EFR-00000151734
+
+rm intf_cfgs
+MAX=254
+count=1
+while [[ $count -lt $MAX ]];do
+echo -n "interface GigabitEthernet0/2/0/0.$((count))
+ ipv4 address 10.10.$((count)).1 255.255.255.0
+ encapsulation dot1q $((count))
+!
+router ospf 100 area 0 interface GigabitEthernet0/2/0/0.$((count))
+mpls traffic-eng interface GigabitEthernet0/2/0/0.$((count)) auto-tunnel backup
+rsvp interface GigabitEthernet0/2/0/0.$((count)) band
+!
+"
+(( count += 1 ))
+done >> intf_cfgs
+
+rm intf_cfgs
+MAX=254
+count=1
+while [[ $count -lt $MAX ]];do
+echo -n "interface GigabitEthernet0/2/0/0.$((count))
+ ipv4 address 10.10.$((count)).2 255.255.255.0
+ encapsulation dot1q $((count))
+!
+router ospf 100 area 0 interface GigabitEthernet0/2/0/0.$((count))
+mpls traffic-eng interface GigabitEthernet0/2/0/0.$((count)) auto-tunnel backup
+rsvp interface GigabitEthernet0/2/0/0.$((count)) band
+!
+"
+(( count += 1 ))
+done >> intf_cfgs
+
+######
+ssh -x -t -oStrictHostKeyChecking=no -oNoHostAuthenticationForLocalhost=yes -l root -p 10780 localhost
+
+####################################
+## 
+acme branch_sync -show_only -comp /nobackup/tsaad/syncws/.ACMEROOT/sync_comps.lu@/nobackup/tsaad/syncws/.ACMEROOT/merge_from.lu
+####################################
+## Disable checks
+setenv PIMS_DISABLE_CSTATIC_TRIG 1
+setenv PIMS_DISABLE_ENCL_TRIG 1
+setenv PIMS_DISABLE_PRRQ_TRIG 1
+setenv ENDIAN_ANALYSIS_DISABLE 1
+setenv ISSU_ANALYSIS_DISABLE 1
+setenv ADD_UT_ENCL_DISABLE 1
+
+
+filetype indent on
+
+set cinoptions=:0t0(0w1Ws
+
+hitting =} will with your cursor starting above int foo will do it
+
+CC tools:
+cc_rmview -vob /vob/ios -view <view_name>  -force
+cc_rmview -view tsaad-tsaad-mcp_dev-Jul16-16
+make -j20 dependancies ; make -j20 i86bi_linux-adventerprise-ms
+cd /vob/ios.comp/mpls
+cleartool setview tsaad-tsaad-mcp_dev-Jul16-16
+/vob/ios/sys/obj-i86bi-linux
+ /workspace1/tsaad/xrut/examples/topo-xr-iol2.py --iol-image=/workspace2/tsaad/520/i86bi_linux-adventerprise-ms -l
+
+Andre's hack
+/ws/apelleti-ott/diffs/enxr_ltrace_speedup.diff
+
+tsaad@sjc-ads-4450srcarchive12/production/5.2.2/all/workspace$ /auto/ensoft/bin/ca.py -w . -l /auto/eng_smu_archive1/5.2.2/asr9k/CSCur81533-150109183303/sym -c /auto/tftpboot-rtp/GoogleLSR/rsvp_1044.20150111-023238.node0_RP0_CPU0.x86.Z
+
+:syntax off
+
+
+
+xrut/jenkins/jenkins_main.py -d CSCus50191 --config xrut/mpls_te/jenkins/config.xml -b bnb-531-na1-pi -i /auto/tftpboot-ottawa/mbaglole/CSCus50191.diff
+../xrut/mpls_te/jenkins/precommit.py CSCus64739
+/auto/firex-ott/firex/precommit.py submit -d CSCvc02151 -k my_diffs.diff --branch="r6111" -z "latest" -m
+/auto/xrut/xrut-gold/enxr-xrut-combo.py
+
+./util/bin/sbt -p rsvp -f /auto/google-ats/derchu/rsvp_1044.20150129-174332.node0_RSP1_CPU0.x86.txt -R -z -A x86e
+xrut/jenkins/jenkins_main.py with the -i option
+../xrut/jenkins/jenkins_main.py -d CSCut70751 --config /workspace1/tsaad/xrut/mpls_te/jenkins/myconfig.xml -b te-sr-dev -i /ws/tsaad-ott/CSCut70751.diff
+../xrut/jenkins/jenkins_main.py -d CSCut10312 --config /nobackup/tsaad/xrut/mpls_te/jenkins/srte_config.xml -b te-sr-dev -i /ws/tsaad-ott/path_valid-09.diff
+vncserver -geometry 1652x900
+
+./../xrut_master/jenkins/ICE.py submit -t "mpls_te/xr/features/te/te_sr_basic.py,mpls_te/xr/featu res/te/te_sr_basic.py -o ospf,mpls_te/xr/features/te/te_sr_path_invalidation.py,mpls_te/xr/features/te/te_sr_p2p_auto_tunnel.py,mpls_te/xr/features/te/te_tier1.py,mpls_te/xr/f eatures/soft_preemption/soft_preemption_ut.py" -p "ncs6k" -s -i -x -d CSCuw02924
+
+NXOS:
+=====
+/auto/andatc/independent/shellrc-files/current/rc/.cshrc.build.ott
+
+ibuild -gmake_flags '-j 12' --fullimage titanium_d1_kickstart
+ibuild -gmake_flags '-j 12' --fullimage titanium_d1
+setenv NXOS_NO_SUEXEC "1"
+ibuild -gmake_flags '-j 12' --fullimage titanium_d1_dplug
+cd boot/titanium-iso
+ibuild -fullimage titanium_d1 -repackage
+
+build urib:
+ibuild -gmake_flags '-j 18' -module u6rib -filter titanium_d1 -repackage
+
+
+LBT:
+rm gdb-root/bootflash/titanium-d1-kickstart.6.2.5.2.gbin
+rm gdb-root/bootflash/titanium-d1.6.2.5.2.gbin
+rm gdb-root/bootflash/titanium-d1-dplug.6.2.5.2.gbin
+rm gdb-root/boot/grub/stage2_eltorito
+rm titanium-gdb.6.2.5.2.iso
+gmake titanium-gdb.iso
+
+Building the Titanium ISO
+From the workspace root:
+cd boot/titanium-iso
+rm -f gdb-root/bootflash/titanium-d1*.gbin
+rm -f gdb-root/boot/grub/stage2_eltorito
+rm -f titanium-gdb.*.iso
+rm -f nxosv-gdb.*.ova
+gmake clean
+gmake titanium-gdb.iso
+
+ibuild -gmake_flags '-j 18' -module librsw -imaging m9700_sf3ek9
+
+cat build/config.files/vbe.mk | grep VBE
+vbe 5.4.20
+chmod -R +w .ACMEROOT
+cplink -comp routing-sw/mpls/te ; cplink -comp routing-sw/mpls/te/nxos ; cplink -comp routing-sw/mpls/te/ios ; cplink -comp routing-sw/mpls/rsvp
+source mpls_te/shell_scripts/xrut_te_setup.tcsh
+/auto/xrut/bin/vxrlogin nxosC
+
+tsaad@ott-pir-cel5-01/workspace1/apelleti/sshfs_work_v3@z7_0/8$
+scp -r tsaad@ott-pir-cel5-01:/workspace1/apelleti/sshfs_work_v3/fuse .
+
+/auto/savbu-releng/devtools/ucd/ucd  -c /ws/kunapali-sjc/SystemSanity/CSCux12081/1447206492_0xa01_mrib_log.8933.tar.gz 
+
+/auto/dc3/routing/share/bin/tmake install
+/auto/dc3/routing/share/bin/smake install
+
+http://earms-app.cisco.com/earmsapi_help.txt
+/users/mll/bin/submitribsanity
+
+/auto/xrut/bin/vxrlogin nxosC
+/auto/dc3/routing/share/bin/tmake
+
+
+cd build && ibuild -module urib -filter titanium_d1 -repackage && cd ../boot/titanium-iso && rm -f gdb-root/bootflash/titanium-d1*.gbin &&  rm -f gdb-root/boot/grub/stage2_eltorito &&  rm -f titanium-gdb.*.iso &&  rm -f nxosv-gdb.*.ova && gmake clean && gmake titanium-gdb.iso
+
+avoid system reload after one process crash:
+switch(config)$system no heartbeat
+switch(config)$system no hap-reset
+
+cp build/images/gdb/titanium-d1*gbin /auto/tftpboot-ottawa/tsaad
+copy scp://tsaad@161.44.211.153/nobackup/tsaad/hsk/build/images/gdb/titanium-d1.7.3.0.RTG.0.114.gbin bootflash:new-image.gbin vrf management
+
+nxosA# show cores
+VDC  Module  Instance  Process-name     PID       Date(Year-Month-Day Time)
+---  ------  --------  ---------------  --------  -------------------------
+1    1       1         otm              3956      2015-12-03 18:53:18
+1    1       1         otm              8037      2015-12-03 18:53:18
+nxosA# copy core://1/3956/1 scp://tsaad@10.0.2.2/nobackup/tsaad/sysmgrLcore_0x101_otm_log.3956.tar.gz vrf management
+source mpls_te/shell_scripts/xrut_te_setup.tcsh
+examples/topo-nxos-only.py --vmcloud-server=laas-tsaad --nxos-image=/nobackup/tsaad/hsk1/boot/titanium-iso/nxosv-gdb.7.3.0.OTT.0.72.ova --launch
+mpls_te/nxos/launch_scripts/nxos_launch.py --vmcloud-server=laas-tsaad --default-type=nxos --launch
+/isan/bin/vsh
+
+GDB:
+/auto/andatcd/wr-x86/3.0FCSm/bin/i586-wrs-linux-gnu-gdb build/image_titanium_d1/x86t/gdb/urib/sup/urib
+/auto/andatcd/wr-x86/3.0FCSm/bin/i586-wrs-linux-gnu-gdb build/image_titanium_d1/x86t/gdb/netstack/sup/netstack
+gdbserver :2159 --attach 2303
+gdbserver :2159 --attach `ps -A -o pid,cmd|grep bgp|head -n 1 | awk '{print $1}'`
+/auto/thirdparty-sdk/target_bin/xrng_gdb -p infra/xtc/agent/obj-x86_64-linux-spirit/xtc_agent.sym -c /nobackup/tsaad/xtc_agent_12365.by.11.20180328-093021.xr-vm_node0_RSP0_CPU0.8023e.core
+
+NXOS_SNMP_SW22#  copy scp://sachikke@171.70.105.46/auto/tftpboot-dino/rel/qa/6_2_0_217_S7_freetown/gdb/n7000-s1-dk9.6.2.0.217.gbin.S7 bootflash:
+
+Sanities:
+/auto/cscip/nxos/zd73_sanities.py  --title="ZD73 sanities" --label=REL_7_3_0_D1_0_189_S0 --bugid CSCup97957 --dir /nobackup/xinshzho/REL_7_3_0_D1_0_189_S0/build/images/gdb/  --sup2kick n7000-s2-kickstart.7.3.0.D1.0.189.gbin --sup2system n7000-s2-dk9.7.3.0.D1.0.189.gbin --titankick titanium-d1-kickstart.7.3.0.D1.0.189.gbin --titansystem titanium-d1.7.3.0.D1.0.189.gbin --mostrecentbaseline
+
+ps -A -o pid,cmd|grep urib|head -n 1 | awk '{print $1}'
+
+server:
+setenv LD_LIBRARY_PATH /users/tsaad/lib
+mosh-server
+
+bash-4.1$ export LD_LIBRARY_PATH=/users/tsaad/lib
+bash-4.1$ mosh-server
+
+client:
+mosh --server="setenv LD_LIBRARY_PATH /users/tsaad/lib && ~/bin/mosh-server" tsaad-ads
+
+rm -f gdb-root/bootflash/titanium-d1*.gbin && rm -f gdb-root/boot/grub/stage2_eltorito  &&  rm -f titanium-gdb.*.iso && rm -f nxosv-gdb.*.ova && gmake clean && gmake titanium-gdb.iso
+gmake image_titanium_d1/x86t/gdb/u6rib/sup/u6rib_dt.bin
+
+   268  9:20    ibuild -gmake_flags '-j 18' -fullimage m9700-sf3ek9 && ibuild -gmake_flags '-j 12' -fullimage m9700-sf3ek9-imaging-only
+   269  9:25    ibuild -gmake_flags '-j 18' -fullimage n7000_s2_dk9 && ibuild -fullimage n7000_s2_dk9-imaging-only
+   270  9:33    ibuild -gmake_flags '-j 18' -fullimage m9700_sf3ek9 && ibuild -gmake_flags '-j 12' -fullimage m9700_sf3ek9-imaging-only
+   271  9:39    ibuild -gmake_flags '-j 18' -module librsw -imaging m9700_sf3ek9
+
+
+
+
+sjc-ads-6964:102> source /auto/andatc/independent/shellrc-files/current/rc/.cshrc.build
+
+sjc-ads-6964:361> setenv PATH $PATH":/auto/Insieme-EOR/eor-sw/tools/eortools:/auto/Insieme-EOR/eor-sw/tools/lab/bin"
+sjc-ads-6964:362> setenv PATH $PATH":/auto/Insieme-EOR/eor-sw/tools/it_scripts:/auto/Insieme-EOR/eor-sw/tools/eortools"
+3:20 PM
+sjc-ads-6964:1496> cd build/
+sjc-ads-6964:1499> setenv NXOS_NO_SUEXEC 1
+sjc-ads-6964:1500> setenv NXOS_NO_SUEXEC_IMAGING_DIR `pwd`
+
+sjc-ads-6964:1501> gmake -j12 ins/x86e/final/urib/sup
+sjc-ads-6964:1502> gmake -j12 ins/x86e/final/u6rib/sup
+
+ezcommit-pilot submit --bugid CSCuy75755
+
+sjc-ads-6964:1503> ./InsBuild -usemake -gmake_flags "-j12" -fullimage nxos -bldtype final -imaging
+./InsBuild -usemake -gmake_flags "-j12" -module u6rib
+We need to build final image for dublin
+Please pull the workspace like this:
+sjc-ads-6964:1486> acme nw -linkedtree -officialtree /auto/ins-bld-tools/builds/REL_7_0_3_I3_0_175 -bldtype both
+urib_dt6 -t client1 -r 20 -P 1.0.0.1 -n 2 -i Ethernet2/1 -N 10.10.10.1
+/auto/andatcd/wr-x86/3.0FCSm/bin/i586-wrs-linux-gnu-gdb build/image_titanium_d1/x86t/gdb/urib/sup/urib
+/auto/andatcd/wr-x86/3.0FCSm/bin/i586-wrs-linux-gnu-gdb build/image_titanium_d1/x86t/gdb/netstack/sup/netstack -tui
+
+VIM
+CTL + K for HZ split
+vim -u NONE
+
+
+*** REGRESSIONS ***
+/nobackup/tsaad/xrut/l2vpn/jenkins/l2vpn_precommit_template.sh -d CSCuy56773
+.../xrut/l2vpn/jenkins/l2vpn_precommit_smart.sh -d CSCva92980
+Test suites to be executed (smart reg + -t):
+l2vpn/l2vpn_regression.py -m evpn_smoke -v
+l2vpn/l2vpn_regression.py -m evpn_irb --test-pattern-exclude TIER1
+l2vpn/l2vpn_regression.py -m evpn_golf -v
+l2vpn/l2vpn_regression.py -m evpn_vpws_mh -v
+l2vpn/l2vpn_regression.py -m evpn_vpws -v
+l2vpn/l2vpn_regression.py -m evpn_rfc -v
+l2vpn/l2vpn_regression.py -m mclag -v
+l2vpn/l2vpn_regression.py -m spp --disable-final-rollback
+l2vpn/l2vpn_regression.py -m lcr -v --disable-final-rollback
+l2vpn/l2vpn_regression.py -m pwhe_full -v
+l2vpn/l2vpn_regression.py -m pmclag -v --disable-final-rollback
+l2vpn/l2vpn_regression.py -m atom_tier0 -v
+l2vpn/l2vpn_regression.py -m l2vpn_smoke -v
+l2vpn/l2vpn_regression.py -m vpls_coupled -v --disable-final-rollback
+l2vpn/l2vpn_regression.py -m bgp_ad -v
+l2vpn/l2vpn_regression.py -m evpn_mac -v
+l2vpn/l2vpn_regression.py -m irb_pwhe -v
+l2vpn/l2vpn_regression.py -m irb -v
+l2vpn/l2vpn_regression.py -m nsr_config_b -v
+l2vpn/lsm/lsm_stress.py -t TIER0 -v --LC
+l2vpn/l2vpn_regression.py -m sync_mgr -v
+l2vpn/l2vpn_regression.py -m pwr_config -e -v --disable-final-rollback
+l2vpn/l2vpn_regression.py -m stateful_ldp -v
+l2vpn/l2vpn_regression.py -m g8032 -v
+l2vpn/l2vpn_regression.py -m rd_16bit --disable-final-rollback
+not found suite: gcovl2vpn
+l2vpn/l2vpn_regression.py -m l2fib_show -v
+
+./bgp/nxos_bgp_smoke_test.py --xrvr-image=iosxrv.vmdk --nxos-image ../nxosv-final.7.0.3.IPP4.2.45.qcow2 --n9k -l
+
+../xrut/l2vpn/l2vpn_regression.py -m xxx
+
+tsaad@ott-ads-252/nobackup/tsaad$ vbe 5.4.18
+tsaad@ott-ads-252/nobackup/tsaad$ stack_trace_tool.pl -r -t core/1467739607_0x511_mrib_log.32716.tar.gz
+
+/auto/thirdparty-sdk/target_bin/xrng_gdb -p ./l2vpn/obj-x86_64-linux-spirit/l2vpn_mgr.sym /auto/tftpboot-projects/mingyasu/traces/l2vpn_mgr_5436.by.11.20160830-145359.xr-vm_node0_RP0_CPU0.86806.core -b rp
+./bgp/nxos_xr_evpn_2_n9k_smoke_test.py --xrvr-image=iosxrv.vmdk --nxos-image ../nxosv-final.7.0.3.IPP4.2.45.qcow2 --n9k -l
+more xrut/hosts/nxos-pe1/portvector.txt
+
+
+../xrut/jenkins/jenkins_main.py -i /auto/tftpboot-ottawa/tsaad/ice_CSCvb20047_21903.diffs -d CSCvb20047 --config ./GenConfig.xml -b xr-dev
+
+/auto/firex-ott/bin/firex-kill
+/auto/firex-ott/firex/precommit.py submit -d CSCvb04448
+/auto/firex/bin/precommit  submit -d CSCvb04448
+#Calvados clean
+calvados/build/make-lib/xrmk cleanall
+/auto/iox/bin/xr_commit -no_prompt -no_commit -d 
+/auto/iox/bin/xr_commit -no_prompt -no_commit -d CSCvc20517,CSCvc16593
+/auto/iox/bin/xr_commit -use_cncopy -d CSCvh86230 -extra_builds ncs6k
+
+REBOOT ADS:
+https://wiki.cisco.com/display/NGDEVENV/AURORA+Provisioning#AURORAProvisioning-CanIrebootmyAuroranode?
+http://engit-tools.cisco.com/#/
+
+Git:
+git init
+git checkout
+git clone git@gitlab.cisco.com:tsaad/cofo-sync.git
+git push -u origin master
+
+/auto/firex/bin/firex --reason "Precommit via FireX" --ddts "CSCvc05150" --diff_file "/auto/tftpboot-ottawa/tsaad/ice_CSCvc05150_3063.diffs" --testsuites "l2vpn/l2vpn_regression.py -m evpn_vpws_mh -v,l2vpn/l2vpn_regression.py -m evpn_vpws -v,l2vpn/l2vpn_regression.py -m evpn_rfc -v,l2vpn/l2vpn_regression.py -m evpn_smoke -v,l2vpn/l2vpn_regression.py -m evpn_vES -v,l2vpn/l2vpn_regression.py -m evpn_mac -v,l2vpn/l2vpn_regression.py -m evpn_irb --test-pattern-exclude TIER1,l2vpn/l2vpn_regression.py -m evpn_golf -v,l2vpn/l2vpn_regression.py -m mclag -v,l2vpn/l2vpn_regression.py -m lcr -v --disable-final-rollback,l2vpn/l2vpn_regression.py -m l2vpn_smoke -v,l2vpn/l2vpn_regression.py -m pmclag -v --disable-final-rollback,l2vpn/l2vpn_regression.py -m atom_tier0 -v,l2vpn/l2vpn_regression.py -m vpls_coupled -v --disable-final-rollback,l2vpn/l2vpn_regression.py -m irb_pwhe -v,mpls-ldp/ldp/ldp_smoke.py,l2vpn/l2vpn_regression.py -m nsr_config_b -v,mpls-ldp/ldp/ldp_smoke.py --debug,l2vpn/l2vpn_regression.py -m pwhe_full -v,mpls-ldp/ldp/iccp_nsr.py --disable-final-rollback,mpls-ldp/ldp/features/ldp_csc_pagent.py -v,l2vpn/l2vpn_regression.py -m pwr_config -e -v --disable-final-rollback,mpls-ldp/ldp/ldp_ds_ipv6.py,l2vpn/lsm/lsm_stress.py -t TIER0 -v --LC,mpls-ldp/ldp/features/ldp_atom_nsr.py,l2vpn/l2vpn_fatpw2.py -v,l2vpn/l2vpn_regression.py -m sync_mgr -v,l2vpn/l2vpn_regression.py -m stateful_ldp -v,l2vpn/l2vpn_fatpw.py -v,l2vpn/l2vpn_regression.py -m bgp_ad -v,l2vpn/l2vpn_regression.py -m g8032 -v,l2vpn/l2vpn_mgbl.sh,mpls-ldp/ldp/ldp_smoke_nsr.py,l2vpn/l2vpn_fatpw4.py -v,l2vpn/l2vpn_regression.py -m l2fib_show -v" --lineup "xr-dev" --tag "latest"  --external  /auto/firex/PRODUCTION/firex_external/compare_firex_results.py
+
+/auto/tftpboot-ottawa/tpaiemen/prod_scripts/scripts/util/diff_complex.py –d customer-api/service-layer/to_review-21.diff
+/auto/firex/bin/precommit submit -d CSCvc05293 -k /auto/tftpboot-ottawa/tsaad/ice_CSCvc05293_13628.diffs --branch="xr-dev" -z "latest"
+readelf -a cofo-sync/obj-x86/libcofo_sync.so | less
+echo -ne "\033]0;"`hostname`"\007"
+/\%>80v.\+
+
+/auto/tftpboot-ottawa/tpaiemen/prod_scripts/scripts/util/diff_complex.py | sort -k2 -n -r
+/auto/thirdparty-sdk/target_bin/xrng_gdb -p ip/tcp/obj-x86_64-linux-spirit/tcp.sym -c /nobackup/pthammen/misc/disk1/tcp_4920.by.user.20160718-122339.xr-vm_node0_RP0_CPU0.258ad.core
+
+/auto/firex/bin/firex --reason "Precommit via FireX" --ddts "CSCvd92156" --diff_file "/auto/firex-logs-ott/diffs/tsaad/_diffs.633" --testsuites "/ws/tsaad-ott/xtc_mandatory.txt" --lineup "xr-dev" --tag "latest" --dev_ws "/nobackup/tsaad/xr-dev
+
+dumpcr -e -a Diffs-commit-r62x CSCve09236 > CSCve09236.diff
+/auto/firex/bin/precommit -d CSCve09236 --diff_ddts_lineup Diffs-commit-r62x --lineup xr-dev -z "latest"
+/auto/firex/bin/precommit submit -d CSCve71141 --lineup "xr-dev" -z "latest"
+/auto/firex/bin/precommit submit -d CSCvf55879 -k /ws/tsaad-ott/CSCvf55879-04.diff --lineup "xr-dev" -z "latest"
+/auto/firex/bin/precommit -d CSCve80255 -k "/ws/tsaad-ott/CSCve80255-4.diff" -a "r62x" -z "latest"
+/auto/firex/bin/precommit -d CSCvi26931 -k /ws/tsaad-ott/CSCvi26931-04.diff -a r63x -z latest --tests "/auto/firex/PRODUCTION/firex_configs/infra_xtc_post622_nightly.txt" -a "r63x" -z "latest"
+/auto/firex/bin/firex submit --reason "Precommit via FireX" --ddts CSCvi61471 --diff_file /ws/tsaad-ott/CSCvi61471-01.diff --testsuites /auto/xrut/xrut-gold/xtc/xr/firex/xtc_suites_precommit_xr-dev.yaml --lineup xr-dev --tag latest
+
+label to SID
+============
+RP/0/0/CPU0:R1#show isis segment-routing label table
+RP/0/0/CPU0:R1#show ospf sid-database
+
+VIM:
+=====
+Toggle: IndentLinesToggle
+
+

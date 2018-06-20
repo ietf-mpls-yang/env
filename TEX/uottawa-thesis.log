@@ -1,0 +1,2245 @@
+This is TeX, Version 3.14159 (Web2C 7.3.1) (format=latex 2002.8.28)  26 NOV 2008 20:48
+**uottawa-thesis.tex
+(uottawa-thesis.tex
+LaTeX2e <1999/12/01> patch level 1
+Babel <v3.6Z> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(/usr/cisco/share/texmf/tex/latex/base/report.cls
+Document Class: report 1999/09/10 v1.4a Standard LaTeX document class
+(/usr/cisco/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 1999/09/10 v1.4a Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/cisco/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 1999/12/08 v1.9x Standard LaTeX package
+
+(/usr/cisco/share/texmf/tex/latex/base/t1enc.def
+File: t1enc.def 1999/12/08 v1.9x Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 38.
+))
+(/usr/cisco/share/texmf/tex/latex/ae/ae.sty
+Package: ae 1998/11/17 1.0 Almost European Computer Modern
+
+(/usr/cisco/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 1999/12/08 v1.9x Standard LaTeX package
+
+(/usr/cisco/share/texmf/tex/latex/base/t1enc.def
+File: t1enc.def 1999/12/08 v1.9x Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 38.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 96.
+
+(/usr/cisco/share/texmf/tex/latex/ae/t1aer.fd
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+(/usr/cisco/share/texmf/tex/latex/ae/aecompl.sty
+Package: aecompl 1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
+)
+
+! LaTeX Error: File `epstopdf.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+\@indexfile=\write3
+\openout3 = `uottawa-thesis.idx'.
+
+Writing index file uottawa-thesis.idx
+(private/thesis-preamble.tex
+(/usr/cisco/share/texmf/tex/latex/misc/geometry.sty
+Package: geometry 1999/10/07 v2.2 Page Geometry
+
+(/usr/cisco/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\geom@cnth=\count88
+\geom@cntv=\count89
+
+(/usr/cisco/share/texmf/tex/latex/config/geometry.cfg)
+
+! Package keyval Error: includehead undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.450 \ProcessOptionsWithKV{Geom}
+                                 
+? 
+)) (/usr/cisco/share/texmf/tex/latex/misc/psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+
+(/usr/cisco/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 1999/02/16 v1.0l Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/cisco/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/cisco/share/texmf/tex/latex/config/graphics.cfg)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(/usr/cisco/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\pfg@pcount=\count90
+\pfg@scount=\count91
+\pfg@temp=\write4
+)
+(/usr/cisco/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/cisco/share/texmf/tex/latex/algorith/algorithmic.sty
+Package: algorithmic 
+
+Document Style `algorithmic' - environment
+(/usr/cisco/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 1999/09/10 v1.1b Standard LaTeX ifthen package (DPC)
+)
+(/usr/cisco/share/texmf/tex/latex/tools/calc.sty
+Package: calc 1998/07/07 v4.1b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count92
+\calc@Bcount=\count93
+\calc@Adimen=\dimen105
+\calc@Bdimen=\dimen106
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 59.
+LaTeX Info: Redefining \addtolength on input line 60.
+\calc@denominator=\count94
+)
+\c@ALC@line=\count95
+\c@ALC@rem=\count96
+\ALC@tlm=\skip45
+)
+(/usr/cisco/share/texmf/tex/latex/algorith/algorithm.sty
+Package: algorithm 
+
+Document Style `algorithm' - floating environment
+(/usr/cisco/share/texmf/tex/latex/misc/float.sty
+Package: float 1999/05/29 v1.2d Float enhancements (AL)
+\c@float@type=\count97
+\float@box=\box26
+\@floatcapt=\box27
+)
+\c@algorithm=\count98
+)
+(/usr/cisco/share/texmf/tex/latex/base/makeidx.sty
+Package: makeidx 1999/09/17 v1.0l Standard LaTeX package
+)
+(/usr/cisco/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/01/15 v2.05 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/cisco/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 1999/11/15 v2.0
+
+(/usr/cisco/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen107
+))
+(/usr/cisco/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen108
+)
+(/usr/cisco/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 198.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 302.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 376.
+LaTeX Info: Redefining \dots on input line 379.
+LaTeX Info: Redefining \cdots on input line 464.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 563.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 564.
+\macc@skew=\dimen110
+\c@MaxMatrixCols=\count104
+\dotsspace@=\muskip10
+\c@parentequation=\count105
+\dspbrk@lvl=\count106
+\tag@help=\toks16
+\row@=\count107
+\column@=\count108
+\maxfields@=\count109
+\andhelp@=\toks17
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks18
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+LaTeX Info: Redefining \[ on input line 2594.
+LaTeX Info: Redefining \] on input line 2595.
+)
+
+! LaTeX Error: File `glossaries.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: Unknown option `acronym' for package `glossaries'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \makeglossaries
+                    
+? 
+! Undefined control sequence.
+<recently read> \makeglossaries 
+                                
+l.82 \makeglossaries
+                    
+? 
+
+! LaTeX Error: File `subfig.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+LaTeX Warning: Unused global option(s):
+    [english].
+
+(uottawa-thesis.aux (private/thesis-frontpages.aux) (glossary.aux)
+(chapter1-intro.aux) (chapter-literature_review.aux) (chapter-hierarchy.aux)
+(chapter-survivability_of_hier_nets.aux) (chapter-path_comp_tech.aux)
+(chapter-hierarchical_link_state.aux) (chapter-sevice_guar_inter_domain.aux)
+(chapter-pce_selection.aux) (chapter-simulator.aux) (chapter-conclusion.aux)
+(appendix1-help.aux))
+\openout1 = `uottawa-thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+\openout2 = `private/thesis-frontpages.aux'.
+
+ (private/thesis-frontpages.tex
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 33.
+
+(/usr/cisco/share/texmf/tex/latex/ae/omsaer.fd
+File: omsaer.fd 1999/12/27
+)
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
+ [1
+
+
+] (abstract.tex) [2]
+(acknowledgement.tex) [3] (uottawa-thesis.toc [6
+
+] [7] [8])
+\tf@toc=\write5
+\openout5 = `uottawa-thesis.toc'.
+
+ [9]
+(uottawa-thesis.lot)
+\tf@lot=\write6
+\openout6 = `uottawa-thesis.lot'.
+
+ [10
+
+] (uottawa-thesis.lof [11
+
+])
+\tf@lof=\write7
+\openout7 = `uottawa-thesis.lof'.
+
+ [12])
+(private/thesis-headings.tex)
+\openout2 = `glossary.aux'.
+
+ (glossary.tex
+! Undefined control sequence.
+l.1 \printglossaries
+                    
+? 
+! Undefined control sequence.
+l.2 \newglossaryentry
+                     {matrix}{name=Matrix, description=rectangular array of ...
+
+? 
+! Undefined control sequence.
+l.3 \newglossaryentry
+                     {elite}{name={{^^e9}lite}, description={select group or...
+
+? 
+! Undefined control sequence.
+l.4 \newglossaryentry
+                     {MPLS}{name=MPLS, description=Multiprotol Label Switching}
+
+? 
+! Undefined control sequence.
+l.5 \newglossaryentry
+                     {LSP}{name=LSP, description=Label Switched Path}
+? 
+! Undefined control sequence.
+l.6 \newglossaryentry
+                     {GMPLS}{name=GMPLS, description=Generalized Multiprotol...
+
+? 
+! Undefined control sequence.
+l.7 \newglossaryentry
+                     {TE}{name={TE}, description={Traffic Engineering}}
+? 
+! Undefined control sequence.
+l.8 \newglossaryentry
+                     {WDM}{name={WDM}, description={Wavelength Division Mult...
+
+? 
+! Undefined control sequence.
+l.9 \newglossaryentry
+                     {DWDM}{name={DWDM}, description={Dense Wavelength Divis...
+
+? 
+! Undefined control sequence.
+l.10 \newglossaryentry
+                      {VPN}{name={VPN}, description={Virtual Private Network}}
+? 
+! Undefined control sequence.
+l.11 \newglossaryentry
+                      {AS}{name={AS}, description={Autonomous System}}
+? 
+! Undefined control sequence.
+l.12 \newglossaryentry
+                      {VLAN}{name={VLAN}, description={Virtual Local Area Ne...
+
+? 
+! Undefined control sequence.
+l.13 \newglossaryentry
+                      {SVLAN}{name={SVLAN}, description={Stacked Virtual Loc...
+
+? 
+! Undefined control sequence.
+l.14 \newglossaryentry
+                      {ISP}{name={ISP}, description={Internet Service Provid...
+
+? 
+! Undefined control sequence.
+l.15 \newglossaryentry
+                      {SP}{name={SP}, description={Service Provider}}
+? 
+! Undefined control sequence.
+l.16 \newglossaryentry
+                      {CSPF}{name={CSPF}, description={Constraint Shortest P...
+
+? 
+! Undefined control sequence.
+l.17 \newglossaryentry
+                      {QoS}{name={QoS}, description={Quality of Service}}
+? 
+! Undefined control sequence.
+l.18 \newglossaryentry
+                      {SLA}{name={SLA}, description={Service Level Agreement}}
+? 
+! Undefined control sequence.
+l.19 \newglossaryentry
+                      {Diffserv}{name={Diffserv}, description={Differentiate...
+
+? 
+! Undefined control sequence.
+l.20 \newglossaryentry
+                      {TDM}{name={TDM}, description={Time Division Multiplex...
+
+? 
+! Undefined control sequence.
+l.21 \newglossaryentry
+                      {PSC}{name={PSC}, description={Packet Switching Capable}}
+
+? 
+! Undefined control sequence.
+l.22 \newglossaryentry
+                      {FSC}{name={FSC}, description={Fiber Switching Capable}}
+? 
+! Undefined control sequence.
+l.23 \newglossaryentry
+                      {LSC}{name={LSC}, description={Lambda Switching Capable}}
+
+? 
+! Undefined control sequence.
+l.24 \newglossaryentry
+                      {OXC}{name={OXC}, description={Optical Cross Connect}}
+? 
+! Undefined control sequence.
+l.25 \newglossaryentry
+                      {RWA}{name={RWA}, description={Routing and Wavelength ...
+
+? 
+! Undefined control sequence.
+l.26 \newglossaryentry
+                      {DS-TE}{name={DS-TE}, description={Differentiated Serv...
+
+? 
+! Undefined control sequence.
+l.27 \newglossaryentry
+                      {P2MP-TE}{name={P2MP-TE}, description={Point-to-multi-...
+
+? 
+! Undefined control sequence.
+l.28 \newglossaryentry
+                      {LSR}{name={LSR}, description={Label Switching Router}}
+? 
+! Undefined control sequence.
+l.29 \newglossaryentry
+                      {IGP}{name={IGP}, description={Interior Gateway Protoc...
+
+? 
+! Undefined control sequence.
+l.30 \newglossaryentry
+                      {BGP}{name={BGP}, description={Broder Gateway Protocol}}
+? 
+! Undefined control sequence.
+l.31 \newglossaryentry
+                      {SRLG}{name={SRLG}, description={Shared Risk Link Group}}
+
+? 
+! Undefined control sequence.
+l.32 \newglossaryentry
+                      {ABR}{name={ABR}, description={Area Border Router}}
+? 
+! Undefined control sequence.
+l.33 \newglossaryentry
+                      {OSPF}{name={OSPF}, description={Open Shortest Path Fi...
+
+? 
+! Undefined control sequence.
+l.34 \newglossaryentry
+                      {ISIS}{name={ISIS}, description={Intermediate System-I...
+
+? 
+! Undefined control sequence.
+l.35 \newglossaryentry
+                      {ASBR}{name={ASBR}, description={Autonomous System Bor...
+
+? 
+! Undefined control sequence.
+l.36 \newglossaryentry
+                      {ERO}{name={ERO}, description={Explicit Route Object}}
+? 
+! Undefined control sequence.
+l.37 \newglossaryentry
+                      {TED}{name={TED}, description={Traffic Engineering Dat...
+
+? 
+! Undefined control sequence.
+l.38 \newglossaryentry
+                      {PCE}{name={PCE}, description={Path Computation Element}}
+
+? 
+! Undefined control sequence.
+l.39 \newglossaryentry
+                      {PCC}{name={PCC}, description={Path Computation Client}}
+? 
+! Undefined control sequence.
+l.40 \newglossaryentry
+                      {PCEP}{name={PCEP}, description={Path Computation Engi...
+
+? 
+! Undefined control sequence.
+l.41 \newglossaryentry
+                      {BRPC}{name={BRPC}, description={Backward Recursive PC...
+
+? 
+! Undefined control sequence.
+l.42 \newglossaryentry
+                      {LRT}{name={LRT}, description={Link Resource Tree}}
+? 
+! Undefined control sequence.
+l.43 \newglossaryentry
+                      {ALRT}{name={ALRT}, description={Aggregate Link Resour...
+
+? 
+)
+Overfull \hbox (2.65334pt too wide) in paragraph at lines 2--90
+\T1/aer/m/n/12 scrip-tion=Multiprotol La-bel Switch-ing LSP-name=LSP, de-scrip-
+tion=Label Switched Path
+ []
+
+
+Overfull \hbox (21.15694pt too wide) in paragraph at lines 2--90
+\T1/aer/m/n/12 GM-PLSname=GMPLS, de-scrip-tion=Generalized Mul-ti-pro-tol La-be
+l Switch-ing TEname=TE,
+ []
+
+
+Overfull \hbox (54.3131pt too wide) in paragraph at lines 2--90
+\T1/aer/m/n/12 ing VPN-name=VPN, de-scrip-tion=Virtual Pri-vate Net-work AS-nam
+e=AS, de-scrip-tion=Autonomous
+ []
+
+
+Overfull \hbox (26.9173pt too wide) in paragraph at lines 2--90
+\T1/aer/m/n/12 Sys-tem VLAN-name=VLAN, de-scrip-tion=Virtual Lo-cal Area Net-wo
+rk SVLAN-name=SVLAN,
+ []
+
+
+Overfull \hbox (35.68912pt too wide) in paragraph at lines 2--90
+\T1/aer/m/n/12 tion=Constraint Short-est Path QoS-name=QoS, de-scrip-tion=Quali
+ty of Ser-vice SLAname=SLA,
+ []
+
+
+Overfull \hbox (1.88515pt too wide) in paragraph at lines 2--90
+\T1/aer/m/n/12 de-scrip-tion=Packet Switch-ing Ca-pa-ble FSC-name=FSC, de-scrip
+-tion=Fiber Switch-ing Ca-
+ []
+
+
+Overfull \hbox (2.50896pt too wide) in paragraph at lines 2--90
+\T1/aer/m/n/12 gi-neer-ing P2MP-TEname=P2MP-TE, description=Point-to-multi-poin
+t Traf-fic En-gi-neer-
+ []
+
+
+Overfull \hbox (30.70898pt too wide) in paragraph at lines 2--90
+\T1/aer/m/n/12 ing LSR-name=LSR, de-scrip-tion=Label Switch-ing Router IG-P-nam
+e=IGP, de-scrip-tion=Interior
+ []
+
+
+Overfull \hbox (36.14429pt too wide) in paragraph at lines 2--90
+\T1/aer/m/n/12 Gate-way Pro-to-col BG-P-name=BGP, de-scrip-tion=Broder Gate-way
+ Pro-to-col SRL-Gname=SRLG,
+ []
+
+
+Overfull \hbox (65.22102pt too wide) in paragraph at lines 2--90
+\T1/aer/m/n/12 OSPF-name=OSPF, de-scrip-tion=Open Short-est Path First ISIS-nam
+e=ISIS, de-scrip-tion=Intermediate
+ []
+
+
+Overfull \hbox (10.39284pt too wide) in paragraph at lines 2--90
+\T1/aer/m/n/12 tion El-e-ment PC-C-name=PCC, de-scrip-tion=Path Com-pu-ta-tion 
+Client PCEP-name=PCEP,
+ []
+
+
+Overfull \hbox (21.1566pt too wide) in paragraph at lines 2--90
+\T1/aer/m/n/12 de-scrip-tion=Path Com-pu-ta-tion En-gine Pro-to-col BR-PC-name=
+BRPC, de-scrip-tion=Backward
+ []
+
+
+Overfull \vbox (7.8419pt too high) has occurred while \output is active []
+
+
+[1
+
+
+]
+\openout2 = `chapter1-intro.aux'.
+
+ (chapter1-intro.tex
+Chapter 1.
+! Undefined control sequence.
+l.10 ...ransport technologies such as packet  \gls
+                                                  {MPLS} (Multi Protocol Lab...
+
+? 
+
+LaTeX Warning: Citation `saad.book' on page 2 undefined on input line 14.
+
+
+LaTeX Warning: Citation `saad1.book' on page 2 undefined on input line 14.
+
+
+LaTeX Warning: Citation `saad.book' on page 2 undefined on input line 14.
+
+
+LaTeX Warning: Citation `knuth.book' on page 2 undefined on input line 14.
+
+
+LaTeX Warning: Citation `zhang.article_typical' on page 2 undefined on input li
+ne 14.
+
+
+LaTeX Warning: Citation `okada.articledualmonths' on page 2 undefined on input 
+line 14.
+
+
+LaTeX Warning: Citation `gupta.conf_typical' on page 2 undefined on input line 
+14.
+
+[2
+
+
+
+]
+File: Figures/NetworkModelNGN.ps Graphic file (type eps)
+ <Figures/NetworkModelNGN.ps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[3]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[4]
+! Undefined control sequence.
+l.42 The evolution and maturity of  \gls
+                                        {MPLS} and Generalized MPLS (GMPLS) ...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[5]
+! Undefined control sequence.
+l.44 ...ing block for traffic engineering in  \gls
+                                                  {MPLS} and GMPLS networks....
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[6])
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[7]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[8]
+\openout2 = `chapter-literature_review.aux'.
+
+ (chapter-literature_review.tex
+Chapter 2.
+[9
+
+
+
+]
+Overfull \hbox (5.68552pt too wide) in paragraph at lines 12--12
+[]\T1/aer/bx/n/17.28 Review of Pro-tec-tion and Restora-tion Tech-niques 
+ []
+
+
+Overfull \hbox (15.47647pt too wide) in paragraph at lines 17--18
+\T1/aer/m/n/12 As the net-work re-lies more on mul-ti-ple car-ri-ers, is-sues o
+f sur-viv-abil-ity in multi-domain/multi-
+ []
+
+File: Figures/InternetArchitecture.eps Graphic file (type eps)
+<Figures/InternetArchitecture.eps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[10])
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[11]
+\openout2 = `chapter-hierarchy.aux'.
+
+ (chapter-hierarchy.tex
+Chapter 3.
+File: Figures/HorizLayers.eps Graphic file (type eps)
+<Figures/HorizLayers.eps>
+! Undefined control sequence.
+l.24 ...rations, separate Autonomous Systems (\gls
+                                                  {AS})s, and multi-OSPF areas.
+
+? 
+[12
+
+
+
+]
+File: Figures/ClientServerLayers.ps Graphic file (type eps)
+ <Figures/ClientServerLayers.ps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[13]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[14]
+! Undefined control sequence.
+l.49 ...fundamental difference in the dynamic \gls
+                                                  {LSP} provisioning problem...
+
+? 
+! Undefined control sequence.
+l.49 ...e WDM layer is beyondthe scope of the \gls
+                                                  {LSP} provisioning problem...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[15]
+! Undefined control sequence.
+l.60 The notion of \gls
+                       {QoS} and network performance are defined in ITU-T Re...
+
+? 
+! Undefined control sequence.
+l.66 End-to-end \gls
+                    {QoS} ordains that all network layers from top-to-bottom...
+
+? 
+! Undefined control sequence.
+l.66 ...ively to provide the desired level of \gls
+                                                  {QoS}. Any \gls{QoS} assur...
+
+? 
+! Undefined control sequence.
+l.66 ...e the desired level of \gls{QoS}. Any \gls
+                                                  {QoS} assurances are only ...
+
+? 
+! Undefined control sequence.
+l.66 ...tween sender and receiver. End-to-end \gls
+                                                  {QoS} service can be achie...
+
+? 
+! Undefined control sequence.
+l.68 Often, \gls
+                {QoS} is seen as the need for networks to provide performanc...
+
+? 
+! Undefined control sequence.
+l.68 ...offered services. In other instances, \gls
+                                                  {QoS} is measured in terms...
+
+? 
+! Undefined control sequence.
+l.68 ...fied, desired, or consistent level of \gls
+                                                  {QoS} to network traffic. ...
+
+? 
+! Undefined control sequence.
+l.68 ...critical services-- such as corporate \gls
+                                                  {VPN}s and radio access ne...
+
+? 
+! Undefined control sequence.
+l.68 ...rvice providers now use sophisticated \gls
+                                                  {TE} mechanisms to manage ...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[16]
+! Undefined control sequence.
+l.71 As mentioned, \gls
+                       {SLA} levels and \gls{QoS} parameters can be defined ...
+
+? 
+! Undefined control sequence.
+l.71 As mentioned, \gls{SLA} levels and \gls
+                                            {QoS} parameters can be defined ...
+
+? 
+! Undefined control sequence.
+l.71 ...example, the Differentiated Services (\gls
+                                                  {Diffserv}) defines mechan...
+
+? 
+! Undefined control sequence.
+l.71 ...tiation at layer-3 IP packets. At the \gls
+                                                  {MPLS} layer other models,...
+
+? 
+! Undefined control sequence.
+l.71 ...layer other models, e.g. EXP-inferred \gls
+                                                  {LSP}s (E-\gls{LSP}s) and ...
+
+? 
+! Undefined control sequence.
+l.71 ...dels, e.g. EXP-inferred \gls{LSP}s (E-\gls
+                                                  {LSP}s) and label inferred...
+
+? 
+! Undefined control sequence.
+l.71 ...P}s (E-\gls{LSP}s) and label inferred \gls
+                                                  {LSP}s (L-\gls{LSP}s), are...
+
+? 
+! Undefined control sequence.
+l.71 ...P}s) and label inferred \gls{LSP}s (L-\gls
+                                                  {LSP}s), are used to ensur...
+
+? 
+! Undefined control sequence.
+l.71 ...}s (L-\gls{LSP}s), are used to ensure \gls
+                                                  {QoS} for \gls{MPLS} traff...
+
+? 
+! Undefined control sequence.
+l.71 ...}s), are used to ensure \gls{QoS} for \gls
+                                                  {MPLS} traffic. At switchi...
+
+? 
+! Undefined control sequence.
+l.71 ...s of service (CoS) are used to assure \gls
+                                                  {QoS} to traffic traversin...
+
+? 
+! Undefined control sequence.
+l.71 ...these layers. At layer 1 (WDM layer), \gls
+                                                  {QoS}
+? 
+! Undefined control sequence.
+l.72 ...raffic of one type impacting another. \gls
+                                                  {MPLS} preemption based on...
+
+? 
+! Undefined control sequence.
+l.72 ...other. \gls{MPLS} preemption based on \gls
+                                                  {LSP} priority is another ...
+
+? 
+! Undefined control sequence.
+l.72 ... to define the relative importance of \gls
+                                                  {LSP}s that compete for th...
+
+? 
+! Undefined control sequence.
+l.72 ...allows the preemption of low-priority \gls
+                                                  {LSP}s in favor of higher-...
+
+? 
+! Undefined control sequence.
+l.72 ...gls{LSP}s in favor of higher-priority \gls
+                                                  {LSP}s within a single swi...
+
+? 
+! Undefined control sequence.
+l.72 ...icies can exist for the definition of \gls
+                                                  {LSP} priorities between d...
+
+? 
+! Undefined control sequence.
+l.74 It is imperative, therefore, that \gls
+                                           {QoS} parameters at all layers of...
+
+? 
+! Undefined control sequence.
+l.74 ...otential path for assuring end-to-end \gls
+                                                  {QoS}. A multilayer \gls{Q...
+
+? 
+! Undefined control sequence.
+l.74 ...ng end-to-end \gls{QoS}. A multilayer \gls
+                                                  {QoS} routing system will ...
+
+? 
+! Undefined control sequence.
+l.74 ...ing the following tasks: 2) aggregate \gls
+                                                  {QoS} information to other...
+
+? 
+! Undefined control sequence.
+l.74 ...the network hierarchy, 1) disseminate \gls
+                                                  {QoS} information paramete...
+
+? 
+! Undefined control sequence.
+l.74 ...and 3) provide the exact hierarchical \gls
+                                                  {QoS} path computation and...
+
+? 
+File: Figures/HierarchicalLsps.eps Graphic file (type eps)
+<Figures/HierarchicalLsps.eps>
+! Undefined control sequence.
+l.84 ...ain objective of Traffic Engineering (\gls
+                                                  {TE}) is to improve the ef...
+
+? 
+! Undefined control sequence.
+l.84 ... utilization and traffic performance. \gls
+                                                  {TE} solutions enable the ...
+
+? 
+! Undefined control sequence.
+l.84 ...ligent unified control plane (such as \gls
+                                                  {GMPLS}), which is able to...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[17]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[18]
+! Undefined control sequence.
+l.93 MPLS-\gls
+              {TE} in packet-based networks provides efficient bandwidth uti...
+
+? 
+! Undefined control sequence.
+l.93 ...s were defined to enable hierarchical \gls
+                                                  {LSP} establishment-- \eg ...
+
+? 
+! Undefined control sequence.
+l.93 ...tablishment-- \eg packet over optical \gls
+                                                  {LSP}s for hierarchical \g...
+
+? 
+! Undefined control sequence.
+l.93 ...r optical \gls{LSP}s for hierarchical \gls
+                                                  {LSP}s nested inside exist...
+
+? 
+! Undefined control sequence.
+l.93 ...his case, the preexisting lower-order \gls
+                                                  {LSP} serves as a link alo...
+
+? 
+! Undefined control sequence.
+l.93 ...s as a link along the path of the new \gls
+                                                  {LSP}. Devices form differ...
+
+? 
+! Undefined control sequence.
+l.93 ...nects define Fiber Switching Capable (\gls
+                                                  {FSC}) devices, Optical Cr...
+
+? 
+! Undefined control sequence.
+l.93 ...SC}) devices, Optical Cross Connects (\gls
+                                                  {OXC}s) define the Lambda ...
+
+? 
+! Undefined control sequence.
+l.93 ... define the Lambda Switching Capable (\gls
+                                                  {LSC}) devices, L2 switche...
+
+? 
+! Undefined control sequence.
+l.93 ...efine the time division multiplexing (\gls
+                                                  {TDM}) devices, and router...
+
+? 
+! Undefined control sequence.
+l.93 ... define the Packet Switching Capable (\gls
+                                                  {PSC}) nodes. \gls{LSP}s t...
+
+? 
+! Undefined control sequence.
+l.93 ... Switching Capable (\gls{PSC}) nodes. \gls
+                                                  {LSP}s that start and end ...
+
+? 
+! Undefined control sequence.
+l.93 ...s. \gls{LSP}s that start and end in a \gls
+                                                  {PSC} region can be combin...
+
+? 
+! Undefined control sequence.
+l.93 ...mbined and nested into an LSP of type \gls
+                                                  {TDM}. \gls{TDM} LSPs in t...
+
+? 
+! Undefined control sequence.
+l.93 ...nested into an LSP of type \gls{TDM}. \gls
+                                                  {TDM} LSPs in turns can be...
+
+? 
+
+Overfull \hbox (0.52531pt too wide) in paragraph at lines 93--94
+[]\T1/aer/m/n/12 MPLS-TE in packet-based net-works pro-vides ef-fi-cient band-w
+idth uti-liza-tion by rerout-
+ []
+
+! Undefined control sequence.
+l.95 ...htpath recovery. In a 2-layer IP over \gls
+                                                  {WDM} model, TE can be per...
+
+? 
+! Undefined control sequence.
+l.99 ... attention has been put so far on the \gls
+                                                  {QoS} guarantees for the t...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[19]
+! Undefined control sequence.
+l.103 ...tructure. A Virtual Private Network (\gls
+                                                  {VPN}) is usually defined ...
+
+? 
+! Undefined control sequence.
+l.103 ...authentication mechanisms {[}KHA04]. \gls
+                                                  {VPN}s are usually built o...
+
+? 
+! Undefined control sequence.
+l.103 ...as Frame Relay, ATM or the Internet. \gls
+                                                  {VPN}s are technically cla...
+
+? 
+! Undefined control sequence.
+l.103 ...e transport network that carries the \gls
+                                                  {VPN} application^^92s tra...
+
+? 
+! Undefined control sequence.
+l.103 ...ayer-2 SONET/SDH and ATM, or Layer-1 \gls
+                                                  {WDM} core switching netwo...
+
+? 
+! Undefined control sequence.
+l.103 ...e~\ref{fig:VPNSchemes} shows several \gls
+                                                  {VPN} models that have bee...
+
+? 
+! Undefined control sequence.
+l.103 ...-3 VPN forwards packets based on the \gls
+                                                  {VPN} customer^^92s IP inf...
+
+? 
+! Undefined control sequence.
+l.103 ...^92s IP information, while a Layer-2 \gls
+                                                  {VPN} forwards Layer-2 fra...
+
+? 
+File: Figures/VPNSchemes.eps Graphic file (type eps)
+<Figures/VPNSchemes.eps>
+Overfull \hbox (5.7669pt too wide) in paragraph at lines 107--108
+ [][] 
+ []
+
+! Undefined control sequence.
+l.114 ...quired. Encrypting the customer^^92s \gls
+                                                  {VPN} traffic prevents oth...
+
+? 
+! Undefined control sequence.
+l.114 ...k. Moreover, authenticating customer \gls
+                                                  {VPN} traffic filters inco...
+
+? 
+! Undefined control sequence.
+l.114 ...ic security models that exist within \gls
+                                                  {VPN} implementations: 1) ...
+
+? 
+! Undefined control sequence.
+l.114 ...e of responsibility. In the CE-based \gls
+                                                  {VPN} security model, the ...
+
+? 
+! Undefined control sequence.
+l.114 ...ringent and secure implementation of \gls
+                                                  {VPN} than its PE-based co...
+
+? 
+! Undefined control sequence.
+l.114 ...n its PE-based counterpart. MPLS and \gls
+                                                  {VLAN}s, by themselves, pr...
+
+? 
+! Undefined control sequence.
+l.114 ...o IP tunnels transported over tagged \gls
+                                                  {VLAN}s or MPLS LSPs. The ...
+
+? 
+! Undefined control sequence.
+l.114 ...tagged \gls{VLAN}s or MPLS LSPs. The \gls
+                                                  {VLAN} tags or MPLS labels...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[20]
+! Undefined control sequence.
+l.116 ...ackets. The MPLS switching paths for \gls
+                                                  {VPN} traffic originate an...
+
+? 
+! Undefined control sequence.
+l.118 MPLS \gls
+               {VPN} privacy is similar to the traditional form of WAN such ...
+
+? 
+! Undefined control sequence.
+l.118 ... the Service Provider backbone. MPLS \gls
+                                                  {VPN} establishes network ...
+
+? 
+! Undefined control sequence.
+l.118 ...information and encapsulation of the \gls
+                                                  {VPN} site traffic with a ...
+
+? 
+! Undefined control sequence.
+l.118 ...or encryption on the packet, so when \gls
+                                                  {VPN} sites are connected ...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[21]
+! Undefined control sequence.
+l.121 ...P, ATM, Gigabit Ethernet, SONET, and \gls
+                                                  {DWDM}. The degree of avai...
+
+? 
+! Undefined control sequence.
+l.126 In a CE-based \gls
+                        {VPN}, the CE performs all the \gls{VPN} configurati...
+
+? 
+! Undefined control sequence.
+l.126 ...d \gls{VPN}, the CE performs all the \gls
+                                                  {VPN} configuration and pr...
+
+? 
+! Undefined control sequence.
+l.126 ...out any knowledge of a customer^^92s \gls
+                                                  {VPN} routing or addressin...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[22]
+! Undefined control sequence.
+l.129 An example of CE-based \gls
+                                 {VPN} implementation is shown in Figure~\re...
+
+? 
+File: Figures/CePeVPNs.eps Graphic file (type eps)
+<Figures/CePeVPNs.eps>
+! Undefined control sequence.
+l.138 ...the total number of sites within the \gls
+                                                  {VPN}.
+? 
+! Undefined control sequence.
+l.141 In Provider Edge (PE) based \gls
+                                      {VPN}, all \gls{VPN} configuration and...
+
+? 
+! Undefined control sequence.
+l.141 ...vider Edge (PE) based \gls{VPN}, all \gls
+                                                  {VPN} configuration and pr...
+
+? 
+! Undefined control sequence.
+l.141 ... both Layer-2 and Layer-3. A Layer-3 \gls
+                                                  {VPN} forwards packets bas...
+
+? 
+! Undefined control sequence.
+l.141 ...s{VPN} forwards packets based on the \gls
+                                                  {VPN} customer^^92s packet...
+
+? 
+! Undefined control sequence.
+l.141 ... packet header IP address. A Layer-2 \gls
+                                                  {VPN}, on the other hand, ...
+
+? 
+! Undefined control sequence.
+l.141 ... present in the layer 2 frames (e.g. \gls
+                                                  {VLAN}, frames, MAC addres...
+
+? 
+! Undefined control sequence.
+l.141 ...tc). Examples of difference PE-based \gls
+                                                  {VPN} implementations are ...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[23]
+! Undefined control sequence.
+l.155 ...l IPv6 customer packets over an IPv4 \gls
+                                                  {SP} network,
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[24]
+! Undefined control sequence.
+l.165 ...network access server located at the \gls
+                                                  {ISP}'s point of presence ...
+
+? 
+! Undefined control sequence.
+l.165 ...egotiating special contracts with an \gls
+                                                  {ISP}.
+? 
+! Undefined control sequence.
+l.169 ...ecurity, protection, and support for \gls
+                                                  {QoS} (\eg using \gls{DS-T...
+
+? 
+! Undefined control sequence.
+l.169 ...and support for \gls{QoS} (\eg using \gls
+                                                  {DS-TE}). MPLS also facili...
+
+? 
+! Undefined control sequence.
+l.169 ...ntroducing Constraint Shortest Path (\gls
+                                                  {CSPF}) computation featur...
+
+? 
+! Undefined control sequence.
+l.169 ...ing service to connect segments of a \gls
+                                                  {VPN} over a public provid...
+
+? 
+! Undefined control sequence.
+l.169 ...ring policy. The interior of an MPLS \gls
+                                                  {VPN} network is made up o...
+
+? 
+! Undefined control sequence.
+l.169 ...surround the core devices and enable \gls
+                                                  {VPN} functions. P and PE ...
+
+? 
+! Undefined control sequence.
+l.172 ...ol that already runs at the edges of \gls
+                                                  {ISP} networks and propose...
+
+? 
+! Undefined control sequence.
+l.172 ... inner label identifies the specific \gls
+                                                  {VPN} the packet belongs t...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[25]
+! Undefined control sequence.
+l.174 ...h other PE routers carrying the same \gls
+                                                  {VPN}(s) via BGP. Each \gl...
+
+? 
+! Undefined control sequence.
+l.174 ... the same \gls{VPN}(s) via BGP. Each \gls
+                                                  {VPN} is associated with a...
+
+? 
+! Undefined control sequence.
+l.174 ... Each \gls{VPN} is associated with a \gls
+                                                  {VPN} routing and forwardi...
+
+? 
+! Undefined control sequence.
+l.174 ...ng instance (VRF). A VRF defines the \gls
+                                                  {VPN} membership of a cust...
+
+? 
+! Undefined control sequence.
+l.174 ...uter is associated with a particular \gls
+                                                  {VPN}. Route Distinguisher...
+
+? 
+! Undefined control sequence.
+l.174 ...outer receives the routes of a given \gls
+                                                  {VPN} site from another PE...
+
+? 
+! Undefined control sequence.
+l.174 ...onnected site belonging to that same \gls
+                                                  {VPN}, so that the CE know...
+
+? 
+! Undefined control sequence.
+l.177 ...use an IP/MPLS core network to offer \gls
+                                                  {VPN}
+? 
+! Undefined control sequence.
+l.178 ..., an Ethernet MAC address, or 802.1q \gls
+                                                  {VLAN} tag. Hence, Layer-2...
+
+? 
+! Undefined control sequence.
+l.182 \gls
+          {VLAN}s represent a standardized Layer-2 mechanism for partitionin...
+
+? 
+! Undefined control sequence.
+l.182 ...into multiple disjoint logical LANs. \gls
+                                                  {VLAN}s are typically assi...
+
+? 
+! Undefined control sequence.
+l.183 ...licit tag carried within the packet. \gls
+                                                  {VLAN}s provide an efficie...
+
+? 
+! Undefined control sequence.
+l.183 ...er 2 switches isolate traffic across \gls
+                                                  {VLAN} boundaries. Connect...
+
+? 
+! Undefined control sequence.
+l.183 ...aries. Connectivity between distinct \gls
+                                                  {VLAN}s is achieved by rou...
+
+? 
+! Undefined control sequence.
+l.183 ...d required behavior for tagged-based \gls
+                                                  {VLAN}s. The Q tag inserte...
+
+? 
+! Undefined control sequence.
+l.183 ...s limited to 12-bits, or 4096 unique \gls
+                                                  {VLAN} Ids (VIDs). This li...
+
+? 
+! Undefined control sequence.
+l.183 ...). This limits the maximum number of \gls
+                                                  {VLAN}s accommodated withi...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[26]
+! Undefined control sequence.
+l.185 ...o each tagged packet. SVLANs provide \gls
+                                                  {VLAN} transparency for IE...
+
+? 
+! Undefined control sequence.
+l.185 ... in a provider network as a PE-based \gls
+                                                  {VPN} solution to provide ...
+
+? 
+! Undefined control sequence.
+l.185 ...on to provide connectivity to remote \gls
+                                                  {VLAN}s over a publicly sh...
+
+? 
+! Undefined control sequence.
+l.185 ...cture. Using this scheme, up to 4096 \gls
+                                                  {VLAN}s can be defined per...
+
+? 
+! Undefined control sequence.
+l.185 ...mum number of accommodated number of \gls
+                                                  {VLAN}s to 4096x4096.
+? 
+! Undefined control sequence.
+l.187 ...ution to transport multiple customer \gls
+                                                  {VLAN}s across the service...
+
+? 
+! Undefined control sequence.
+l.190 ...ttention in providing coarse-grained \gls
+                                                  {QoS} using differentiated...
+
+? 
+! Undefined control sequence.
+l.190 ... high bandwidth with the appropriate \gls
+                                                  {QoS} is in an integrated ...
+
+? 
+! Undefined control sequence.
+l.190 ... the Optical Cross Connect (OXC) and \gls
+                                                  {GMPLS} technologies. The ...
+
+? 
+! Undefined control sequence.
+l.190 ...twork stems from jointly considering \gls
+                                                  {VPN} provisioning, IP rou...
+
+? 
+! Undefined control sequence.
+l.190 ...lem constraints in this case include \gls
+                                                  {QoS} requirements for \gl...
+
+? 
+! Undefined control sequence.
+l.190 ...e include \gls{QoS} requirements for \gls
+                                                  {VPN} users and network op...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[27]
+File: Figures/ProviderNetwork.eps Graphic file (type eps)
+ <Figures/ProviderNetwork.eps>
+! Undefined control sequence.
+l.207 ...cribed our implementation of several \gls
+                                                  {VPN} tunneling techniques...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[28]
+! Undefined control sequence.
+l.209 ...hemes that were implemented over the \gls
+                                                  {VPN} solutions discussed ...
+
+? 
+File: Figures/TBL2VPNs.eps Graphic file (type eps)
+<Figures/TBL2VPNs.eps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[29]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[30]
+File: Figures/ExpResults-01.eps Graphic file (type eps)
+ <Figures/ExpResults-01.eps>
+! Undefined control sequence.
+l.249 ...ource-host to a sink-host across the \gls
+                                                  {VPN} implementation scena...
+
+? 
+! Undefined control sequence.
+l.249 ...UDP traffic transferred over layer-3 \gls
+                                                  {VPN} implementation scena...
+
+? 
+! Undefined control sequence.
+l.249 ...e, we estimated recovery time of the \gls
+                                                  {VPN} connection between t...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[31]
+Overfull \hbox (7.29301pt too wide) in paragraph at lines 252--252
+[]\T1/aer/bx/n/17.28 Evaluation of Pro-to-col Over-head for Tun-nel Tech-
+ []
+
+! Undefined control sequence.
+l.253 ...n that interconnects remote customer \gls
+                                                  {VLAN} sites.
+? 
+! Undefined control sequence.
+l.258 ... in each of the customer^^92s remote \gls
+                                                  {VLAN}-sites, and were use...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[32]
+! Undefined control sequence.
+l.262 \subfloat
+               [Normalized TCP flow throughput for the implemented tunnel sc...
+
+? 
+File: Figures/MssThruput.eps Graphic file (type eps)
+<Figures/MssThruput.eps>
+! Undefined control sequence.
+l.265 \subfloat
+               [Percentage of maximum packet overhead per packet for establi...
+
+? 
+File: Figures/TunOverhead.eps Graphic file (type eps)
+<Figures/TunOverhead.eps>
+! Undefined control sequence.
+l.272 ...e of the experiments is to transport \gls
+                                                  {VLAN} traffic over networ...
+
+? 
+! Undefined control sequence.
+l.272 ...the two end PC-clients in the remote \gls
+                                                  {VLAN}s as shown in Fig. 3...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[33]
+! Undefined control sequence.
+l.274 ...e PC-clients present in the customer \gls
+                                                  {VLAN}s as shown in Fig. 4...
+
+? 
+! Undefined control sequence.
+l.274 ...s transparent transport for Ethernet \gls
+                                                  {VLAN}-tagged traffic over...
+
+? 
+! Undefined control sequence.
+l.274 ...e for the PC clients in the customer \gls
+                                                  {VLAN}s as shown in Fig. 3...
+
+? 
+
+Overfull \hbox (0.28175pt too wide) in paragraph at lines 274--275
+[]\T1/aer/m/n/12 2)Implementing L2 trunk-ing us-ing S-VLANs: For this ex-per-i-
+ment, the ONRL-SVLAN
+ []
+
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[34]
+! Undefined control sequence.
+l.283 ... multi-layer traffic engineering and \gls
+                                                  {QoS} routing across verti...
+
+? 
+! Undefined control sequence.
+l.283 ... the control plane implementation in \gls
+                                                  {GMPLS} networks were also...
+
+? 
+! Undefined control sequence.
+l.283 ...tending the information exchanged by \gls
+                                                  {GMPLS} border routers for...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[35])
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[36]
+\openout2 = `chapter-survivability_of_hier_nets.aux'.
+
+ (chapter-survivability_of_hier_nets.tex
+Chapter 4.
+[37
+
+
+
+]
+File: Figures/LocalVsE2EProtection.eps Graphic file (type eps)
+ <Figures/LocalVsE2EProtection.eps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[38]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[39]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[40]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[41]
+File: Figures/util1.ps Graphic file (type eps)
+ <Figures/util1.ps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[42]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[43]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[44]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[45]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[46]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[47]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[48]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[49]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[50]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[51])
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[52]
+\openout2 = `chapter-path_comp_tech.aux'.
+
+ (chapter-path_comp_tech.tex
+Chapter 5.
+! Undefined control sequence.
+l.6 ...th the rise of Point-to-Multipoint TE (\gls
+                                                  {P2MP-TE}), the computatio...
+
+? 
+! Undefined control sequence.
+l.8 ... AS composed of a single IGP area, all \gls
+                                                  {LSR}s learn the complete ...
+
+? 
+! Undefined control sequence.
+l.8 ...etwork by means of link-state flooding \gls
+                                                  {IGP} protocol such as ISI...
+
+? 
+! Undefined control sequence.
+l.8 ...P} protocol such as ISIS or OSPF. Each \gls
+                                                  {LSR} is able to compute t...
+
+? 
+[53
+
+
+
+]
+! Undefined control sequence.
+l.13 ...lved in selecting a suitable path for \gls
+                                                  {TE}-LSPs that:
+? 
+! Undefined control sequence.
+l.15 ...m lie within the boundary of a single \gls
+                                                  {IGP} area (also known as ...
+
+? 
+! Undefined control sequence.
+l.16 ...ndaries \ie their path spans multiple \gls
+                                                  {IGP} areas owned by the s...
+
+? 
+File: Figures/IntraInterAreaCarrier.eps Graphic file (type eps)
+<Figures/IntraInterAreaCarrier.eps>
+! Undefined control sequence.
+l.29 ...in its local area and the appropriate \gls
+                                                  {TE} properties associated...
+
+? 
+! Undefined control sequence.
+l.29 ... node receives a request to set up an \gls
+                                                  {LSP} that must meet a cer...
+
+? 
+! Undefined control sequence.
+l.29 ...{LSP} that must meet a certain set of \gls
+                                                  {TE} constraints, then thi...
+
+? 
+! Undefined control sequence.
+l.29 ... of the LSP. If required, the ingress \gls
+                                                  {LSR} can also calculate a...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[54]
+! Undefined control sequence.
+l.36 ^^I\item the Shared Risk Link Group (\gls
+                                              {SRLG})
+? 
+! Undefined control sequence.
+l.41 ... established and torn-down, the above \gls
+                                                  {TE} characteristics (such...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[55]
+! Undefined control sequence.
+l.46 ...he path up to the Area Border Router (\gls
+                                                  {ABR}) within the area.
+? 
+! Undefined control sequence.
+l.56 ...h a path to the destination that. The \gls
+                                                  {PCE} framework described ...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[56]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[57]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[58]
+! Undefined control sequence.
+l.90 ...ect called the Explicit Route Object (\gls
+                                                  {ERO}). The ERO expansion ...
+
+? 
+! Undefined control sequence.
+l.90 ...g the RSVP Path signaling message, an \gls
+                                                  {ABR} or \gls{ASBR} along ...
+
+? 
+! Undefined control sequence.
+l.90 ...th signaling message, an \gls{ABR} or \gls
+                                                  {ASBR} along the TE LSP pa...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[59]
+! Undefined control sequence.
+l.100 At the ingress \gls
+                         {ASBR} inside AS2, R21, the process described in th...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[60]
+! Undefined control sequence.
+l.107 ... Computation Element (PCE) may be an \gls
+                                                  {LSR}, \gls{ABR}, \gls{ASB...
+
+? 
+! Undefined control sequence.
+l.107 ...n Element (PCE) may be an \gls{LSR}, \gls
+                                                  {ABR}, \gls{ASBR} or any d...
+
+? 
+! Undefined control sequence.
+l.107 ...PCE) may be an \gls{LSR}, \gls{ABR}, \gls
+                                                  {ASBR} or any dedicated se...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[61]
+! Undefined control sequence.
+l.113 ...requesting a path computation from a \gls
+                                                  {PCE} are referred to as P...
+
+? 
+! Undefined control sequence.
+l.113 ...rred to as Path Computation Clients (\gls
+                                                  {PCC}). Thus, a PCE asking...
+
+? 
+! Undefined control sequence.
+l.113 ...sking for a computation from another \gls
+                                                  {PCE} acts as a \gls{PCC}....
+
+? 
+! Undefined control sequence.
+l.113 ...ion from another \gls{PCE} acts as a \gls
+                                                  {PCC}. The Path Computatio...
+
+? 
+! Undefined control sequence.
+l.113 ...he Path Computation Engine Protocol (\gls
+                                                  {PCEP}) is the communicati...
+
+? 
+! Undefined control sequence.
+l.113 ... communication protocol used between \gls
+                                                  {PCC}s and \gls{PCE}s. A m...
+
+? 
+! Undefined control sequence.
+l.113 ...protocol used between \gls{PCC}s and \gls
+                                                  {PCE}s. A message sent by ...
+
+? 
+! Undefined control sequence.
+l.113 ... and \gls{PCE}s. A message sent by a \gls
+                                                  {PCC} to a \gls{PCE} reque...
+
+? 
+! Undefined control sequence.
+l.113 .... A message sent by a \gls{PCC} to a \gls
+                                                  {PCE} requesting a path co...
+
+? 
+File: Figures/CentralizedPce.eps Graphic file (type eps)
+<Figures/CentralizedPce.eps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[62]
+! Undefined control sequence.
+l.136 ...ard Recursive PCE-based Computation (\gls
+                                                  {BRPC}) [XXXX] was designe...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[63]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[64]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[65]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[66]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[67]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[68]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[69]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[70]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[71])
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[72]
+\openout2 = `chapter-hierarchical_link_state.aux'.
+
+ (chapter-hierarchical_link_state.tex
+Chapter 6.
+[73
+
+
+
+]
+File: Figures/crankback.eps Graphic file (type eps)
+ <Figures/crankback.eps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[74]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[75]
+File: Figures/TwoLevelHrchy.eps Graphic file (type eps)
+ <Figures/TwoLevelHrchy.eps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[76]
+File: Figures/TEVirtual.eps Graphic file (type eps)
+ <Figures/TEVirtual.eps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[77]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[78]
+File: Figures/LRT.eps Graphic file (type eps)
+ <Figures/LRT.eps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[79]
+! Undefined control sequence.
+l.88 ...associated with a Link Resource Tree (\gls
+                                                  {LRT}) as shown in Figure~...
+
+? 
+! Undefined control sequence.
+l.88 ...s QoS state as well as its protection \gls
+                                                  {SRLG} group at a specific...
+
+? 
+! Undefined control sequence.
+l.90 Among other properties, the concept of \gls
+                                                {LRT} generalizes the notion...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[80]
+! Undefined control sequence.
+l.100 ...definition}{Failure propagation} the \gls
+                                                  {LRT} tree also conveys to...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[81]
+File: Figures/ALRT1.eps Graphic file (type eps)
+ <Figures/ALRT1.eps>
+File: Figures/ALRT2.eps Graphic file (type eps)
+ <Figures/ALRT2.eps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[82]
+! Undefined control sequence.
+l.137 ...in Wavelength Division Multiplexing (\gls
+                                                  {WDM}) networks that are c...
+
+? 
+! Undefined control sequence.
+l.137 ... of optical nodes or cross-connects (\gls
+                                                  {OXC}s).
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[83]
+Overfull \hbox (19.18172pt too wide) in paragraph at lines 141--142
+[]\T1/aer/m/n/12 In wavelength-routed net-works, QoS-based rout-ing af-fects th
+e rout-ing de-ci-sion (\T1/aer/m/it/12 i.e.\T1/aer/m/n/12 , choice
+ []
+
+! Undefined control sequence.
+l.148 ...th or a set of paths between the two \gls
+                                                  {ABR}s (A) and (B) and ass...
+
+? 
+
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[84]
+File: Figures/MultiDomainAbstraction.eps Graphic file (type eps)
+ <Figures/MultiDomainAbstraction.eps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[85]
+File: Figures/MConstraintLink.eps Graphic file (type eps)
+ <Figures/MConstraintLink.eps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[86]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[87]
+File: Figures/InterdomainWDM.eps Graphic file (type eps)
+ <Figures/InterdomainWDM.eps>
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[88])
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[89]
+\openout2 = `chapter-sevice_guar_inter_domain.aux'.
+
+ (chapter-sevice_guar_inter_domain.tex
+Chapter 7.
+[90
+
+
+
+]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[91]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[92]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[93])
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[94]
+\openout2 = `chapter-pce_selection.aux'.
+
+ (chapter-pce_selection.tex
+Chapter 8.
+[95
+
+
+
+]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[96]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[97]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[98]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[99]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[100]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[101])
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[102]
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[103]
+\openout2 = `chapter-simulator.aux'.
+
+ (chapter-simulator.tex
+Chapter 9.
+[104
+
+
+
+])
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[105]
+\openout2 = `chapter-conclusion.aux'.
+
+ (chapter-conclusion.tex
+Chapter 10.
+[106
+
+
+
+])
+Overfull \vbox (8.2619pt too high) has occurred while \output is active []
+
+
+[107]
+\openout2 = `appendix1-help.aux'.
+
+ (appendix1-help.tex
+Appendix A.
+
+LaTeX Warning: Citation `lamport.book' on page 108 undefined on input line 6.
+
+
+LaTeX Warning: Citation `goossens.book' on page 108 undefined on input line 6.
+
+LaTeX Font Info:    Try loading font information for T1+aett on input line 7.
+(/usr/cisco/share/texmf/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)) [108
+
+
+
+]
+No file uottawa-thesis.bbl.
+No file uottawa-thesis.ind.
+(uottawa-thesis.aux (private/thesis-frontpages.aux) (glossary.aux)
+(chapter1-intro.aux) (chapter-literature_review.aux) (chapter-hierarchy.aux)
+(chapter-survivability_of_hier_nets.aux) (chapter-path_comp_tech.aux)
+(chapter-hierarchical_link_state.aux) (chapter-sevice_guar_inter_domain.aux)
+(chapter-pce_selection.aux) (chapter-simulator.aux) (chapter-conclusion.aux)
+(appendix1-help.aux))
+
+ *File List*
+  report.cls    1999/09/10 v1.4a Standard LaTeX document class
+  size12.clo    1999/09/10 v1.4a Standard LaTeX file (size option)
+ fontenc.sty
+   t1enc.def    1999/12/08 v1.9x Standard LaTeX file
+      ae.sty    1998/11/17 1.0 Almost European Computer Modern
+ fontenc.sty
+   t1enc.def    1999/12/08 v1.9x Standard LaTeX file
+   t1aer.fd    1997/11/16 Font definitions for T1/aer.
+ aecompl.sty    1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
+private/thesis-preamble.tex
+geometry.sty    1999/10/07 v2.2 Page Geometry
+  keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
+geometry.cfg
+  psfrag.sty    1998/04/11 v3.04 PSfrag (MCG)
+graphics.sty    1999/02/16 v1.0l Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
+graphics.cfg
+   dvips.def    1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+algorithmic.sty    
+  ifthen.sty    1999/09/10 v1.1b Standard LaTeX ifthen package (DPC)
+    calc.sty    1998/07/07 v4.1b Infix arithmetic (KKT,FJ)
+algorithm.sty    
+   float.sty    1999/05/29 v1.2d Float enhancements (AL)
+ makeidx.sty    1999/09/17 v1.0l Standard LaTeX package
+ amsmath.sty    2000/01/15 v2.05 AMS math features
+ amstext.sty    1999/11/15 v2.0
+  amsgen.sty    1999/11/30 v2.0
+  amsbsy.sty    1999/11/29 v1.2d
+  amsopn.sty    1999/12/14 v2.01 operator names
+private/thesis-frontpages.tex
+  omsaer.fd    1999/12/27
+abstract.tex
+acknowledgement.tex
+private/thesis-headings.tex
+glossary.tex
+chapter1-intro.tex
+Figures/NetworkModelNGN.ps
+chapter-literature_review.tex
+Figures/InternetArchitecture.eps
+chapter-hierarchy.tex
+Figures/HorizLayers.eps
+Figures/ClientServerLayers.ps
+Figures/HierarchicalLsps.eps
+Figures/VPNSchemes.eps
+Figures/CePeVPNs.eps
+Figures/ProviderNetwork.eps
+Figures/TBL2VPNs.eps
+Figures/ExpResults-01.eps
+Figures/MssThruput.eps
+Figures/TunOverhead.eps
+chapter-survivability_of_hier_nets.tex
+Figures/LocalVsE2EProtection.eps
+Figures/util1.ps
+chapter-path_comp_tech.tex
+Figures/IntraInterAreaCarrier.eps
+Figures/CentralizedPce.eps
+chapter-hierarchical_link_state.tex
+Figures/crankback.eps
+Figures/TwoLevelHrchy.eps
+Figures/TEVirtual.eps
+Figures/LRT.eps
+Figures/ALRT1.eps
+Figures/ALRT2.eps
+Figures/MultiDomainAbstraction.eps
+Figures/MConstraintLink.eps
+Figures/InterdomainWDM.eps
+chapter-sevice_guar_inter_domain.tex
+chapter-pce_selection.tex
+chapter-simulator.tex
+chapter-conclusion.tex
+appendix1-help.tex
+  t1aett.fd    1997/11/16 Font definitions for T1/aett.
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2236 strings out of 10901
+ 27495 string characters out of 72380
+ 80070 words of memory out of 263001
+ 5077 multiletter control sequences out of 10000+0
+ 33037 words of font info for 45 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 28i,16n,23p,1691b,490s stack positions out of 300i,100n,500p,50000b,4000s
+
+Output written on uottawa-thesis.dvi (118 pages, 330476 bytes).

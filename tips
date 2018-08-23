@@ -451,3 +451,30 @@ VIM:
 Toggle: IndentLinesToggle
 
 
+
+SUNSTONE:
+========
+/auto/nsstg-tools/bin/sunstone.sh
+(OR git repo: git clone https://github3.cisco.com/appdevci/sunstone.git)
+
+README file contains everything.
+But simple use:
+sunstone.sh -iso ios-xrv9k-mini-x.iso -hw-profile vpe
+(16 Gb ram, 4 cores)
+
+If you read through the README (or the shell script itself) you will find there are two very useful topologies:
+
+[jiajyang@ott-pifib-ss5]$pwd
+/ws/rwellum-rtp/sunstone/topologies
+[jiajyang@ott-pifib-ss5]$ls
+5star.topo  b2b-ha.topo  b2b-mgmt.topo  b2b.topo  chain.topo  docker-mgmt.topo  longchain.topo  mgmt.topo
+
+EXAMPLE:
+To create b2b topo:
+/auto/nsstg-tools/bin/sunstone.sh –topo b2b.topo
+
+Kick off nodes 1 and 2:
+/auto/nsstg-tools/bin/sunstone.sh -topo b2b.topo -node node1 –i <PATH>/xrv9k-full-x.iso –f -r
+/auto/nsstg-tools/bin/sunstone.sh -topo b2b.topo -node node2 –i <PATH>/xrv9k-full-x.iso –f -r
+
+
